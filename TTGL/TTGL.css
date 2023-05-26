@@ -1,5 +1,13 @@
-/* removed defunct cover import: https://malcat-gen.appspot.com/series?preset=more */
-/* begin https://dl.dropboxusercontent.com/s/wicl9wr24s7k4xc/TopBarReduxBlack.css */
+/*
+Tenga Toppen Gurren Lagann by SlyakentH
+Made for SynexX_
+*/
+
+@\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
+@\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
+
+/* TOP BAR */
+
 /*
 COLOR OF THE ICONS
 Change the color, and adjust the opacity for brighter color. 
@@ -174,7 +182,7 @@ padding: 8px 0 0 !important;
 opacity: 1;
 }
  #mal\_cs\_powered a img {
-background: url("http://i.imgur.com/fGTjBC3.png") no-repeat scroll 50% 6px rgba(64, 60, 90, 0.6);
+background: url(https://i.imgur.com/baz3QOm.png) /* logo.png */ no-repeat scroll 50% 6px rgba(64, 60, 90, 0.6);
 border-radius: 3px 3px 3px 3px;
 display: block;
 height: 0;
@@ -211,7 +219,7 @@ border-color: #ACACAC #C6C6C6 #C6C6C6;
 box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
 }
  #mal\_cs\_powered #search #searchListButton {
-background: url("http://i.imgur.com/XqsilHp.png") no-repeat scroll 0 0 transparent;
+background: url(https://i.imgur.com/f7gsMLm.png) /* search_btn.png */ no-repeat scroll 0 0 transparent;
 border-radius: 3px 3px 3px 3px;
 height: 0;
 margin: 0;
@@ -222,35 +230,35 @@ top: 14px;
 width: 0;
 }
  #mal\_cs\_listinfo {
-background-image: url("http://i.imgur.com/UXZxrWI.png");
+background-image: url(https://i.imgur.com/SLt5wNC.png) /* user.png */;
 right: 106px;
 }
  #mal\_cs\_listinfo:hover {
-background-image: url("http://i.imgur.com/VcVVnod.png");
+background-image: url(https://i.imgur.com/eQd4mqg.png) /* user_hover.png */;
 }
  #mal\_cs\_links {
-background-image: url("http://i.imgur.com/LpXWTzt.png");
+background-image: url(https://i.imgur.com/Pa2VPHa.png) /* home.png */;
 right: 72px;
 z-index: 9;
 }
  #mal\_cs\_links:hover {
-background-image: url("http://i.imgur.com/oPfKrOl.png");
+background-image: url(https://i.imgur.com/8IUKe54.png) /* home_hover.png */;
 }
  #mal\_cs\_otherlinks {
-background-image: url("http://i.imgur.com/ogmX9qC.png");
+background-image: url(https://i.imgur.com/bWcQorg.png) /* stats.png */;
 right: 38px;
 z-index: 8;
 }
  #mal\_cs\_otherlinks:hover {
-background-image: url("http://i.imgur.com/EEGHkbF.png");
+background-image: url(https://i.imgur.com/liGyIy4.png) /* stats_hover.png */;
 }
  #mal\_cs\_powered {
-background-image: url("http://i.imgur.com/ct4BVP5.png");
+background-image: url(https://i.imgur.com/Qzqa61L.png) /* search.png */;
 right: 4px !important;
 z-index: 7;
 }
  #mal\_cs\_powered:hover {
-background-image: url("http://i.imgur.com/TUUWtaj.png");
+background-image: url(https://i.imgur.com/SwsYc5Y.png) /* search_hover.png */;
 }
 td#mal\_cs\_pic a img {
 display: none;
@@ -277,16 +285,16 @@ padding: 32px 0 0 !important;
 }               
 
  #mal\_cs\_listinfo:after{
-background-image: url(http://i.imgur.com/856wzPZ.png);
+background-image: url(https://i.imgur.com/SDGDttQ.png) /* user_icon.png */;
 }
  #mal\_cs\_links:after{
-background-image: url(http://i.imgur.com/rwvRyux.png);
+background-image: url(https://i.imgur.com/PE1KMvQ.png) /* home_icon.png */;
 }
  #mal\_cs\_otherlinks:after{
-background-image: url(http://i.imgur.com/fbWr1K4.png);
+background-image: url(https://i.imgur.com/Thtf7tA.png) /* stats_icon.png */;
 } 
  #mal\_cs\_powered:after{
-background-image: url(http://i.imgur.com/fKvpt1F.png);
+background-image: url(https://i.imgur.com/nxmfMIm.png) /* search_icon.png */;
 }
 
  #mal\_cs\_listinfo:after, 
@@ -319,8 +327,10 @@ background-image: url(http://i.imgur.com/fKvpt1F.png);
     width: 96px !important;
 }
 }
-/* end https://dl.dropboxusercontent.com/s/wicl9wr24s7k4xc/TopBarReduxBlack.css */
 
+
+
+/* MAIN STYLE */
 
 * {
     text-decoration: none;
@@ -329,11 +339,11 @@ body {
     background-attachment: fixed;
     background-clip: border-box;
     background-color: transparent;
-    background-image: url("http://images2.alphacoders.com/813/81342.jpg");
+    background-image: url(https://i.imgur.com/UfC3uYk.jpg) /* background.jpg */;
     background-position: 0 15%;
     background-repeat: no-repeat no-repeat;
     background-size: cover;
-    cursor: url("http://i41.tinypic.com/2vjsb4m.png") 1 2, auto;
+    cursor: url(https://i.imgur.com/hSJsl70.png) /* cursor.png */ 1 2, auto;
     font-family: candara;
 }
 #inlineContent {
@@ -350,7 +360,7 @@ body {
 }
 #list_surround {
     background-attachment: scroll;
-    background-image: url("http://i44.tinypic.com/2rxtlsg.png");
+    background-image: url(https://i.imgur.com/qGVDub3.png) /* ttgl.png */;
     background-position: 50% 14%;
     background-repeat: no-repeat no-repeat;
     font-size: 81.25%;
@@ -365,12 +375,12 @@ body {
 }
 a {
     color: #FFFFFF;
-    cursor: url("http://i41.tinypic.com/2vjsb4m.png") 1 2, auto;
+    cursor: url(https://i.imgur.com/hSJsl70.png) /* cursor.png */ 1 2, auto;
     text-shadow: none;
 }
 a:hover {
     color: #FF4000;
-    cursor: url("http://i41.tinypic.com/2vjsb4m.png") 1 2, auto;
+    cursor: url(https://i.imgur.com/hSJsl70.png) /* cursor.png */ 1 2, auto;
     text-shadow: 0 1px rgba(255, 255, 255, 0.15);
 }
 .table_header {
@@ -520,7 +530,7 @@ a:hover {
 }
 #list_surround .status_selected, #list_surround .status_not_selected {
     background-attachment: scroll;
-    background-image: url("http://i43.tinypic.com/2my14s0.png");
+    background-image: url(https://i.imgur.com/FzDX3w9.png) /* category_watching.png */;
     background-position: 0 0;
     background-repeat: no-repeat no-repeat;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -536,8 +546,8 @@ a:hover {
 }
 #list_surround .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected {
     background-attachment: scroll;
+    background-image: url(https://i.imgur.com/i12L8en.png) /* category_completed.png */;
     background-color: transparent;
-    background-image: url("http://i42.tinypic.com/2uqg6ti.png");
     background-position: 0 0;
     background-repeat: no-repeat no-repeat;
     border-top-left-radius: 20px;
@@ -546,24 +556,24 @@ a:hover {
 }
 #list_surround .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected {
     background-attachment: scroll;
+    background-image: url(https://i.imgur.com/MfeMwTd.png) /* category_onhold.png */;
     background-color: transparent;
-    background-image: url("http://i39.tinypic.com/oh049i.png");
     background-position: 0 0;
     background-repeat: no-repeat no-repeat;
     top: 270px;
 }
 #list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
     background-attachment: scroll;
+    background-image: url(https://i.imgur.com/vKPca6p.png) /* category_dropped.png */;
     background-color: transparent;
-    background-image: url("http://i42.tinypic.com/eq5z0l.png");
     background-position: 0 0;
     background-repeat: no-repeat no-repeat;
     top: 380px;
 }
 #list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
     background-attachment: scroll;
+    background-image: url(https://i.imgur.com/phWSV7N.png) /* category_planning.png */;
     background-color: transparent;
-    background-image: url("http://i42.tinypic.com/oixabk.png");
     background-position: 0 0;
     background-repeat: no-repeat no-repeat;
     display: inline;
@@ -571,8 +581,8 @@ a:hover {
 }
 #list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
     background-attachment: scroll;
+    background-image: url(https://i.imgur.com/mCxZhit.png) /* category_all.png */;
     background-color: transparent;
-    background-image: url("http://i41.tinypic.com/2i1zci0.png");
     background-position: 0 0;
     background-repeat: no-repeat no-repeat;
     border-bottom-left-radius: 20px;
@@ -663,7 +673,7 @@ Read more at http://myanimelist.net/forum/?topicid=563993#dSE8SotOhUfyYfQO.99
 #copyright a {
 }
 .header_cw:before {
-    background-image: url("http://i41.tinypic.com/2mrgxed.png");
+    background-image: url(https://i.imgur.com/4B0rfcQ.png) /* render_watching.png */;
     background-position: 0 100% !important;
     background-repeat: no-repeat;
     background-size: 85% auto;
@@ -677,7 +687,7 @@ Read more at http://myanimelist.net/forum/?topicid=563993#dSE8SotOhUfyYfQO.99
     z-index: -10 !important;
 }
 .header_completed:before {
-    background-image: url("http://i39.tinypic.com/6yjtb7.png");
+    background-image: url(https://i.imgur.com/bAMSGvq.png) /* render_completed.png */;
     background-position: 0 100% !important;
     background-repeat: no-repeat no-repeat;
     background-size: 100% auto;
@@ -691,7 +701,7 @@ Read more at http://myanimelist.net/forum/?topicid=563993#dSE8SotOhUfyYfQO.99
     z-index: -10 !important;
 }
 .header_onhold:before {
-    background-image: url("http://i42.tinypic.com/2qldgfk.png");
+    background-image: url(https://i.imgur.com/wnRayHC.png) /* render_onhold.png */;
     background-position: 0 100% !important;
     background-repeat: no-repeat;
     background-size: 54% auto;
@@ -705,7 +715,7 @@ Read more at http://myanimelist.net/forum/?topicid=563993#dSE8SotOhUfyYfQO.99
     z-index: -10 !important;
 }
 .header_dropped:before {
-    background-image: url("http://i39.tinypic.com/2rfzxqh.png");
+    background-image: url(https://i.imgur.com/jWOkqWa.png) /* render_dropped.png */;
     background-position: 0 100% !important;
     background-repeat: no-repeat;
     background-size: 34% auto;
@@ -719,7 +729,7 @@ Read more at http://myanimelist.net/forum/?topicid=563993#dSE8SotOhUfyYfQO.99
     z-index: -10 !important;
 }
 .header_ptw:before {
-    background-image: url("http://i41.tinypic.com/5b66w4.jpg");
+    background-image: url(https://i.imgur.com/I8dSN1I.jpg) /* planning.jpg */;
     background-position: 0 100% !important;
     background-repeat: no-repeat;
     background-size: 100% auto;
