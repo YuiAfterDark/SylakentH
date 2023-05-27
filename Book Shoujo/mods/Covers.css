@@ -1,0 +1,41 @@
+/* requires a cover image import with the "animetitle" preset */
+
+/* COVERS */
+
+#list_surround table:nth-of-type(1n+4) tbody:hover td[class^="td"]{
+height: 287px;}
+
+
+#list_surround table:nth-of-type(1n+4) tbody:hover  small{
+position: absolute !important;
+display: block !important;
+margin-top: 0px !important;
+margin-left: -400px !important;}
+
+
+#list_surround table:nth-of-type(1n+4) tbody:hover .animetitle{
+text-decoration:none;
+position: relative !important;
+display: block !important;
+width: 160px !important;
+height: 247px !important;
+margin-top: 0px !important;
+margin-left: 15px !important;
+border-radius: 12px 12px 12px 12px;
+-o-border-radius: 12px 12px 12px 12px;
+-moz-border-radius: 12px 12px 12px 12px;
+-webkit-border-radius: 12px 12px 12px 12px;
+background-size: cover !important;
+background-repeat: no-repeat !important;
+}
+
+
+#list_surround table:nth-of-type(n+4) tbody:hover .animetitle span{
+text-decoration:none;
+position: relative;
+display: table !important;
+width: 110%;
+height: 25px;
+top: 14px;
+left: 200px;
+line-height: 25px;}
