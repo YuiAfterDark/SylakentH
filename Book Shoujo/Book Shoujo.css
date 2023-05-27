@@ -340,7 +340,7 @@ body {
     color: #FFFFFF !important;
 }
 .animetitle + small:before {
-    color: #FFFFFF;
+    content: " ( ";
 }
 .animetitle + small:after {
     content: " ) ";
