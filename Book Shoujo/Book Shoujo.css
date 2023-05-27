@@ -517,31 +517,34 @@ td:nth-of-type(2) small {
 height: 287px;}
 
 
-#list_surround table:nth-of-type(1n+4) tbody:hover  small{
+tbody:hover small{
 position: absolute !important;
 display: block !important;
 margin-top: 0px !important;
 margin-left: -400px !important;}
 
+tbody:not(:hover) .animetitle {
+	background: none;
+}
 
-#list_surround table:nth-of-type(1n+4) tbody:hover .animetitle{
+tbody:hover .animetitle {
 text-decoration:none;
-position: relative !important;
-display: block !important;
-width: 160px !important;
-height: 247px !important;
-margin-top: 0px !important;
-margin-left: 15px !important;
-border-radius: 12px 12px 12px 12px;
--o-border-radius: 12px 12px 12px 12px;
--moz-border-radius: 12px 12px 12px 12px;
--webkit-border-radius: 12px 12px 12px 12px;
-background-size: cover !important;
-background-repeat: no-repeat !important;
+position: relative;
+display: block;
+width: 160px;
+height: 247px;
+margin-top: 0px;
+margin-left: 15px;
+border-radius: 12px;
+-o-border-radius: 12px;
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 
-#list_surround table:nth-of-type(n+4) tbody:hover .animetitle span{
+tbody:hover .animetitle span {
 text-decoration:none;
 position: relative;
 display: table !important;
