@@ -1,7 +1,7 @@
 /* removed defunct cover import: https://malcat-gen.appspot.com/series?preset=more */
 /* begin https://dl.dropboxusercontent.com/s/sb0f3i0iiami78c/BlueMenu.css */
 div > table:first-of-type {
-    background: url("http://i44.tinypic.com/2casuw.png") no-repeat scroll 100% 0 transparent;
+    background: url(https://i.imgur.com/gRFKaDQ.png) /* menu.png */ no-repeat scroll 100% 0 transparent;
     display: block;
     height: 32px !important;
     overflow: hidden;
@@ -19,7 +19,7 @@ div > table:first-of-type {
 transition: all 0.4s ease 0s;
 }
 div > table:first-of-type:hover {
-    background: url("http://i40.tinypic.com/153y493.png") no-repeat scroll 100% 0 transparent !important;
+    background: url(https://i.imgur.com/sc9VG5S.png) /* menu_hover.png */ no-repeat scroll 100% 0 transparent !important;
     height: auto !important;
     width: auto !important;
 }
@@ -145,7 +145,7 @@ transition: all 0.4s ease 0s;
 -webkit-transition: all 0.4s ease 0s;
 -o-transition: all 0.4s ease 0s;
 transition: all 0.4s ease 0s;
-    background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0poweredaimg.png") no-repeat scroll 50% 6px rgba(15, 131, 255, 0.6);
+    background: url(https://i.imgur.com/lqqhkMs.png) /* logo.png */ no-repeat scroll 50% 6px rgba(15, 131, 255, 0.6);
     border-radius: 3px 3px 3px 3px;
     display: block;
     height: 0;
@@ -182,7 +182,7 @@ transition: all 0.4s ease 0s;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
 }
 #searchListButton {
-    background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0searchbutton.png") no-repeat scroll 0 0 transparent !important;
+    background: url(https://i.imgur.com/yvuWMtq.png) /* search_btn.png */ no-repeat scroll 0 0 transparent !important;
     border-radius: 3px 3px 3px 3px;
     height: 0;
     margin: 0;
@@ -193,36 +193,36 @@ transition: all 0.4s ease 0s;
     width: 0;
 }
 #mal_cs_listinfo {
-    background-image: url("http://i40.tinypic.com/5freq0.png");
+    background-image: url(https://i.imgur.com/BH2QPYb.png) /* user.png */;
     right: 172px;
 }
 #mal_cs_listinfo:hover {
-    background-image: url("http://i41.tinypic.com/1i0w91.png");
+    background-image: url(https://i.imgur.com/RhnrjUN.png) /* user_hover.png */;
 }
 #mal_cs_links {
-    background-image: url("http://i43.tinypic.com/2ijgab4.png");
+    background-image: url(https://i.imgur.com/Xyj7dVE.png) /* home.png */;
     right: 138px !important;
     z-index: 9;
 }
 #mal_cs_links:hover {
-    background-image: url("http://i42.tinypic.com/2z9d275.png");
+    background-image: url(https://i.imgur.com/mytU7Uu.png) /* home_hover.png */;
 }
 #mal_cs_otherlinks {
-    background-image: url("http://i40.tinypic.com/fp5c87.png");
+    background-image: url(https://i.imgur.com/YYIjYaU.png) /* stats.png */;
     right: 104px !important;
     z-index: 8;
 }
 #mal_cs_otherlinks:hover {
-    background-image: url("http://i41.tinypic.com/3339539.png");
+    background-image: url(https://i.imgur.com/xU59O8y.png) /* stats_hover.png */;
 }
 #mal_cs_powered {
-    background-image: url("http://i42.tinypic.com/685tfo.png");
+    background-image: url(https://i.imgur.com/CtKsFwH.png) /* search.png */;
     position: fixed !important;
     right: 70px !important;
     z-index: 7;
 }
 #mal_cs_powered:hover {
-    background-image: url("http://i40.tinypic.com/2uh5ume.png");
+    background-image: url(https://i.imgur.com/rs40QQ0.png) /* search_hover.png */;
 }
 #mal\_control\_strip {
     background: none repeat scroll 0 0 transparent !important;
@@ -267,13 +267,15 @@ margin-left: 60px \0/;
 /* begin http://dl.dropbox.com/s/esxjdv4mlsi33dr/TestMal.css */
 #list_surround table:nth-of-type(1n+4) tbody:hover td[class^="td"]{
 height: 287px;}
-
+
+
 #list_surround table:nth-of-type(1n+4) tbody:hover  small{
 position: absolute !important;
 display: block !important;
 margin-top: 0px !important;
 margin-left: -400px !important;}
-
+
+
 #list_surround table:nth-of-type(1n+4) tbody:hover .animetitle{
 text-decoration:none;
 position: relative !important;
@@ -289,7 +291,8 @@ border-radius: 12px 12px 12px 12px;
 background-size: cover !important;
 background-repeat: no-repeat !important;
 }
-
+
+
 #list_surround table:nth-of-type(n+4) tbody:hover .animetitle span{
 text-decoration:none;
 position: relative;
@@ -340,7 +343,7 @@ background: none;
 }
 body {
     background-attachment: fixed;
-    background-image: url("http://i.imgur.com/z6acsC6.jpg");
+    background-image: url(https://i.imgur.com/u4TMTo6.jpg) /* background.jpg */;
     background-position: 63% 0;
     background-repeat: no-repeat no-repeat;
     background-size: cover;
