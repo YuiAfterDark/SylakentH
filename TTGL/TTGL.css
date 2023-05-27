@@ -2,7 +2,7 @@
 Tenga Toppen Gurren Lagann by SlyakentH
 Made for SynexX_
 Modified by Valerio Lyndon
-Last update: 2023-May-25
+Last update: 2023-May-26
 */
 
 @\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
@@ -582,4 +582,15 @@ table[class^="header_"]:before {
     background-size: 100% auto;
     bottom: 0;
     left: 0;
+}
+
+/* preload images */
+
+#copyright {
+	background-image:
+		url(https://i.imgur.com/SwsYc5Y.png) /* search_hover.png */,
+		url(https://i.imgur.com/liGyIy4.png) /* stats_hover.png */,
+		url(https://i.imgur.com/8IUKe54.png) /* home_hover.png */,
+		url(https://i.imgur.com/eQd4mqg.png) /* user_hover.png */;
+	background-size: 0;
 }
