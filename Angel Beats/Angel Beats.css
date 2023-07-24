@@ -1,5 +1,11 @@
-@\import "https://fonts.googleapis.com/css?family=Gloria+Hallelujah";
+/*
+Angel Beats by SylakentH
+Modified by Valerio Lyndon
+Last update: 2023-Jul-23
+*/
+
 @\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
+@\import "https://fonts.googleapis.com/css?family=Gloria+Hallelujah";
 @\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
 
 /* begin Blue Icon Topbar */
@@ -92,7 +98,7 @@
     opacity: 1;
 }
 #mal_cs_powered a img {
-    background: url("http://i.imgur.com/fGTjBC3.png") no-repeat scroll 50% 6px rgba(12, 46, 196, 0.6);
+    background: url("https://i.imgur.com/fGTjBC3.png") no-repeat scroll 50% 6px rgba(12, 46, 196, 0.6);
     border-radius: 3px 3px 3px 3px;
     display: block;
     height: 0;
@@ -130,7 +136,7 @@
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
 }
 #searchListButton {
-    background: url("http://i.imgur.com/XqsilHp.png") no-repeat scroll 0 0 transparent !important;
+    background: url("https://i.imgur.com/XqsilHp.png") no-repeat scroll 0 0 transparent !important;
     border-radius: 3px 3px 3px 3px;
     height: 0;
     margin: 0;
@@ -145,7 +151,7 @@
     right: 106px;
 }
 #mal_cs_listinfo:hover {
-    background-image: url("http://i.imgur.com/VcVVnod.png");
+    background-image: url("https://i.imgur.com/VcVVnod.png");
 }
 #mal_cs_links {
     background-image: url("https://i.imgur.com/zU7dYPW.png");
@@ -153,7 +159,7 @@
     z-index: 9;
 }
 #mal_cs_links:hover {
-    background-image: url("http://i.imgur.com/oPfKrOl.png");
+    background-image: url("https://i.imgur.com/oPfKrOl.png");
 }
 #mal_cs_otherlinks {
     background-image: url("https://i.imgur.com/0u6jyJr.png");
@@ -161,7 +167,7 @@
     z-index: 8;
 }
 #mal_cs_otherlinks:hover {
-    background-image: url("http://i.imgur.com/EEGHkbF.png");
+    background-image: url("https://i.imgur.com/EEGHkbF.png");
 }
 #mal_cs_powered {
     background-image: url("https://i.imgur.com/QePufxM.png");
@@ -170,7 +176,7 @@
     z-index: 7;
 }
 #mal_cs_powered:hover {
-    background-image: url("http://i.imgur.com/TUUWtaj.png");
+    background-image: url("https://i.imgur.com/TUUWtaj.png");
 }
 #mal_control_strip {
     background: none repeat scroll 0 0 transparent !important;
@@ -183,18 +189,7 @@
 }
 /* end Blue Icon Topbar */
 
-/* begin http://dl.dropbox.com/u/78340470/CSSforFoxgirls.css */
-#list_surround table:nth-of-type(n+4):hover td:nth-of-type(3),
-#list_surround table:nth-of-type(n+4):hover td:nth-of-type(4), 
-#list_surround table:nth-of-type(n+4):hover td:nth-of-type(5), 
-#list_surround table:nth-of-type(n+4):hover td:nth-of-type(6), 
-#list_surround table:nth-of-type(n+4):hover td:nth-of-type(7),
-#list_surround table:nth-of-type(n+4):hover td:nth-of-type(8) {
-    display: table-cell !important;
-}
-/* end http://dl.dropbox.com/u/78340470/CSSforFoxgirls.css */
-
-* {
+*:not([class^="fa"]) {
     font-family: 'Gloria Hallelujah' !important;
     text-decoration: none;
 }
@@ -266,7 +261,7 @@ tr:hover [class^="td"] {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
-.table_header, .td1, .td2, .status_selected, .status_not_selected, .category_totals {
+.table_header, .td1, .td2, [class^="status_"], .category_totals {
     background-color: rgba(244, 147, 226, 0.7);
     border: 0 none;
     padding: 4px;
@@ -330,22 +325,18 @@ tr:hover [class^="td"] {
 .status_not_selected {
     opacity: 0.5;
 }
-.status_not_selected:hover {
+[class^="status_"]:hover {
     color: transparent;
     opacity: 1;
     transition: all 0.4s ease 0s;
 }
-.status_selected a, .status_not_selected a, .status_selected:hover a, .status_not_selected:hover a {
+[class^="status_"] a,
+[class^="status_"]:hover a {
     color: white;
     font-size: 20px;
 }
-.status_selected {
+[class^="status_"] {
     display: block;
-}
-.status_not_selected {
-    display: block;
-}
-#list_surround .status_selected, #list_surround .status_not_selected {
     background-color: rgba(244, 147, 226, 0.9);
     border-color: white !important;
     border-style: solid !important;
@@ -356,19 +347,19 @@ tr:hover [class^="td"] {
     top: 210px;
     width: 200px;
 }
-#list_surround .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected {
+[class^="status_"]:nth-of-type(2) {
     top: 280px;
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected {
+[class^="status_"]:nth-of-type(3) {
     top: 350px;
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+[class^="status_"]:nth-of-type(4) {
     top: 420px;
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+[class^="status_"]:nth-of-type(5) {
     top: 490px;
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+[class^="status_"]:nth-of-type(6) {
     top: 560px;
 }
 :hover + .hide {
@@ -431,5 +422,14 @@ color: white !important;
     content: " ";
     padding-left: 20px;
 }
-#copyright a {
+
+/* preload images */
+
+#copyright {
+	background-image:
+		url(https://i.imgur.com/oPfKrOl.png),
+		url(https://i.imgur.com/VcVVnod.png),
+		url(https://i.imgur.com/EEGHkbF.png),
+		url(https://i.imgur.com/TUUWtaj.png);
+	background-size: 0;
 }
