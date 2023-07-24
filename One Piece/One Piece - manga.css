@@ -1,39 +1,12 @@
-@\import "https://fonts.googleapis.com/css?family=Open+Sans:300";
-/* removed defunct cover import: https://dl.dropboxusercontent.com/s/aunymjyr9cqdxjl/manga.css */
-/* begin https://dl.dropboxusercontent.com/s/byhc8daawf4r7e6/OpEditButton.css */
-#list_surround table:nth-of-type(n+4) tbody div small {
-    letter-spacing: -12px;
-    visibility: hidden;
-}
-#list_surround table:nth-of-type(n+4) tbody small a:last-of-type {
-    display: none !important;
-}
-#list_surround table:nth-of-type(n+4) tbody small a:first-of-type {
-    display: none !important;
-}
-#list_surround table:nth-of-type(n+4) tbody:hover small a:first-of-type {
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
-    background-color: rgba(234, 203, 82, 0.8);
-    border-color: white;
-    border-image: none;
-    border-radius: 6px 0 0 6px;
-    border-style: solid;
-    border-width: 1px 0 1px 1px;
-    color: white;
-    display: block !important;
-    left: -37px !important;
-    letter-spacing: 0 !important;
-    position: absolute !important;
-    text-align: center;
-    visibility: visible;
-    width: 36px;
-}
-/* end https://dl.dropboxusercontent.com/s/byhc8daawf4r7e6/OpEditButton.css */
+/*
+One Piece by SylakentH
+*/
 
-/* begin http://dl.dropbox.com/s/rogesc5nd2o920m/topbarAnohana.css */
+@\import "https://malscraper.azurewebsites.net/covers/all/manga/presets/more";
+@\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
+@\import "https://fonts.googleapis.com/css?family=Open+Sans:300";
+
+/* begin Blue Icon Topbar */
 #mal_cs_listinfo, #mal_cs_links, #mal_cs_otherlinks, #mal_cs_powered {
     -moz-box-sizing: border-box;
     background: none no-repeat scroll 100% 0 transparent;
@@ -123,7 +96,7 @@
     opacity: 1;
 }
 #mal_cs_powered a img {
-    background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0poweredaimg.png") no-repeat scroll 50% 6px rgba(12, 46, 196, 0.6);
+    background: url(https://i.imgur.com/fGTjBC3.png) /* myanimelist.png */ no-repeat scroll 50% 6px rgba(12, 46, 196, 0.6);
     border-radius: 3px 3px 3px 3px;
     display: block;
     height: 0;
@@ -161,7 +134,7 @@
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
 }
 #searchListButton {
-    background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0searchbutton.png") no-repeat scroll 0 0 transparent !important;
+    background: url(https://i.imgur.com/XqsilHp.png) /* search_icon.png */ no-repeat scroll 0 0 transparent !important;
     border-radius: 3px 3px 3px 3px;
     height: 0;
     margin: 0;
@@ -172,36 +145,36 @@
     width: 0;
 }
 #mal_cs_listinfo {
-    background-image: url("http://i48.tinypic.com/33omjrb.png");
+    background-image: url(https://i.imgur.com/GEZ10dP.png) /* user.png */;
     right: 106px;
 }
 #mal_cs_listinfo:hover {
-    background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon1over.png");
+    background-image: url(https://i.imgur.com/VcVVnod.png) /* user_hover.png */;
 }
 #mal_cs_links {
-    background-image: url("http://i46.tinypic.com/25ptfm1.png");
+    background-image: url(https://i.imgur.com/zU7dYPW.png) /* home.png */;
     right: 72px !important;
     z-index: 9;
 }
 #mal_cs_links:hover {
-    background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon2over.png");
+    background-image: url(https://i.imgur.com/oPfKrOl.png) /* home_hover.png */;
 }
 #mal_cs_otherlinks {
-    background-image: url("http://i50.tinypic.com/2eknk01.png");
+    background-image: url(https://i.imgur.com/0u6jyJr.png) /* stats.png */;
     right: 38px !important;
     z-index: 8;
 }
 #mal_cs_otherlinks:hover {
-    background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon3over.png");
+    background-image: url(https://i.imgur.com/EEGHkbF.png) /* stats_hover.png */;
 }
 #mal_cs_powered {
-    background-image: url("http://i45.tinypic.com/2lvipah.png");
+    background-image: url(https://i.imgur.com/QePufxM.png) /* search */;
     position: fixed !important;
     right: 4px !important;
     z-index: 7;
 }
 #mal_cs_powered:hover {
-    background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon4over.png");
+    background-image: url(https://i.imgur.com/TUUWtaj.png) /* search_hover.png */;
 }
 #mal_control_strip {
     background: none repeat scroll 0 0 transparent !important;
@@ -212,7 +185,49 @@
 #mal_cs_pic, #mal_cs_listinfo, #mal_cs_links {
     border-right: 0 none !important;
 }
-/* end http://dl.dropbox.com/s/rogesc5nd2o920m/topbarAnohana.css */
+/* preload images */
+#mal_control_strip tbody {
+	background-image:
+		url(https://i.imgur.com/oPfKrOl.png),
+		url(https://i.imgur.com/VcVVnod.png),
+		url(https://i.imgur.com/EEGHkbF.png),
+		url(https://i.imgur.com/TUUWtaj.png);
+	background-size: 0;
+}
+/* end Blue Icon Topbar */
+
+/* begin https://dl.dropboxusercontent.com/s/byhc8daawf4r7e6/OpEditButton.css */
+#list_surround table:nth-of-type(n+4) tbody div small {
+    letter-spacing: -12px;
+    visibility: hidden;
+}
+#list_surround table:nth-of-type(n+4) tbody small a:last-of-type {
+    display: none !important;
+}
+#list_surround table:nth-of-type(n+4) tbody small a:first-of-type {
+    display: none !important;
+}
+#list_surround table:nth-of-type(n+4) tbody:hover small a:first-of-type {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: rgba(234, 203, 82, 0.8);
+    border-color: white;
+    border-image: none;
+    border-radius: 6px 0 0 6px;
+    border-style: solid;
+    border-width: 1px 0 1px 1px;
+    color: white;
+    display: block !important;
+    left: -37px !important;
+    letter-spacing: 0 !important;
+    position: absolute !important;
+    text-align: center;
+    visibility: visible;
+    width: 36px;
+}
+/* end https://dl.dropboxusercontent.com/s/byhc8daawf4r7e6/OpEditButton.css */
 
 * {
     text-decoration: none;
@@ -225,7 +240,7 @@ body {
     background-position: 0 83%;
     background-repeat: no-repeat no-repeat;
     background-size: cover;
-    cursor: url("http://i33.tinypic.com/2zh4gbb.png") 1 2, auto;
+    /* BROKEN cursor: url(https://i33.tinypic.com/2zh4gbb.png) 1 2, auto; */
     font-family: Open Sans;
 }
 #inlineContent {
@@ -242,7 +257,7 @@ body {
 }
 #list_surround {
     background-attachment: scroll;
-    background-image: url("http://i43.tinypic.com/vqikug.png");
+    background-image: url(https://i.imgur.com/qeDiUyB.png) /* logo.png */;
     background-position: 50% 0;
     background-repeat: no-repeat no-repeat;
     font-size: 81.25%;
@@ -272,12 +287,12 @@ tr:hover [class^="td"] {
 }
 a, .table_header, .category_totals {
     color: black;
-    cursor: url("http://i33.tinypic.com/2zh4gbb.png") 1 2, auto;
+    /* BROKEN cursor: url(https://i33.tinypic.com/2zh4gbb.png) 1 2, auto; */
     text-shadow: none;
 }
 a:hover {
     color: #3167A9 !important;
-    cursor: url("http://i33.tinypic.com/2zh4gbb.png") 1 2, auto;
+    /* BROKEN cursor: url(https://i33.tinypic.com/2zh4gbb.png) 1 2, auto; */
     text-shadow: 1px 2px 3px white;
 }
 .table_header:first-of-type {
@@ -367,16 +382,19 @@ tr:hover small {
 
 .header_cw {
     background-color: transparent;
-    background-image: url("http://i65.tinypic.com/9jpv2u.jpg");
+    background-image: url(https://i.imgur.com/rQX3qEP.png) /* header_watching.png */;
     background-position: 51% 0;
     background-repeat: no-repeat no-repeat;
     height: 200px;
     margin-bottom: -44px;
-    margin-top: -13px;
+    margin-top: -15px;
+}
+[data-work="manga"] .header_cw {
+    background-image: url(https://i.imgur.com/pXSpk5e.png) /* header_reading.png */;
 }
 .header_completed {
     background-color: transparent;
-    background-image: url("http://i41.tinypic.com/2rhok5k.png");
+    background-image: url(https://i.imgur.com/fVI3Fab.png) /* header_completed.png */;
     background-position: 51% 0;
     background-repeat: no-repeat no-repeat;
     height: 200px;
@@ -386,7 +404,7 @@ tr:hover small {
 }
 .header_onhold {
     background-color: transparent;
-    background-image: url("http://i44.tinypic.com/iekzlz.png");
+    background-image: url(https://i.imgur.com/cXW2Aes.png) /* header_on_hold.png */;
     background-position: 51% 0;
     background-repeat: no-repeat no-repeat;
     height: 200px;
@@ -395,7 +413,7 @@ tr:hover small {
 }
 .header_dropped {
     background-color: transparent;
-    background-image: url("http://i40.tinypic.com/2yngn5u.png");
+    background-image: url(https://i.imgur.com/y2g0f9W.png) /* header_dropped.png */;
      background-position: 51% 0;
     background-repeat: no-repeat no-repeat;
     height: 200px;
@@ -404,7 +422,7 @@ tr:hover small {
 }
 .header_ptw {
     background-color: transparent;
-    background-image: url("http://i42.tinypic.com/20r2pax.png");
+    background-image: url(https://i.imgur.com/a7AT8nX.png) /* header_planning.png */;
    background-position: 51% 0;
     background-repeat: no-repeat no-repeat;
     height: 200px;
@@ -412,7 +430,7 @@ tr:hover small {
     margin-top: -15px;
 }
 .header_cw:before {
-    background-image: url("http://i41.tinypic.com/2zp14w9.jpg");
+    background-image: url(https://cdn.imgchest.com/files/pyvdcre32ly.jpg) /* background_watching_reading.jpg */;
     background-position: 0% 100% !important;
     background-repeat: no-repeat;
     background-size: cover;
@@ -426,7 +444,7 @@ tr:hover small {
     z-index: -10 !important;
 }
 .header_completed:before {
-    background-image: url("http://i42.tinypic.com/2i8kobk.jpg");
+    background-image: url(https://cdn.imgchest.com/files/my8xcxwzdj4.jpg) /* background_completed.jpg */;
     background-position: 0% 100% !important;
     background-repeat: no-repeat;
     background-size: cover;
@@ -440,7 +458,7 @@ tr:hover small {
     z-index: -10 !important;
 }
 .header_onhold:before {
-    background-image: url("http://i41.tinypic.com/30mqydt.jpg");
+    background-image: url(https://cdn.imgchest.com/files/84apczkr2r4.jpg) /* background_on_hold.jpg */;
     background-position: 0 100% !important;
     background-repeat: no-repeat;
     background-size: cover;
@@ -454,7 +472,7 @@ tr:hover small {
     z-index: -10 !important;
 }
 .header_dropped:before {
-    background-image: url("http://i39.tinypic.com/i4n5tz.jpg");
+    background-image: url(https://cdn.imgchest.com/files/345xczgbjl7.jpg) /* background_dropped.jpg */;
     background-position: 0 100% !important;
     background-repeat: no-repeat;
     background-size: cover;
@@ -468,7 +486,7 @@ tr:hover small {
     z-index: -10 !important;
 }
 .header_ptw:before {
-    background-image: url("http://i44.tinypic.com/25qbpjo.jpg");
+    background-image: url(https://cdn.imgchest.com/files/k46aco5rmx7.jpg) /* background_planning.jpg */;
     background-position: 0 100% !important;
     background-repeat: no-repeat;
     background-size: cover;
@@ -492,24 +510,19 @@ tr:hover small {
     transition: all 0.4s ease 0s !important;
     z-index: 2 !important;
 }
-.status_selected a, .status_not_selected a, .status_selected:hover a, .status_not_selected:hover a {
-    color: rgba(0, 0, 0, 0);
+[class^="status_"] a {
     display: block;
     height: 350px;
     opacity: 0;
     width: 247px;
 }
 .status_selected {
-    display: block;
     z-index: 1;
 }
-.status_not_selected {
-    display: block;
-}
-#list_surround .status_selected, #list_surround .status_not_selected {
+[class^="status_"] {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("http://i65.tinypic.com/2hz0jg7.png");
+    background-image: url(https://i.imgur.com/VJoAFuO.png) /* category_watching.png */;
     background-position: 0 -5px;
     background-repeat: no-repeat no-repeat;
     display: block;
@@ -522,10 +535,13 @@ tr:hover small {
 -webkit-transform: rotate(20deg);
     width: 247px;
 }
-#list_surround .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected {
+[data-work="manga"] [class^="status_"]:nth-of-type(1) {
+	background-image: url(https://i.imgur.com/YDtBCKd.png) /* category_reading.png */;
+}
+[class^="status_"]:nth-of-type(2) {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("http://i39.tinypic.com/1zyd08i.png");
+    background-image: url(https://i.imgur.com/DJe2XI4.png) /* category_completed.png */;
     background-position: 0 -5px;
     background-repeat: repeat repeat;
     border-top-left-radius: 20px;
@@ -535,10 +551,10 @@ tr:hover small {
     transform: rotate(25deg);
 -webkit-transform: rotate(25deg);
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected {
+[class^="status_"]:nth-of-type(3) {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("http://i44.tinypic.com/s5fypj.png");
+    background-image: url(https://i.imgur.com/QBCWPun.png) /* category_on_hold.png */;
     background-position: 0 -5px;
     background-repeat: repeat repeat;
     left: 20px;
@@ -546,20 +562,20 @@ tr:hover small {
     transform: rotate(-30deg);
 -webkit-transform: rotate(-30deg);
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+[class^="status_"]:nth-of-type(4) {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("http://i41.tinypic.com/28qaec.png");
+    background-image: url(https://i.imgur.com/xsqXxoK.png) /* category_dropped.png */;
     background-position: 0 -7px;
     background-repeat: repeat repeat;
     top: 44px;
     transform: rotate(-15deg);
 -webkit-transform: rotate(-15deg);
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+[class^="status_"]:nth-of-type(5) {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("http://i43.tinypic.com/juiipc.png");
+    background-image: url(https://i.imgur.com/Zup8Bxs.png) /* category_planning.png */;
     background-position: 0 -5px;
     background-repeat: repeat repeat;
     display: inline;
@@ -568,10 +584,10 @@ tr:hover small {
     transform: rotate(43deg);
 -webkit-transform: rotate(43deg);
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+[class^="status_"]:nth-of-type(6) {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("http://i40.tinypic.com/99l7bk.png");
+    background-image: url(https://i.imgur.com/PzOa140.png) /* category_all.png */;
     background-position: 0 0;
     background-repeat: no-repeat no-repeat;
     border-bottom-left-radius: 20px;
@@ -598,7 +614,7 @@ transform: rotate(-20deg);
 }
 /*Version 2 frame*/
 :hover + .hide:after {
-    background-image: url("http://i63.tinypic.com/r791k9.png");
+    background-image: url(https://i.imgur.com/qncn4zA.png) /* frame_v2.png */;
     background-repeat: no-repeat;
     background-size: 270px 370px;
     content: "";
@@ -612,7 +628,7 @@ transform: rotate(-20deg);
 }
 /* Version 1 frame 
 :hover + .hide:after {
-    background-image: url("http://i39.tinypic.com/2nk5r2b.png");
+    background-image: url(https://i.imgur.com/d5oGLkz.png) \/* frame_v1.png *\/;
     background-repeat: no-repeat;
     background-size: 270px 370px;
     content: "";
@@ -636,28 +652,38 @@ transform: rotate(-20deg);
     top: 276px;
     width: 217px;
 }
-.td1:nth-of-type(6) a, .td2:nth-of-type(6) a {
-    color: black !important;
-    text-shadow: 1px 2px 3px white !important;
+/* Title */
+td[class^="td"]:nth-of-type(2) {
+    width: 454px !important;
 }
-.td1:nth-of-type(6), .td2:nth-of-type(6) {
+/* Tags */
+.table_header[width="125"], span[id*="tagLinks"], div[id*="tagChangeRow"] {
+    display: none !important;
+}
+td[class^="td"][width="125"] {
+    width: 0;
+}
+span[id*="tagRow"] {
     background-color: rgba(234, 203, 82, 0.9) !important;
-    background-image: url("none") !important;
-    border-radius: 0px 33px 0 33px;
-    display: none;
-    font-size: 14px;
-    height: auto;
+    border: 2px solid #FFFFFF;
+    border-radius: 0 33px;
+    display: block !important;
+    line-height: 15px !important;
     padding: 10px 10px 10px 24px;
     position: fixed;
+  	text-align:center;
     right: calc(67% + 0px);
-    text-align: center;
     top: 621px;
+    visibility: hidden;
     width: 235px;
-    z-index: 1;
-border: 2px solid white;
+  height: auto;
+  z-index:1;
 }
-.table_header:nth-of-type(6) {
-    display: none;
+tr:hover span[id*="tagRow"] {
+    color: #000000 !important;
+  	text-shadow: 1px 2px 3px #FFFFFF !important;
+    visibility: visible;
+  font-size: 14px;
 }
 #copyright, #copyright:hover {
     background-color: rgba(196, 30, 14, 0.7);
@@ -667,35 +693,11 @@ border: 2px solid white;
     padding: 2px;
     width: 100%;
 }
-#copyright:hover {
-}
 #copyright:before {
     color: black;
     content: " Design by SylakentH, thanks to Monsterguy, DeviantArt and Shishio Club!";
     font-size: 12px;
     padding-right: 10px;
-}
-#copyright:after {
-    color: gold;
-    content: " ";
-    padding-left: 20px;
-}
-#copyright a {
-}
-
-/* Fav Section*/
-a[href=""], [href=""]
-{
-    background-attachment: scroll;
-    background-color: transparent;
-    background-image: url("http://i44.tinypic.com/oupr90.png");
-    background-position: left top;
-    background-repeat: no-repeat;
-    color: gold !important;
-    font-size: 15px;
-    padding-bottom: 10px;
-    padding-left: 25px;
-    text-shadow: 1px 1px black;
 }
 
 @media all and (max-width: 1366px) { #list_surround { position: absolute !important; left: 500px; } }

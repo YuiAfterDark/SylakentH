@@ -1,0 +1,14 @@
+/* Fav Section*/
+a[href=""], [href=""]
+{
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url(https://i.imgur.com/JpZjOSJ.png) /* favourite.png */;
+    background-position: left top;
+    background-repeat: no-repeat;
+    color: gold !important;
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    text-shadow: 1px 1px black;
+}
