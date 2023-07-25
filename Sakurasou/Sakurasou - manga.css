@@ -1,0 +1,545 @@
+/*
+Sakurasou by SylakentH
+Modified by Valerio Lyndon
+Last update: 2023-Jul-24
+*/
+
+@\import "https://malscraper.azurewebsites.net/covers/all/manga/presets/more";
+@\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
+@\import "https://fonts.googleapis.com/css?family=Patrick+Hand+SC";
+
+/* begin http://dl.dropbox.com/u/78340470/CSSforFoxgirls.css */
+#list_surround table:nth-of-type(n+4):hover td:nth-of-type(3),
+#list_surround table:nth-of-type(n+4):hover td:nth-of-type(4), 
+#list_surround table:nth-of-type(n+4):hover td:nth-of-type(5), 
+#list_surround table:nth-of-type(n+4):hover td:nth-of-type(6), 
+#list_surround table:nth-of-type(n+4):hover td:nth-of-type(7),
+#list_surround table:nth-of-type(n+4):hover td:nth-of-type(8) {
+    display: table-cell !important;
+}
+/* end http://dl.dropbox.com/u/78340470/CSSforFoxgirls.css */
+
+/* begin https://dl.dropboxusercontent.com/s/srxwnlfsufuw8l8/EditButton.css */
+#list_surround table:nth-of-type(n+4) tbody div small {
+    letter-spacing: -12px;
+    visibility: hidden;
+}
+#list_surround table:nth-of-type(n+4) tbody small a:first-of-type {
+    display: none !important;
+}
+#list_surround table:nth-of-type(n+4) tbody small a:last-of-type {
+    display: none !important;
+}
+#list_surround table:nth-of-type(n+4) tbody:hover small a:first-of-type {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: rgba(90, 49, 127, 0.7);
+    border-color: white;
+    border-image: none;
+    border-radius: 0 6px 6px 0;
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+    color: white !important;
+    display: block !important;
+    letter-spacing: 0 !important;
+    position: absolute !important;
+    right: -37px !important;
+    text-align: center;
+    visibility: visible;
+    width: 36px;
+}
+/* end https://dl.dropboxusercontent.com/s/srxwnlfsufuw8l8/EditButton.css */
+
+/* begin Dark Pink Icon Topbar */
+
+#mal_cs_listinfo, #mal_cs_links, #mal_cs_otherlinks, #mal_cs_powered {
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-moz-transition: all 0.4s ease 0s;
+-webkit-transition: all 0.4s ease 0s;
+-o-transition: all 0.4s ease 0s;
+transition: all 0.4s ease 0s;
+background: none no-repeat scroll 100% 0 transparent;
+border: 0 none;
+height: 0 !important;
+overflow: hidden;
+padding: 32px 0 0 !important;
+position: fixed;
+right: 4px;
+text-align: center;
+top: 4px;
+z-index: 10;
+width: 150px !important;
+}
+
+#mal_cs_listinfo:hover, #mal_cs_links:hover, #mal_cs_otherlinks:hover, #mal_cs_powered:hover {
+height: 200px !important;
+padding-top: 32px !important;
+}
+
+#mal_cs_listinfo div, #mal_cs_links div, #mal_cs_otherlinks div, #mal_cs_powered div, #mal_cs_powered dd {
+-moz-transition: opacity 0.4s ease-in-out 0s;
+-webkit-transition: opacity 0.4s ease-in-out 0s;
+-o-transition: opacity 0.4s ease-in-out 0s;
+transition: opacity 0.4s ease-in-out 0s;
+background-color: rgba(242, 206, 220, 0.6);
+border-radius: 3px 0 0 0;
+font-size: 0 !important;
+line-height: 0;
+margin: 0 !important;
+opacity: 0;
+padding: 8px 0 0 !important;
+}
+
+#mal_cs_listinfo:hover div, #mal_cs_links:hover div, #mal_cs_otherlinks:hover div, #mal_cs_powered:hover div, #mal_cs_powered:hover dd {
+opacity: 1;
+}
+
+#mal_cs_listinfo div:nth-of-type(2), #mal_cs_links div:nth-of-type(2), #mal_cs_otherlinks div:nth-of-type(2), #mal_cs_powered div:nth-of-type(2) {
+border-radius: 0 0 3px 3px;
+padding: 4px 0 8px !important;
+}
+
+#mal_cs_listinfo a, #mal_cs_links a, #mal_cs_otherlinks a, #mal_cs_powered a {
+background-color: rgba(64, 60, 90, 0.6) !important;
+border-radius: 3px 3px 3px 3px;
+display: block;
+font: 13px/17px 'Arial', sans-serif !important;
+margin: 4px 12px 0;
+padding: 3px 0 !important;
+text-decoration: none;
+}
+
+#mal_cs_listinfo a:nth-of-type(1), #mal_cs_links a:nth-of-type(1), #mal_cs_otherlinks a:nth-of-type(1), #mal_cs_powered a:nth-of-type(1) {
+margin-top: 0;
+}
+
+#mal_cs_listinfo a:hover, #mal_cs_links a:hover, #mal_cs_otherlinks a:hover {
+background-color: #403C5A !important;
+}
+
+#mal_cs_listinfo strong a strong {
+font-weight: normal;
+}
+
+#mal_cs_otherlinks strong {
+color: #333333;
+display: block;
+font: bold 13px/17px 'Arial',sans-serif !important;
+padding: 0 4px 4px;
+text-shadow: 0 1px 1px #FFFFFF;
+}
+
+#mal_cs_otherlinks strong a {
+background: none transparent !important;
+border-radius: 0 0 0 0;
+color: #43385a;
+display: inline;
+font: bold 13px/17px 'Arial',sans-serif !important;
+margin: 0;
+padding: 0;
+text-shadow: 0 1px 1px #FFFFFF;
+}
+
+#mal_cs_powered a {
+background-color: rgba(242, 206, 220, 0.6) !important;
+border-radius: 3px 0 0 0 !important;
+display: block !important;
+margin: 0 !important;
+opacity: 0;
+padding: 8px 0 0 !important;
+}
+
+#mal_cs_powered:hover a {
+opacity: 1;
+}
+
+#mal_cs_powered a img {
+-moz-transition: all 0.25s ease-in-out 0s;
+-webkit-transition: all 0.25s ease-in-out 0s;
+-o-transition: all 0.25s ease-in-out 0s;
+transition: all 0.25s ease-in-out 0s;
+background: url(https://i.imgur.com/Mun06r8.png) /* myanimelist.png */ no-repeat scroll 50% 6px rgba(64, 60, 90, 0.6);
+border-radius: 3px 3px 3px 3px;
+display: block;
+height: 0;
+margin: 0 12px;
+padding: 23px 0 0 126px;
+width: 0;
+}
+
+#mal_cs_powered a img:hover {
+background-color: #403C5A;
+}
+
+#mal_cs_powered #search {
+border-radius: 0 0 3px 3px;
+padding: 8px !important;
+position: relative;
+}
+
+#searchBox {
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+border-color: #afdafd #afdafd #afdafd;
+border-radius: 2px 2px 2px 2px;
+border-style: solid;
+border-width: 1px;
+color: #333333;
+display: inline-block;
+font-family: arial,sans-serif;
+font-size: 13px;
+height: 28px;
+padding-left: 6px !important;
+padding-right: 24px !important;
+vertical-align: top;
+width: 100px;
+}
+
+#searchBox:hover, #searchBox:focus {
+border-color: #ACACAC #C6C6C6 #C6C6C6;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+}
+
+#searchListButton {
+background: url(https://i.imgur.com/CeY4o8f.png) /* search_icon.png */ no-repeat scroll 0 0 transparent !important;
+    border-radius: 3px 3px 3px 3px;
+    height: 0;
+    margin: 0;
+    padding: 16px 0 0 19px !important;
+    position: absolute;
+    right: 12px !important;
+    top: 14px !important;
+    width: 0;
+}
+
+#mal_cs_listinfo {
+background-image: url(https://i.imgur.com/yPVIkwn.png) /* user.png */;
+right: 106px;
+}
+
+#mal_cs_listinfo:hover {
+background-image: url(https://i.imgur.com/Bnsfnug.png) /* user_hover.png */;
+}
+
+#mal_cs_links {
+background-image: url(https://i.imgur.com/B6UWGYX.png) /* home.png */;
+right: 72px !important;
+z-index: 9;
+}
+
+#mal_cs_links:hover {
+background-image: url(https://i.imgur.com/wNzOytY.png) /* home_hover.png */;
+}
+
+#mal_cs_otherlinks {
+background-image: url(https://i.imgur.com/BAkadgp.png) /* stats.png */;
+right: 38px !important;
+z-index: 8;
+}
+
+#mal_cs_otherlinks:hover {
+background-image: url(https://i.imgur.com/vciZv66.png) /* stats_hover.png */;
+}
+
+#mal_cs_powered {
+background-image: url(https://i.imgur.com/nLIAeml.png) /* search.png */;
+right: 4px !important;
+z-index: 7;
+position: fixed !important;
+}
+
+#mal_cs_powered:hover {
+background-image: url(https://i.imgur.com/3SWd7YP.png) /* search_hover.png */;
+}
+
+#mal\_control\_strip {
+background: transparent !important;
+}
+
+#mal_cs_pic img {
+display: none;
+}
+
+#mal_cs_pic, #mal_cs_listinfo, #mal_cs_links {
+border-right: 0 none !important;
+}
+/* preload images */
+#mal_control_strip tbody {
+	background-image:
+		url(https://i.imgur.com/Bnsfnug.png),
+		url(https://i.imgur.com/wNzOytY.png),
+		url(https://i.imgur.com/vciZv66.png),
+		url(https://i.imgur.com/3SWd7YP.png);
+	background-size: 0;
+}
+
+/* end Dark Pink Icon Topbar */
+
+* {
+    text-decoration: none;
+}
+body {
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url(https://i.imgur.com/dRP2Bo3.jpg);
+    background-position: 23% 0;
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    font-family: Patrick Hand Sc;
+}
+#list_surround {
+    background-attachment: fixed;
+    background-position: 24% 0;
+    background-repeat: no-repeat no-repeat;
+    font-size: 19px;
+    height: 250px;
+    left: 0;
+    line-height: 1;
+    margin: 0 auto;
+    padding-bottom: 0;
+    padding-top: 71px;
+    position: absolute;
+    right: 0;
+    width: 840px;
+    z-index: 0;
+}
+td[class^="td"]:nth-of-type(2) {
+    width: 533px !important;
+}
+a {
+    color: white;
+    text-shadow: none;
+}
+tr:hover [class^="td"] {
+    background-color: rgba(176, 97, 163, 0.8);
+    transition: all 0.4s ease 0s;
+}
+tr:hover td.td1 a, tr:hover td.td1, tr:hover td.td2 a, tr:hover td.td2 {
+    color: #EE7443 !important;
+    font-weight: bold;
+    text-shadow: 1px 2px 3px black;
+    transition: all 0.4s ease 0s;
+}
+a:hover {
+    color: yellow !important;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.15);
+}
+.td1:nth-of-type(5), .td2:nth-of-type(5) {
+    color: white;
+}
+.td1:nth-of-type(1), .td2:nth-of-type(1) {
+    color: white;
+}
+.table_header:nth-of-type(1) {
+    color: white;
+}
+.table_header:nth-of-type(2) {
+    text-align: left;
+}
+.table_header:nth-of-type(1), .table_header:nth-of-type(2), .table_header:nth-of-type(3), .table_header:nth-of-type(4), .table_header:nth-of-type(5), .table_header:nth-of-type(6) {
+}
+.table_header:nth-of-type(5) {
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    color: white;
+}
+.table_header, .category_totals {
+    background-color: rgba(90, 49, 127, 0.7);
+    border: 0 none;
+    opacity: 1;
+    padding: 4px;
+    text-align: center;
+    vertical-align: top;
+}
+.td1, .td2 {
+    background-color: rgba(90, 49, 127, 0.7);
+    color: white !important;
+    padding: 5px;
+}
+.td1:nth-of-type(2), .td2:nth-of-type(2) {
+    text-align: left;
+}
+.table_header:nth-of-type(6) {
+}
+small {
+    color: #894B62;
+    font-weight: bold;
+    text-shadow: 1px 2px black;
+}
+.table_header, .td1, .td2, .category_totals {
+    color: grey;
+}
+.borderRBL {
+    line-height: normal !important;
+}
+[cellspacing="0"] {
+    line-height: 17px;
+}
+.category_totals {
+    background-color: rgba(90, 49, 127, 0.7);
+    border-radius: 0 0 12px 12px;
+    color: grey;
+    text-align: center;
+}
+.category_totals:hover {
+    background-color: #C41E0E;
+    color: #FFFFFF;
+}
+[class^="header_"] * {
+    background-repeat: no-repeat no-repeat;
+    border-radius: 20px 20px 0 0;
+    font-size: 50px;
+    height: 50px;
+    line-height: 24px;
+    margin-bottom: 6px;
+    margin-left: 5px;
+    padding-bottom: 9px;
+    text-align: left;
+    vertical-align: bottom;
+}
+.header_title {
+    border: medium none !important;
+    color: white !important;
+    height: auto;
+    padding: 0 8px 0 0;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+#grand_totals {
+    background-color: rgba(90, 49, 127, 0.7);
+    border: 0 none;
+    border-radius: 3px 3px 3px 3px;
+    color: white;
+    line-height: 20px;
+    min-height: 20px;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+.status_not_selected:hover {
+    color: white !important;
+    opacity: 1;
+    transition: all 0.4s ease 0s;
+}
+.status_not_selected, .status_selected {
+    background-color: rgba(174, 174, 174, 0.4);
+    border: 0 none !important;
+    border-radius: 10px 10px 10px 10px;
+    height: auto !important;
+    padding: 4px;
+    text-align: center !important;
+    width: 16.667% !important;
+}
+.status_not_selected a, .status_selected a {
+    background-color: rgba(64, 10, 50, 0.8);
+    border-color: rgba(48, 44, 64, 0.5);
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    display: block !important;
+    font-weight: bold;
+    padding: 8px;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+}
+.status_selected a {
+    background-color: rgba(255, 2, 8, 0.7);
+    border-color: rgba(164, 16, 32, 0.5);
+}
+.status_not_selected a:hover {
+    background-color: rgba(51, 82, 199, 0.8);
+    border-color: rgba(55, 32, 228, 0.6);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+}
+.status_selected a:hover {
+    background-color: #B42030;
+    border-color: rgba(148, 0, 24, 0.5);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+}
+.header_cw {
+    background-color: rgba(90, 49, 127, 0.7);
+    background-position: 97% 0;
+    background-repeat: no-repeat no-repeat;
+    border-radius: 20px 20px 0 0;
+    z-index: 0 !important;
+}
+.header_completed {
+    background-color: rgba(90, 49, 127, 0.7);
+    background-position: 50% 0;
+    background-repeat: no-repeat no-repeat;
+    border-radius: 20px 20px 0 0;
+    z-index: 0;
+}
+.header_onhold {
+    background-color: rgba(90, 49, 127, 0.7);
+    background-position: 100% 0;
+    background-repeat: no-repeat no-repeat;
+    border-radius: 20px 20px 0 0;
+}
+.header_dropped {
+    background-color: rgba(90, 49, 127, 0.7);
+    background-position: 50% 0;
+    background-repeat: no-repeat no-repeat;
+    border-radius: 20px 20px 0 0;
+}
+.header_ptw {
+    background-color: rgba(90, 49, 127, 0.7);
+    background-position: 50% 0;
+    background-repeat: no-repeat no-repeat;
+    border-radius: 20px 20px 0 0;
+}
+:hover + .hide {
+    background-position: center 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    border-color: white;
+    border-radius: 25px 25px 25px 25px;
+    border-style: solid;
+    border-width: 3px;
+    display: block !important;
+    height: 350px;
+    left: 52px;
+    padding-bottom: 0;
+    position: fixed;
+    top: 160px;
+    width: 226px;
+}
+.hide:before {
+    background: none repeat scroll 0 0 transparent;
+    border-radius: 25px 25px 0 0;
+    color: white;
+    content: "";
+    padding-bottom: 5px;
+    position: absolute;
+    text-align: center;
+    top: -25px;
+    width: 225px;
+}
+.td1:nth-of-type(6) a, .td2:nth-of-type(6) a {
+    color: white !important;
+}
+#copyright, #copyright:hover {
+  background-color:rgba(90, 49, 127, 0.701961);
+  color:white;
+  font-size:12px;
+  padding:3px;
+  position:absolute;
+  width:100%;
+  border-top-left-radius:0;
+}
+#copyright:before {
+    color: white;
+    content: " Design by SylakentH_";
+    font-size: 17px;
+    padding-right: 10px;
+    padding-top: 10px !important;
+}
+#copyright:after {
+    color: #FFD700;
+    content: " ";
+    padding-left: 20px;
+}
