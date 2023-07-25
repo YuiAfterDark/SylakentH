@@ -1,0 +1,316 @@
+/*
+Sakurasou by SylakentH
+*/
+
+/* removed defunct cover import: https://malcat-gen.appspot.com/series?preset=more */
+@\import "https://fonts.googleapis.com/css?family=Patrick+Hand+SC";
+/* begin http://dl.dropbox.com/u/78340470/CSSforFoxgirls.css */
+#list_surround table:nth-of-type(n+4):hover td:nth-of-type(3),
+#list_surround table:nth-of-type(n+4):hover td:nth-of-type(4), 
+#list_surround table:nth-of-type(n+4):hover td:nth-of-type(5), 
+#list_surround table:nth-of-type(n+4):hover td:nth-of-type(6), 
+#list_surround table:nth-of-type(n+4):hover td:nth-of-type(7),
+#list_surround table:nth-of-type(n+4):hover td:nth-of-type(8) {
+    display: table-cell !important;
+}
+/* end http://dl.dropbox.com/u/78340470/CSSforFoxgirls.css */
+
+/* begin https://dl.dropboxusercontent.com/s/srxwnlfsufuw8l8/EditButton.css */
+#list_surround table:nth-of-type(n+4) tbody div small {
+    letter-spacing: -12px;
+    visibility: hidden;
+}
+#list_surround table:nth-of-type(n+4) tbody small a:first-of-type {
+    display: none !important;
+}
+#list_surround table:nth-of-type(n+4) tbody small a:last-of-type {
+    display: none !important;
+}
+#list_surround table:nth-of-type(n+4) tbody:hover small a:first-of-type {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: rgba(90, 49, 127, 0.7);
+    border-color: white;
+    border-image: none;
+    border-radius: 0 6px 6px 0;
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+    color: white !important;
+    display: block !important;
+    letter-spacing: 0 !important;
+    position: absolute !important;
+    right: -37px !important;
+    text-align: center;
+    visibility: visible;
+    width: 36px;
+}
+/* end https://dl.dropboxusercontent.com/s/srxwnlfsufuw8l8/EditButton.css */
+
+/* broken import https://dl.dropboxusercontent.com/u/78340470/Icon%20Style%20Menu%20Bar/pinkversion/pinkiconbar.css */
+* {
+    text-decoration: none;
+}
+body {
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("http://i41.tinypic.com/2r7ov0o.jpg");
+    background-position: 23% 0;
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    font-family: Patrick Hand Sc;
+}
+#list_surround {
+    background-attachment: fixed;
+    background-position: 24% 0;
+    background-repeat: no-repeat no-repeat;
+    font-size: 19px;
+    height: 250px;
+    left: 0;
+    line-height: 1;
+    margin: 0 auto;
+    padding-bottom: 0;
+    padding-top: 71px;
+    position: absolute;
+    right: 0;
+    width: 840px;
+    z-index: 0;
+}
+td[class^="td"]:nth-of-type(2) {
+    width: 533px !important;
+}
+a {
+    color: white;
+    text-shadow: none;
+}
+tr:hover [class^="td"] {
+    background-color: rgba(176, 97, 163, 0.8);
+    transition: all 0.4s ease 0s;
+}
+tr:hover td.td1 a, tr:hover td.td1, tr:hover td.td2 a, tr:hover td.td2 {
+    color: #EE7443 !important;
+    font-weight: bold;
+    text-shadow: 1px 2px 3px black;
+    transition: all 0.4s ease 0s;
+}
+a:hover {
+    color: yellow !important;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.15);
+}
+.td1:nth-of-type(5), .td2:nth-of-type(5) {
+    color: white;
+}
+.td1:nth-of-type(1), .td2:nth-of-type(1) {
+    color: white;
+}
+.table_header:nth-of-type(1) {
+    color: white;
+}
+.table_header:nth-of-type(2) {
+    text-align: left;
+}
+.table_header:nth-of-type(1), .table_header:nth-of-type(2), .table_header:nth-of-type(3), .table_header:nth-of-type(4), .table_header:nth-of-type(5), .table_header:nth-of-type(6) {
+}
+.table_header:nth-of-type(5) {
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    color: white;
+}
+.table_header, .category_totals {
+    background-color: rgba(90, 49, 127, 0.7);
+    border: 0 none;
+    opacity: 1;
+    padding: 4px;
+    text-align: center;
+    vertical-align: top;
+}
+.td1, .td2 {
+    background-color: rgba(90, 49, 127, 0.7);
+    color: white !important;
+    padding: 5px;
+}
+.td1:nth-of-type(2), .td2:nth-of-type(2) {
+    text-align: left;
+}
+.table_header:nth-of-type(6) {
+}
+small {
+    color: #894B62;
+    font-weight: bold;
+    text-shadow: 1px 2px black;
+}
+.table_header, .td1, .td2, .category_totals {
+    color: grey;
+}
+.borderRBL {
+    line-height: normal !important;
+}
+[cellspacing="0"] {
+    line-height: 17px;
+}
+.category_totals {
+    background-color: rgba(90, 49, 127, 0.7);
+    border-radius: 0 0 12px 12px;
+    color: grey;
+    text-align: center;
+}
+.category_totals:hover {
+    background-color: #C41E0E;
+    color: #FFFFFF;
+}
+[class^="header_"] * {
+    background-repeat: no-repeat no-repeat;
+    border-radius: 20px 20px 0 0;
+    font-size: 50px;
+    height: 50px;
+    line-height: 24px;
+    margin-bottom: 6px;
+    margin-left: 5px;
+    padding-bottom: 9px;
+    text-align: left;
+    vertical-align: bottom;
+}
+.header_title {
+    border: medium none !important;
+    color: white !important;
+    height: auto;
+    padding: 0 8px 0 0;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+#grand_totals {
+    background-color: rgba(90, 49, 127, 0.7);
+    border: 0 none;
+    border-radius: 3px 3px 3px 3px;
+    color: white;
+    line-height: 20px;
+    min-height: 20px;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+.status_not_selected:hover {
+    color: white !important;
+    opacity: 1;
+    transition: all 0.4s ease 0s;
+}
+.status_not_selected, .status_selected {
+    background-color: rgba(174, 174, 174, 0.4);
+    border: 0 none !important;
+    border-radius: 10px 10px 10px 10px;
+    height: auto !important;
+    padding: 4px;
+    text-align: center !important;
+    width: 16.667% !important;
+}
+.status_not_selected a, .status_selected a {
+    background-color: rgba(64, 10, 50, 0.8);
+    border-color: rgba(48, 44, 64, 0.5);
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    display: block !important;
+    font-weight: bold;
+    padding: 8px;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+}
+.status_selected a {
+    background-color: rgba(255, 2, 8, 0.7);
+    border-color: rgba(164, 16, 32, 0.5);
+}
+.status_not_selected a:hover {
+    background-color: rgba(51, 82, 199, 0.8);
+    border-color: rgba(55, 32, 228, 0.6);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+}
+.status_selected a:hover {
+    background-color: #B42030;
+    border-color: rgba(148, 0, 24, 0.5);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+}
+.header_cw {
+    background-color: rgba(90, 49, 127, 0.7);
+    background-position: 97% 0;
+    background-repeat: no-repeat no-repeat;
+    border-radius: 20px 20px 0 0;
+    z-index: 0 !important;
+}
+.header_completed {
+    background-color: rgba(90, 49, 127, 0.7);
+    background-position: 50% 0;
+    background-repeat: no-repeat no-repeat;
+    border-radius: 20px 20px 0 0;
+    z-index: 0;
+}
+.header_onhold {
+    background-color: rgba(90, 49, 127, 0.7);
+    background-position: 100% 0;
+    background-repeat: no-repeat no-repeat;
+    border-radius: 20px 20px 0 0;
+}
+.header_dropped {
+    background-color: rgba(90, 49, 127, 0.7);
+    background-position: 50% 0;
+    background-repeat: no-repeat no-repeat;
+    border-radius: 20px 20px 0 0;
+}
+.header_ptw {
+    background-color: rgba(90, 49, 127, 0.7);
+    background-position: 50% 0;
+    background-repeat: no-repeat no-repeat;
+    border-radius: 20px 20px 0 0;
+}
+:hover + .hide {
+    background-position: center 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    border-color: white;
+    border-radius: 25px 25px 25px 25px;
+    border-style: solid;
+    border-width: 3px;
+    display: block !important;
+    height: 350px;
+    left: 52px;
+    padding-bottom: 0;
+    position: fixed;
+    top: 160px;
+    width: 226px;
+}
+.hide:before {
+    background: none repeat scroll 0 0 transparent;
+    border-radius: 25px 25px 0 0;
+    color: white;
+    content: "";
+    padding-bottom: 5px;
+    position: absolute;
+    text-align: center;
+    top: -25px;
+    width: 225px;
+}
+.td1:nth-of-type(6) a, .td2:nth-of-type(6) a {
+    color: white !important;
+}
+#copyright, #copyright:hover {
+  background-color:rgba(90, 49, 127, 0.701961);
+  color:white;
+  font-size:12px;
+  padding:3px;
+  position:absolute;
+  width:100%;
+  border-top-left-radius:0;
+}
+#copyright:before {
+    color: white;
+    content: " Design by SylakentH_";
+    font-size: 17px;
+    padding-right: 10px;
+    padding-top: 10px !important;
+}
+#copyright:after {
+    color: #FFD700;
+    content: " ";
+    padding-left: 20px;
+}
