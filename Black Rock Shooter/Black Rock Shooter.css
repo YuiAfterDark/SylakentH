@@ -1,4 +1,12 @@
-/* begin http://dl.dropbox.com/s/rogesc5nd2o920m/topbarAnohana.css */
+/*
+Black Rock Shooter by SylakentH
+Modified by Valerio Lyndon
+Last update: 2023-Jul-25
+*/
+
+@\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
+
+/* begin Blue Icon Topbar */
 #mal_cs_listinfo, #mal_cs_links, #mal_cs_otherlinks, #mal_cs_powered {
     -moz-box-sizing: border-box;
     background: none no-repeat scroll 100% 0 transparent;
@@ -88,7 +96,7 @@
     opacity: 1;
 }
 #mal_cs_powered a img {
-    background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0poweredaimg.png") no-repeat scroll 50% 6px rgba(12, 46, 196, 0.6);
+    background: url(https://i.imgur.com/fGTjBC3.png) /* myanimelist.png */ no-repeat scroll 50% 6px rgba(12, 46, 196, 0.6);
     border-radius: 3px 3px 3px 3px;
     display: block;
     height: 0;
@@ -126,7 +134,7 @@
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
 }
 #searchListButton {
-    background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0searchbutton.png") no-repeat scroll 0 0 transparent !important;
+    background: url(https://i.imgur.com/XqsilHp.png) /* search_icon.png */ no-repeat scroll 0 0 transparent !important;
     border-radius: 3px 3px 3px 3px;
     height: 0;
     margin: 0;
@@ -137,36 +145,36 @@
     width: 0;
 }
 #mal_cs_listinfo {
-    background-image: url("http://i48.tinypic.com/33omjrb.png");
+    background-image: url(https://i.imgur.com/GEZ10dP.png) /* user.png */;
     right: 106px;
 }
 #mal_cs_listinfo:hover {
-    background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon1over.png");
+    background-image: url(https://i.imgur.com/VcVVnod.png) /* user_hover.png */;
 }
 #mal_cs_links {
-    background-image: url("http://i46.tinypic.com/25ptfm1.png");
+    background-image: url(https://i.imgur.com/zU7dYPW.png) /* home.png */;
     right: 72px !important;
     z-index: 9;
 }
 #mal_cs_links:hover {
-    background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon2over.png");
+    background-image: url(https://i.imgur.com/oPfKrOl.png) /* home_hover.png */;
 }
 #mal_cs_otherlinks {
-    background-image: url("http://i50.tinypic.com/2eknk01.png");
+    background-image: url(https://i.imgur.com/0u6jyJr.png) /* stats.png */;
     right: 38px !important;
     z-index: 8;
 }
 #mal_cs_otherlinks:hover {
-    background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon3over.png");
+    background-image: url(https://i.imgur.com/EEGHkbF.png) /* stats_hover.png */;
 }
 #mal_cs_powered {
-    background-image: url("http://i45.tinypic.com/2lvipah.png");
+    background-image: url(https://i.imgur.com/QePufxM.png) /* search */;
     position: fixed !important;
     right: 4px !important;
     z-index: 7;
 }
 #mal_cs_powered:hover {
-    background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon4over.png");
+    background-image: url(https://i.imgur.com/TUUWtaj.png) /* search_hover.png */;
 }
 #mal_control_strip {
     background: none repeat scroll 0 0 transparent !important;
@@ -177,7 +185,16 @@
 #mal_cs_pic, #mal_cs_listinfo, #mal_cs_links {
     border-right: 0 none !important;
 }
-/* end http://dl.dropbox.com/s/rogesc5nd2o920m/topbarAnohana.css */
+/* preload images */
+#mal_control_strip tbody {
+	background-image:
+		url(https://i.imgur.com/oPfKrOl.png),
+		url(https://i.imgur.com/VcVVnod.png),
+		url(https://i.imgur.com/EEGHkbF.png),
+		url(https://i.imgur.com/TUUWtaj.png);
+	background-size: 0;
+}
+/* end Blue Icon Topbar */
 
 * {
     text-decoration: none;
@@ -186,28 +203,12 @@ body {
     background-attachment: fixed;
     background-clip: border-box;
     background-color: transparent;
-    background-image: url("http://i40.tinypic.com/2im98hz.jpg");
+    background-image: url(https://i.imgur.com/khhk5Hl.jpg) /* background.jpg */;
     background-position: 0 18%;
     background-repeat: no-repeat no-repeat;
     background-size: cover;
 }
-#inlineContent {
-    background-image: url("");
-    background-repeat: no-repeat no-repeat;
-    display: inline-block !important;
-    height: 3000px !important;
-    left: 0 !important;
-    margin: auto !important;
-    position: fixed;
-    top: 0 !important;
-    width: 3000px !important;
-    z-index: -4;
-}
 #list_surround {
-    background-attachment: scroll;
-    background-image: url("");
-    background-position: 50% 0;
-    background-repeat: no-repeat no-repeat;
     font-size: 14px;
     height: 200px;
     left: 0;
@@ -336,8 +337,6 @@ tr:hover [class^="td"] {
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     text-shadow: 0 1px rgba(0, 0, 0, 0.3);
 }
-#copyright:hover {
-}
 #copyright:before {
     color: black;
     content: " Design by SylakentH_ ";
@@ -348,6 +347,4 @@ tr:hover [class^="td"] {
     color: gold;
     content: " ";
     padding-left: 20px;
-}
-#copyright a {
 }
