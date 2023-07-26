@@ -2,7 +2,9 @@
 Date A Live Kurumi by SylakentH
 */
 
-/* removed defunct cover import: https://malcat-gen.appspot.com/series?preset=more */
+@\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
+@\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
+
 /* begin https://dl.dropbox.com/s/8vjos6cpj8yo4ek/RedTopBar.css */
 #mal_cs_listinfo, #mal_cs_links, #mal_cs_otherlinks, #mal_cs_powered {
 box-sizing: border-box;
@@ -111,7 +113,7 @@ opacity: 1;
 -webkit-transition: all 0.25s ease-in-out 0s;
 -o-transition: all 0.25s ease-in-out 0s;
 transition: all 0.25s ease-in-out 0s;
-background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0poweredaimg.png") no-repeat scroll 50% 6px rgba(255,36,36,0.6);
+background: url(https://i.imgur.com/fGTjBC3.png) /* myanimelist.png */ no-repeat scroll 50% 6px rgba(255,36,36,0.6);
 border-radius: 3px 3px 3px 3px;
 display: block;
 height: 0;
@@ -154,7 +156,7 @@ box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
 }
 
 #searchListButton {
-background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0searchbutton.png") no-repeat scroll 0 0 transparent !important;
+background: url(https://i.imgur.com/XqsilHp.png) /* search_icon.png */ no-repeat scroll 0 0 transparent !important;
     border-radius: 3px 3px 3px 3px;
     height: 0;
     margin: 0;
@@ -166,43 +168,43 @@ background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon
 }
 
 #mal_cs_listinfo {
-background-image: url("http://i44.tinypic.com/2vdju6f.png");
+background-image: url(https://i.imgur.com/oE00nBB.png) /* user.png */;
 right: 106px;
 }
 
 #mal_cs_listinfo:hover {
-background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon1over.png");
+background-image: url(https://i.imgur.com/oE00nBB.png) /* user_hover.png (BROKEN) */;
 }
 
 #mal_cs_links {
-background-image: url("http://i41.tinypic.com/hrlqmr.png");
+background-image: url(https://i.imgur.com/BFzxzL8.png) /* home.png */;
 right: 72px !important;
 z-index: 9;
 }
 
 #mal_cs_links:hover {
-background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon2over.png");
+background-image: url(https://i.imgur.com/BFzxzL8.png) /* home_hover.png (BROKEN) */;
 }
 
 #mal_cs_otherlinks {
-background-image: url("http://i39.tinypic.com/fwqgpl.png");
+background-image: url(https://i.imgur.com/1sy4wIG.png) /* stats.png */;
 right: 38px !important;
 z-index: 8;
 }
 
 #mal_cs_otherlinks:hover {
-background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon3over.png");
+background-image: url(https://i.imgur.com/1sy4wIG.png) /* stats_hover.png (BROKEN) */;
 }
 
 #mal_cs_powered {
-background-image: url("http://i41.tinypic.com/358pbpy.png");
+background-image: url(https://i.imgur.com/t9u3pwk.png) /* search.png */;
 right: 4px !important;
 z-index: 7;
 position: fixed !important;
 }
 
 #mal_cs_powered:hover {
-background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon4over.png");
+background-image: url(https://i.imgur.com/t9u3pwk.png) /* search_icon.png (BROKEN) */;
 }
 
 #mal\_control\_strip {
@@ -225,7 +227,7 @@ body {
     background-attachment: fixed;
     background-clip: border-box;
     background-color: rgba(0, 0, 0, 0);
-    background-image: url("http://animewallpaperstock.com/wallpaper/04ta/date-a-live/date-a-live0032.jpg");
+    background-image: url(https://cdn.imgchest.com/files/e4gdc25vww4.jpg) /* background.jpg */;
     background-position: 33% 97%;
     background-repeat: no-repeat no-repeat;
     background-size: cover;
@@ -233,7 +235,7 @@ body {
 }
 @font-face {
     font-family: "SAO";
-    src: url("http://dl.dropboxusercontent.com/u/78192465/MyAnimeList/Fonts/SAO.woff") format("woff");
+    src: url(https://files.catbox.moe/ahnop0.woff) format("woff") /* SAO.woff */;
 }
 a, #searchListButton {
 }
@@ -461,7 +463,7 @@ tr:hover span[id*="tagRow"] {
     pointer-events: none;
 }
 .header_cw span, .header_completed span, .header_onhold span, .header_dropped span, .header_ptw span {
-    background-image: url("http://i.imgur.com/c94cOqq.png");
+    background-image: url(https://i.imgur.com/1IQh2V8.png) /* headers.png / alternate URL https://i.imgur.com/c94cOqq.png */;
     background-repeat: no-repeat;
     display: inline-block;
     font-size: 0;
@@ -471,35 +473,35 @@ tr:hover span[id*="tagRow"] {
     z-index: 1 !important;
 }
 .header_cw {
-    background-image: url("http://i59.tinypic.com/9fqyo2.png");
+    background-image: url(https://c.l3n.co/i/QtLlYr.png) /* render_watching.png */;
     background-position: 85% 0;
     background-repeat: no-repeat no-repeat;
     background-size: 50% auto;
     height: 300px;
 }
 .header_completed {
-    background-image: url("http://i59.tinypic.com/2dhwt1w.png");
+    background-image: url(https://a.l3n.co/i/QtLeC3.png) /* render_completed.png */;
     background-position: 10% 0;
     background-repeat: no-repeat;
     background-size: 30% auto;
     height: 300px;
 }
 .header_onhold {
-    background-image: url("http://i57.tinypic.com/5txrb6.png");
+    background-image: url(https://b.l3n.co/i/QtLpfT.png) /* render_onhold.png */;
     background-position: 81% 0;
     background-repeat: no-repeat;
     background-size: 34% auto;
     height: 300px;
 }
 .header_dropped {
-    background-image: url("http://i61.tinypic.com/wugygg.png");
+    background-image: url(https://a.l3n.co/i/QtLKKz.png) /* render_dropped.png */;
     background-position: 10% 0;
     background-repeat: no-repeat;
     background-size: 38% auto;
     height: 300px;
 }
 .header_ptw {
-    background-image: url("http://i60.tinypic.com/69qlxi.png");
+    background-image: url(https://a.l3n.co/i/QtLOjb.png) /* render_planned.png */;
     background-position: 85% 0;
     background-repeat: no-repeat;
     background-size: 40% auto;
@@ -551,7 +553,7 @@ tr:hover span[id*="tagRow"] {
     position: fixed;
 }
 .status_selected a, .status_not_selected a {
-    background-image: url("http://i.imgur.com/ATAVnsX.png");
+    background-image: url(https://i.imgur.com/kO9fok6.png) /* category_icons.png / alternate URL: http://i.imgur.com/ATAVnsX.png */;
     display: inline-block;
     font-size: 0;
     height: 58px;
@@ -566,23 +568,6 @@ tr:hover span[id*="tagRow"] {
 }
 .status_selected a, .status_not_selected a:hover {
     opacity: 1;
-}
-.status_selected a:before, .status_not_selected a:before {
-    background-image: url("http://dl.dropboxusercontent.com/u/78192465/MyAnimeList/Lineage/Images/category_hover.png");
-    content: "";
-    display: none;
-    height: 100px;
-    left: -227px;
-    position: absolute;
-}
-.status_not_selected a:before {
-    opacity: 0;
-    transition: opacity 0.4s ease 0s, width 0.4s ease 0s;
-    width: 0;
-}
-.status_selected a:before, .status_not_selected a:hover:before {
-    opacity: 1;
-    width: 200px;
 }
 .status_not_selected a[href*="status=1"] {
     background-position: 0 -8px;
