@@ -1,0 +1,642 @@
+/* begin https://dl.dropbox.com/s/8vjos6cpj8yo4ek/RedTopBar.css */
+#mal_cs_listinfo, #mal_cs_links, #mal_cs_otherlinks, #mal_cs_powered {
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-moz-transition: all 0.4s ease 0s;
+-webkit-transition: all 0.4s ease 0s;
+-o-transition: all 0.4s ease 0s;
+transition: all 0.4s ease 0s;
+background: none no-repeat scroll 100% 0 transparent;
+border: 0 none;
+height: 0 !important;
+overflow: hidden;
+padding: 32px 0 0 !important;
+position: fixed;
+right: 4px;
+text-align: center;
+top: 4px;
+z-index: 10;
+width: 150px !important;
+}
+
+#mal_cs_listinfo:hover, #mal_cs_links:hover, #mal_cs_otherlinks:hover, #mal_cs_powered:hover {
+height: 200px !important;
+padding-top: 32px !important;
+}
+
+#mal_cs_listinfo div, #mal_cs_links div, #mal_cs_otherlinks div, #mal_cs_powered div, #mal_cs_powered dd {
+-moz-transition: opacity 0.4s ease-in-out 0s;
+-webkit-transition: opacity 0.4s ease-in-out 0s;
+-o-transition: opacity 0.4s ease-in-out 0s;
+transition: opacity 0.4s ease-in-out 0s;
+background-color: rgba(255,255,255,0.6);
+border-radius: 3px 0 0 0;
+font-size: 0 !important;
+line-height: 0;
+margin: 0 !important;
+opacity: 0;
+padding: 8px 0 0 !important;
+}
+
+#mal_cs_listinfo:hover div, #mal_cs_links:hover div, #mal_cs_otherlinks:hover div, #mal_cs_powered:hover div, #mal_cs_powered:hover dd {
+opacity: 1;
+}
+
+#mal_cs_listinfo div:nth-of-type(2), #mal_cs_links div:nth-of-type(2), #mal_cs_otherlinks div:nth-of-type(2), #mal_cs_powered div:nth-of-type(2) {
+border-radius: 0 0 3px 3px;
+padding: 4px 0 8px !important;
+}
+
+#mal_cs_listinfo a, #mal_cs_links a, #mal_cs_otherlinks a, #mal_cs_powered a {
+background-color: rgba(255,36,36,0.6) !important;
+border-radius: 3px 3px 3px 3px;
+display: block;
+font: 13px/17px 'Arial', sans-serif !important;
+margin: 4px 12px 0;
+padding: 3px 0 !important;
+text-decoration: none;
+}
+
+#mal_cs_listinfo a:nth-of-type(1), #mal_cs_links a:nth-of-type(1), #mal_cs_otherlinks a:nth-of-type(1), #mal_cs_powered a:nth-of-type(1) {
+margin-top: 0;
+}
+
+#mal_cs_listinfo a:hover, #mal_cs_links a:hover, #mal_cs_otherlinks a:hover {
+background-color: #FF0000 !important;
+}
+
+#mal_cs_listinfo strong a strong {
+font-weight: normal;
+}
+
+#mal_cs_otherlinks strong {
+color: #333333;
+display: block;
+font: bold 13px/17px 'Arial',sans-serif !important;
+padding: 0 4px 4px;
+text-shadow: 0 1px 1px #FFFFFF;
+}
+
+#mal_cs_otherlinks strong a {
+background: none transparent !important;
+border-radius: 0 0 0 0;
+color: #333333;
+display: inline;
+font: bold 13px/17px 'Arial',sans-serif !important;
+margin: 0;
+padding: 0;
+text-shadow: 0 1px 1px #FFFFFF;
+}
+
+#mal_cs_powered a {
+background-color: rgba(255,255,255, 0.6) !important;
+border-radius: 3px 0 0 0 !important;
+display: block !important;
+margin: 0 !important;
+opacity: 0;
+padding: 8px 0 0 !important;
+}
+
+#mal_cs_powered:hover a {
+opacity: 1;
+}
+
+#mal_cs_powered a img {
+-moz-transition: all 0.25s ease-in-out 0s;
+-webkit-transition: all 0.25s ease-in-out 0s;
+-o-transition: all 0.25s ease-in-out 0s;
+transition: all 0.25s ease-in-out 0s;
+background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0poweredaimg.png") no-repeat scroll 50% 6px rgba(255,36,36,0.6);
+border-radius: 3px 3px 3px 3px;
+display: block;
+height: 0;
+margin: 0 12px;
+padding: 23px 0 0 126px;
+width: 0;
+}
+
+#mal_cs_powered a img:hover {
+background-color: #FF0000;
+}
+
+#mal_cs_powered #search {
+border-radius: 0 0 3px 3px;
+padding: 8px !important;
+position: relative;
+}
+
+#searchBox {
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+border-color: #FF0000 #FF0000 #FF0000;
+border-radius: 2px 2px 2px 2px;
+border-style: solid;
+border-width: 1px;
+color: #333333;
+display: inline-block;
+font-family: arial,sans-serif;
+font-size: 13px;
+height: 28px;
+padding-left: 6px !important;
+padding-right: 24px !important;
+vertical-align: top;
+width: 100px;
+}
+
+#searchBox:hover, #searchBox:focus {
+border-color: #FF0000 #FF0000F #FF0000;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+}
+
+#searchListButton {
+background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0searchbutton.png") no-repeat scroll 0 0 transparent !important;
+    border-radius: 3px 3px 3px 3px;
+    height: 0;
+    margin: 0;
+    padding: 16px 0 0 19px !important;
+    position: absolute;
+    right: 12px !important;
+    top: 14px !important;
+    width: 0;
+}
+
+#mal_cs_listinfo {
+background-image: url("http://i44.tinypic.com/2vdju6f.png");
+right: 106px;
+}
+
+#mal_cs_listinfo:hover {
+background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon1over.png");
+}
+
+#mal_cs_links {
+background-image: url("http://i41.tinypic.com/hrlqmr.png");
+right: 72px !important;
+z-index: 9;
+}
+
+#mal_cs_links:hover {
+background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon2over.png");
+}
+
+#mal_cs_otherlinks {
+background-image: url("http://i39.tinypic.com/fwqgpl.png");
+right: 38px !important;
+z-index: 8;
+}
+
+#mal_cs_otherlinks:hover {
+background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon3over.png");
+}
+
+#mal_cs_powered {
+background-image: url("http://i41.tinypic.com/358pbpy.png");
+right: 4px !important;
+z-index: 7;
+position: fixed !important;
+}
+
+#mal_cs_powered:hover {
+background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon4over.png");
+}
+
+#mal\_control\_strip {
+background: transparent !important;
+}
+
+#mal_cs_pic img {
+display: none;
+}
+
+#mal_cs_pic, #mal_cs_listinfo, #mal_cs_links {
+border-right: 0 none !important;
+}
+/* end https://dl.dropbox.com/s/8vjos6cpj8yo4ek/RedTopBar.css */
+
+/* removed defunct cover import: https://dl.dropboxusercontent.com/s/aunymjyr9cqdxjl/manga.css */
+* {
+    text-decoration: none;
+}
+body {
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("http://animewallpaperstock.com/wallpaper/04ta/date-a-live/date-a-live0032.jpg");
+    background-position: 33% 0;
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    font-family: candara;
+}
+@font-face {
+    font-family: "SAO";
+    src: url("http://dl.dropboxusercontent.com/u/78192465/MyAnimeList/Fonts/SAO.woff") format("woff");
+}
+a, #searchListButton {
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #FFD700 !important;
+}
+body {
+    background-color: rgba(0, 0, 0, 0);
+    color: #D7D6D6;
+    font-family: Candara;
+}
+#list_surround {
+    font-size: 81.25%;
+    height: 200px;
+    left: 100%;
+    line-height: 1;
+    margin-left: -960px !important;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    top: 0;
+    width: 650px;
+}
+.table_header {
+    padding-bottom: 4px;
+}
+.table_header span {
+    display: none;
+}
+.table_header:nth-child(2) {
+    text-align: left;
+}
+.td1, .td2 {
+    padding: 4px 0;
+    transition: background-color 0.5s ease 0s;
+}
+.animetitle + small {
+    color: #D79C20 !important;
+    font-weight: bold;
+    text-shadow: 0 0 3px #000000, 0 0 2px #000000, 0 1px 7px #FFFFFF, 0 0 0 #FFFFFF;
+    visibility: visible !important;
+}
+#list_surround small {
+    visibility: hidden;
+}
+#list_surround small a:last-of-type {
+    display: none !important;
+}
+td[class^="td"]:nth-child(2) {
+    text-align: left;
+}
+td[class^="td"]:nth-child(3) {
+    background-position: 49% 3px;
+    background-repeat: no-repeat;
+}
+td[class^="td"]:nth-child(4) {
+    color: #D7D6D6;
+}
+[cellspacing="0"] {
+    line-height: 17px;
+}
+#list_surround a[href*="http://myanimelist.net/panel.php?go=edit"], #list_surround a[href*="http://myanimelist.net/editlist.php?type="], #list_surround a[href*="http://myanimelist.net/panel.php?go=add"] {
+    margin-right: 10px;
+    visibility: visible !important;
+}
+.table_header, .td1, .td2 {
+    background-color: rgba(242, 4, 4, 0.75);
+    text-align: center;
+    vertical-align: top;
+}
+tr:hover td[class^="td"] {
+    background-color: #FF0048;
+}
+tr:hover td.td1 a, tr:hover td.td1, tr:hover td.td2 a, tr:hover td.td2 {
+    color: #FFFFFF;
+    text-shadow: 0 0 1px #FFFFFF;
+}
+a {
+    color: #D7D6D6;
+}
+.table_headerLink {
+    color: #FFFFFF !important;
+    line-height: 20px;
+}
+td[class^="td"]:nth-child(3), td[class^="td"]:nth-child(3) a {
+    color: #FFFFFF !important;
+    text-shadow: 0 0 0 #000000 !important;
+}
+td[class^="td"]:first-child {
+    border-left: 2px solid #FF0048 !important;
+}
+td[class^="td"]:last-child {
+    border-right: 2px solid #FF0048 !important;
+}
+.table_header {
+    background-color: #F20404;
+    border-color: #FF0048;
+    border-style: solid;
+    border-width: 2px 0;
+}
+.table_header:first-child {
+    border-bottom: 2px solid #FF0048 !important;
+    border-left: 2px solid #FF0048 !important;
+    border-right: 0 none;
+    border-top: 2px solid #FF0048 !important;
+    border-top-left-radius: 16px;
+}
+.table_header:nth-child(5) {
+    border-radius: 0 16px 0 0;
+    border-right: 2px solid #FF0048 !important;
+}
+.header_title {
+    display: inline-block;
+    height: 100px;
+    pointer-events: none;
+}
+.category_totals {
+    background-color: #F20404;
+    border: 2px solid #FF0048;
+    border-radius: 0 0 16px 16px;
+    color: #FFFFFF;
+    padding: 3px 3px 9px;
+    text-align: center;
+}
+#grand_totals {
+    background-color: #F20404;
+    border-color: #FFFFFF;
+    border-radius: 0 0 12px 12px;
+    border-style: solid;
+    border-width: 0 2px;
+    color: #FFFFFF;
+    display: block;
+    margin-top: -30px;
+    padding: 0 10px 10px;
+    position: absolute;
+    text-align: center;
+    width: calc(100% - 24px);
+}
+#copyright:before {
+    content: "Design by SylakentH_.";
+    font-size: 12px;
+}
+#copyright {
+    background-color: #A0373C;
+    border: 4px solid #F20404;
+    border-radius: 12px;
+    color: #FFFFFF;
+    display: block;
+    margin-top: -10px !important;
+    padding: 2px 14px 4px;
+    position: relative;
+}
+#copyright a {
+    color: #FFFFFF;
+    font-size: 14px;
+    padding-right: 2px;
+    text-shadow: 1px 1px #F11C26;
+}
+td[class^="td"]:nth-of-type(2) {
+    width: 454px !important;
+}
+.table_header:nth-of-type(6), span[id*="tagLinks"], div[id*="tagChangeRow"] {
+    display: none !important;
+}
+td[class^="td"]:nth-of-type(6) {
+    width: 0;
+}
+span[id*="tagRow"] {
+    background-color: rgba(242, 4, 4, 0.8) !important;
+    border: 2px solid #F20404;
+    border-radius: 0 0 10px 10px;
+    display: block !important;
+    line-height: 15px !important;
+    padding: 20px 8px 8px;
+    position: fixed;
+    right: 970px;
+    text-shadow: 0 0 0 #000000 !important;
+    top: 493px;
+    visibility: hidden;
+    width: 199px;
+}
+tr:hover span[id*="tagRow"] {
+    visibility: visible;
+}
+:hover + .hide {
+    background-color: #F20404;
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: auto auto !important;
+    border-color: #F20404;
+    border-radius: 16px 16px 0 0;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 0 2px 2px #000000;
+    display: block !important;
+    height: 250px;
+    padding: 39px 22px 9px 10px;
+    position: fixed;
+    right: 970px;
+    top: 210px;
+    width: 183px;
+}
+.header_title {
+    display: inline-block;
+    height: 100px;
+    pointer-events: none;
+}
+.header_cw span, .header_completed span, .header_onhold span, .header_dropped span, .header_ptw span {
+    background-image: url("http://i59.tinypic.com/2dhzbc5.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    font-size: 0;
+    height: 321px;
+    position: absolute;
+    width: 650px;
+    z-index: 1 !important;
+}
+.header_cw {
+    background-image: url("http://i59.tinypic.com/9fqyo2.png");
+    background-position: 85% 0;
+    background-repeat: no-repeat no-repeat;
+    background-size: 50% auto;
+    height: 300px;
+}
+.header_completed {
+    background-image: url("http://i59.tinypic.com/2dhwt1w.png");
+    background-position: 10% 0;
+    background-repeat: no-repeat;
+    background-size: 30% auto;
+    height: 300px;
+}
+.header_onhold {
+    background-image: url("http://i57.tinypic.com/5txrb6.png");
+    background-position: 81% 0;
+    background-repeat: no-repeat;
+    background-size: 34% auto;
+    height: 300px;
+}
+.header_dropped {
+    background-image: url("http://i61.tinypic.com/wugygg.png");
+    background-position: 10% 0;
+    background-repeat: no-repeat;
+    background-size: 38% auto;
+    height: 300px;
+}
+.header_ptw {
+    background-image: url("http://i60.tinypic.com/69qlxi.png");
+    background-position: 85% 0;
+    background-repeat: no-repeat;
+    background-size: 40% auto;
+    height: 300px;
+}
+.header_cw span {
+    background-position: 12% -28%;
+    height: 220px;
+}
+.header_completed span {
+    background-position: 63% 18%;
+    height: 120px;
+    position: relative;
+    top: 106%;
+}
+.header_onhold span {
+    background-position: 9% 39%;
+    height: 120px;
+    position: relative;
+    top: 99%;
+}
+.header_dropped span {
+    background-position: 73% 67%;
+    height: 140px;
+    position: relative;
+    top: 100%;
+}
+.header_ptw span {
+    background-position: 12% 93%;
+    height: 140px;
+    position: relative;
+    top: 100%;
+}
+.status_selected {
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+    display: inline-block;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.status_selected {
+    position: fixed;
+    z-index: -1;
+}
+.status_not_selected {
+    position: fixed;
+}
+.status_selected a, .status_not_selected a {
+    background-image: url("http://i58.tinypic.com/1113qxx.png");
+    display: inline-block;
+    font-size: 0;
+    height: 58px;
+    position: fixed;
+    right: 5px;
+    top: 50%;
+    width: 66px;
+}
+.status_not_selected a {
+    opacity: 0.7;
+    transition: opacity 0.4s ease 0s;
+}
+.status_selected a, .status_not_selected a:hover {
+    opacity: 1;
+}
+.status_selected a:before, .status_not_selected a:before {
+    background-image: url("http://dl.dropboxusercontent.com/u/78192465/MyAnimeList/Lineage/Images/category_hover.png");
+    content: "";
+    display: none;
+    height: 100px;
+    left: -227px;
+    position: absolute;
+}
+.status_not_selected a:before {
+    opacity: 0;
+    transition: opacity 0.4s ease 0s, width 0.4s ease 0s;
+    width: 0;
+}
+.status_selected a:before, .status_not_selected a:hover:before {
+    opacity: 1;
+    width: 200px;
+}
+.status_not_selected a[href*="status=1"] {
+    background-position: 0 -8px;
+    margin-right: 140px;
+    margin-top: -100px;
+}
+.status_selected a[href*="status=1"], .status_not_selected a[href*="status=1"]:hover {
+    background-position: -77px -8px;
+    margin-right: 140px;
+    margin-top: -100px;
+}
+.status_not_selected a[href*="status=2"] {
+    background-position: 0 -65px;
+    margin-right: 140px;
+    margin-top: -43px;
+}
+.status_selected a[href*="status=2"], .status_not_selected a[href*="status=2"]:hover {
+    background-position: -77px -65px;
+    margin-right: 140px;
+    margin-top: -43px;
+}
+.status_selected a[href*="status=2"]:before, .status_not_selected a[href*="status=2"]:before, .status_not_selected a [href*="status=2"]:hover:before {
+    background-position: 0 -100px;
+}
+.status_not_selected a[href*="status=3"] {
+    background-position: 0 -122px;
+    margin-right: 140px;
+    margin-top: 14px;
+}
+.status_selected a[href*="status=3"], .status_not_selected a[href*="status=3"]:hover {
+    background-position: -77px -122px;
+    margin-right: 140px;
+    margin-top: 14px;
+}
+.status_selected a[href*="status=3"]:before, .status_not_selected a[href*="status=3"]:before, .status_not_selected a [href*="status=3"]:hover:before {
+    background-position: 0 -200px;
+}
+.status_not_selected a[href*="status=4"] {
+    background-position: 0 -180px;
+    margin-right: 92px;
+    margin-top: -72px;
+}
+.status_selected a[href*="status=4"], .status_not_selected a[href*="status=4"]:hover {
+    background-position: -77px -180px;
+    margin-right: 92px;
+    margin-top: -72px;
+}
+.status_selected a[href*="status=4"]:before, .status_not_selected a[href*="status=4"]:before, .status_not_selected a [href*="status=4"]:hover:before {
+    background-position: 0 -300px;
+}
+.status_not_selected a[href*="status=6"] {
+    background-position: 0 -238px;
+    margin-right: 92px;
+    margin-top: -16px;
+}
+.status_selected a[href*="status=6"], .status_not_selected a[href*="status=6"]:hover {
+    background-position: -77px -238px;
+    margin-right: 92px;
+    margin-top: -16px;
+}
+.status_selected a[href*="status=6"]:before, .status_not_selected a[href*="status=6"]:before, .status_not_selected a [href*="status=6"]:hover:before {
+    background-position: 0 -400px;
+}
+.status_not_selected a[href*="status=7"] {
+    background-position: 0 -294px;
+    margin-right: 92px;
+    margin-top: 41px;
+}
+.status_selected a[href*="status=7"], .status_not_selected a[href*="status=7"]:hover {
+    background-position: -77px -294px;
+    margin-right: 92px;
+    margin-top: 41px;
+}
+.status_selected a[href*="status=7"]:before, .status_not_selected a[href*="status=7"]:before, .status_not_selected a [href*="status=7"]:hover:before {
+    background-position: 0 -500px;
+}
