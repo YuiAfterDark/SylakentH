@@ -1,5 +1,11 @@
-/* removed defunct cover import: https://malcat-gen.appspot.com/series?preset=more */
+/*
+Devil Survivor 2 by SylakentH
+*/
+
+@\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
+@\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
 @\import "https://fonts.googleapis.com/css?family=Autour+One";
+
 /* begin http://dl.dropbox.com/u/78340470/CSSforFoxgirls.css */
 #list_surround table:nth-of-type(n+4):hover td:nth-of-type(3),
 #list_surround table:nth-of-type(n+4):hover td:nth-of-type(4), 
@@ -18,7 +24,7 @@ body {
     background-attachment: fixed;
     background-clip: border-box;
     background-color: transparent;
-    background-image: url("http://i43.tinypic.com/w2iwqp.png");
+    background-image: url(https://i.imgur.com/52Qt3Dy.png) /* background.png */;
     background-position: 50% 0;
     background-repeat: no-repeat no-repeat;
     background-size: cover;
@@ -41,7 +47,10 @@ body {
 }
 #mal\_control\_strip {
     background-color: transparent !important;
-    background-image: url("http://dl.dropbox.com/u/3159308/mal/mal-control-strip-bg.png") !important;
+    /* Remove broken image URL:
+	background-image: url("http://dl.dropbox.com/u/3159308/mal/mal-control-strip-bg.png") !important;
+	and replace with gradient based on old preview images: */
+	background-image: linear-gradient(to bottom, #0128, #0128);
     box-shadow: 0 9px 28px 7px #8BBBF7 inset;
     left: 0;
     position: fixed;
