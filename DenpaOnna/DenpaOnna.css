@@ -1,0 +1,179 @@
+@\import "https://dl.dropboxusercontent.com/u/78340470/Club%20layouts/Special/topbarreduxdarkblue.css";
+* {
+    text-decoration: none;
+}
+body {
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("http://i39.tinypic.com/scf7zk.jpg");
+    background-position: 33% 0%;
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+}
+#inlineContent {
+    background-image: url("");
+    background-repeat: no-repeat no-repeat;
+    display: inline-block !important;
+    height: 3000px !important;
+    left: 0 !important;
+    margin: auto !important;
+    position: fixed;
+    top: 0 !important;
+    width: 3000px !important;
+    z-index: -4;
+}
+#list_surround {
+    background-attachment: scroll;
+    background-image: url("");
+    background-position: 50% 0;
+    background-repeat: no-repeat no-repeat;
+    font-size: 14px;
+    height: 200px;
+    line-height: 1;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: 80px;
+    position: absolute;
+    right: 10px;
+    width: 750px;
+}
+small {
+    color: #E80083;
+    font-weight: bold;
+    text-shadow: 1px 2px 3px black;
+}
+a {
+    color: #FFFFFF;
+    text-shadow: none;
+}
+a:hover {
+    color: #007FE8;
+    text-shadow: 1px 2px 5px black;
+}
+.table_header:first-of-type {
+    border-radius: 0 0 0 0;
+}
+.table_header:nth-of-type(2) {
+    text-align: left;
+}
+tr:hover [class^="td"] {
+    background-image: url("https://dl.dropbox.com/s/mh1xxfqpkpebxm8/hl2.png");
+    background-size: 100% 100%;
+}
+tr:hover [class^="td"]:first-of-type {
+    background-image: url("https://dl.dropbox.com/s/1brcvy03yoln0eu/hl3.png");
+}
+tr:hover [class^="td"]:last-of-type {
+    background-image: url("https://dl.dropbox.com/s/p58vjxqufjitetw/hl4.png");
+}
+.table_header, .td1, .td2, .category_totals {
+    background-color: rgba(1, 42, 106, 0.9);
+    border: 0 none;
+    padding: 4px;
+    text-align: center;
+    vertical-align: top;
+}
+.table_header, .td1, .td2, .category_totals {
+    color: white;
+}
+[cellspacing="0"] {
+    line-height: 17px;
+}
+.category_totals {
+    border-radius: 0 0 6px 6px;
+    text-align: center;
+}
+.category_totals:hover {
+    background-color: rgba(104, 156, 232, 0.7);
+    color: #FFFFFF;
+}
+[class^="header_"] * {
+    font-size: 51px;
+    line-height: 0;
+    margin-top: 20px;
+    padding-bottom: 0;
+    vertical-align: bottom;
+}
+.header_title {
+    background-color: rgba(1, 42, 106, 0.9);
+    border-radius: 6px 6px 0 0;
+    color: white;
+    font-style: normal;
+    height: 40px;
+    padding-left: 60px !important;
+    text-align: left;
+    text-shadow: 4px 4px 5px #007FE8;
+    width: auto;
+}
+#grand_totals {
+    background-color: rgba(1, 42, 106, 0.9);
+    border: 0 none;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    line-height: 20px;
+    min-height: 20px;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+.td1:nth-of-type(2), .td2:nth-of-type(2) {
+    text-align: left;
+}
+.status_not_selected:hover {
+    color: white !important;
+    opacity: 1;
+    transition: all 0.4s ease 0s;
+}
+.status_not_selected, .status_selected {
+    background-color: rgba(1, 42, 106, 0.9);
+    border: 0 none !important;
+    border-radius: 0 0 0 0;
+    height: auto !important;
+    padding: 4px;
+    text-align: center !important;
+    width: 16.667% !important;
+}
+.status_not_selected a, .status_selected a {
+    background-color: rgba(64, 10, 50, 0.8);
+    border-color: rgba(48, 44, 64, 0.5);
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    display: block !important;
+    font-weight: bold;
+    padding: 8px;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+}
+.status_selected a {
+    background-color: rgba(255, 2, 8, 0.7);
+    border-color: rgba(164, 16, 32, 0.5);
+}
+.status_not_selected a:hover {
+    background-color: rgba(51, 82, 199, 0.8);
+    border-color: rgba(55, 32, 228, 0.6);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+}
+.status_selected a:hover {
+    background-color: #B42030;
+    border-color: rgba(148, 0, 24, 0.5);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+}
+#copyright:hover {
+}
+#copyright:before {
+    color: black;
+    content: " Design by SylakentH_ ";
+    font-size: 12px;
+    padding-right: 10px;
+}
+#copyright:after {
+    color: gold;
+    content: " ";
+    padding-left: 20px;
+}
+#copyright a {
+}
