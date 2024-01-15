@@ -1,6 +1,19 @@
 @\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
 @\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
-/* begin http://dl.dropbox.com/s/rogesc5nd2o920m/topbarAnohana.css */
+/* begin top bar */
+#mal_control_strip {
+	--user-btn: url(https://i.ibb.co/4V3Nqgj/user.png) /* user.png */;
+	--user-btn-hover: url(https://i.ibb.co/Yhf4N0w/user-hover.png) /* user_hover.png */;
+	--home-btn: url(https://i.ibb.co/6w4fDWb/home.png) /* home.png */;
+	--home-btn-hover: url(https://i.ibb.co/dKxvT8B/home-hover.png) /* home_hover.png */;
+	--stats-btn: url(https://i.ibb.co/1RVzkWK/stats.png) /* stats.png */;
+	--stats-btn-hover: url(https://i.ibb.co/F5psvrf/stats-hover.png) /* stats_hover.png */;
+	--search-btn: url(https://i.ibb.co/fpS8C0J/search.png) /* search.png */;
+	--search-btn-hover: url(https://i.ibb.co/255PjyY/search-hover.png) /* search_hover.png */;
+	--logo: url(https://i.ibb.co/pPWQv6B/myanimelist.png) /* myanimelist.png */;
+	--search-icon: url(https://i.ibb.co/SxV4gzB/search-icon.png) /* search_bar.png */;
+}
+
 #mal_cs_listinfo, #mal_cs_links, #mal_cs_otherlinks, #mal_cs_powered {
     -moz-box-sizing: border-box;
     background: none no-repeat scroll 100% 0 transparent;
@@ -90,7 +103,7 @@
     opacity: 1;
 }
 #mal_cs_powered a img {
-    background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0poweredaimg.png") no-repeat scroll 50% 6px rgba(12, 46, 196, 0.6);
+    background: var(--logo) no-repeat scroll 50% 6px rgba(12, 46, 196, 0.6);
     border-radius: 3px 3px 3px 3px;
     display: block;
     height: 0;
@@ -128,7 +141,7 @@
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
 }
 #searchListButton {
-    background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0searchbutton.png") no-repeat scroll 0 0 transparent !important;
+    background: var(--search-icon) no-repeat scroll 0 0 transparent !important;
     border-radius: 3px 3px 3px 3px;
     height: 0;
     margin: 0;
@@ -139,36 +152,36 @@
     width: 0;
 }
 #mal_cs_listinfo {
-    background-image: url("http://i48.tinypic.com/33omjrb.png");
+    background-image: var(--user-btn);
     right: 106px;
 }
 #mal_cs_listinfo:hover {
-    background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon1over.png");
+    background-image: var(--user-btn-hover);
 }
 #mal_cs_links {
-    background-image: url("http://i46.tinypic.com/25ptfm1.png");
+    background-image: var(--home-btn);
     right: 72px !important;
     z-index: 9;
 }
 #mal_cs_links:hover {
-    background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon2over.png");
+    background-image: var(--home-btn-hover);
 }
 #mal_cs_otherlinks {
-    background-image: url("http://i50.tinypic.com/2eknk01.png");
+    background-image: var(--stats-btn);
     right: 38px !important;
     z-index: 8;
 }
 #mal_cs_otherlinks:hover {
-    background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon3over.png");
+    background-image: var(--stats-btn-hover);
 }
 #mal_cs_powered {
-    background-image: url("http://i45.tinypic.com/2lvipah.png");
+    background-image: var(--search-btn);
     position: fixed !important;
     right: 4px !important;
     z-index: 7;
 }
 #mal_cs_powered:hover {
-    background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon4over.png");
+    background-image: var(--search-btn-hover);
 }
 #mal_control_strip {
     background: none repeat scroll 0 0 transparent !important;
@@ -179,7 +192,16 @@
 #mal_cs_pic, #mal_cs_listinfo, #mal_cs_links {
     border-right: 0 none !important;
 }
-/* end http://dl.dropbox.com/s/rogesc5nd2o920m/topbarAnohana.css */
+/* preload images */
+#mal_control_strip tbody {
+	background-image:
+		var(--user-btn-hover),
+		var(--home-btn-hover),
+		var(--stats-btn-hover),
+		var(--search-btn-hover);
+	background-size: 0;
+}
+/* end top bar */
 
 /* begin http://dl.dropbox.com/u/78340470/CSSforFoxgirls.css */
 #list_surround table:nth-of-type(n+4):hover td:nth-of-type(3),
@@ -199,7 +221,7 @@ body {
     background-attachment: fixed;
     background-clip: border-box;
     background-color: transparent;
-    background-image: url("http://i50.tinypic.com/jzn6p.jpg");
+    background-image: url(https://i.ibb.co/QXbmzsh/bg.jpg) /* background.jpg */;
     background-position: 0 0;
     background-repeat: no-repeat no-repeat;
     background-size: cover;
@@ -415,8 +437,6 @@ tr:hover [class^="td"] {
     padding: 2px;
     width: 650px;
 }
-#copyright:hover {
-}
 #copyright:before {
     color: black;
     content: " Design by SylakentH_ ";
@@ -427,6 +447,4 @@ tr:hover [class^="td"] {
     color: gold;
     content: " ";
     padding-left: 20px;
-}
-#copyright a {
 }
