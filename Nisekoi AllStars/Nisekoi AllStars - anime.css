@@ -7,7 +7,7 @@
 /
 /									*/
 @\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
-@\import "https://malscraper.azurewebsites.net/covers/all/manga/presets/more";
+@\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
 @\import "https://fonts.googleapis.com/css?family=Viga";
 
 * {
@@ -91,7 +91,7 @@ td[class^="td"]:nth-child(2) {
   text-shadow: 1px 1px 3px #FFFFFF;
 }
 
-#list_surround a[href*="http://myanimelist.net/panel.php?go=edit"], #list_surround a[href*="http://myanimelist.net/editlist.php?type="], #list_surround a[href*="http://myanimelist.net/panel.php?go=add"] {
+#list_surround a[href*="https://myanimelist.net/panel.php?go=edit"], #list_surround a[href*="https://myanimelist.net/editlist.php?type="], #list_surround a[href*="https://myanimelist.net/panel.php?go=add"] {
     margin-right: 10px;
     visibility: visible !important;
 }
@@ -301,15 +301,18 @@ HEADERS
 }
 .header_cw {
     background-color: transparent;
-    background-image: url(http://i.imgur.com/YAAgkwz.png);
+    background-image: url(https://i.imgur.com/YAAgkwz.png);
     background-position: 50% 2px;
     background-repeat: no-repeat no-repeat;
     height: 350px;
     margin-bottom: -45px;
 }
+[data-work="manga"] .header_cw {
+	background-image: url(https://i.imgur.com/RoRiS4C.png);
+}
 .header_completed {
     background-color: transparent;
-    background-image: url(http://i.imgur.com/F6kJYD1.png);
+    background-image: url(https://i.imgur.com/F6kJYD1.png);
     background-position: 50% 2px;
     background-repeat: no-repeat no-repeat;
     margin-bottom: -44px;
@@ -317,7 +320,7 @@ HEADERS
 }
 .header_onhold {
     background-color: transparent;
-    background-image: url(http://i.imgur.com/Rjse9vt.png);
+    background-image: url(https://i.imgur.com/Rjse9vt.png);
     background-position: 50% 2px;
     background-repeat: no-repeat no-repeat;
     height: 200px;
@@ -325,7 +328,7 @@ HEADERS
 }
 .header_dropped {
     background-color: transparent;
-    background-image: url(http://i.imgur.com/sWOTint.png);
+    background-image: url(https://i.imgur.com/sWOTint.png);
     background-position: 50% 2px;
     background-repeat: no-repeat no-repeat;
     height: 200px;
@@ -333,7 +336,7 @@ HEADERS
 }
 .header_ptw {
     background-color: transparent;
-    background-image: url(http://i.imgur.com/92zDZ7D.png);
+    background-image: url(https://i.imgur.com/92zDZ7D.png);
     background-position: 50% 2px;
     background-repeat: no-repeat no-repeat;
     height: 200px;
@@ -482,7 +485,7 @@ COPYRIGHT
 	padding-top:10px;
   height:280px;
   background-attachment:scroll;
-  background-image:url(http://i.imgur.com/6hLqkeb.png);
+  background-image:url(https://i.imgur.com/6hLqkeb.png);
   background-repeat: no-repeat no-repeat;
   background-position: 0% 100%;
   transition:all 0.4s ease 0s;
@@ -518,7 +521,7 @@ COPYRIGHT
 	width: 128px !important;
   left: 62px !important;
 	border-top: none;
-	background: url('http://i.imgur.com/Gklh6f1.png') no-repeat center top #f5a66d !important;
+	background: url('https://i.imgur.com/Gklh6f1.png') no-repeat center top #f5a66d !important;
 	border-radius: 0 0 1em 1em;
 	transition: all .5s ease-out;
 	-webkit-transition: all .5s ease-out;
