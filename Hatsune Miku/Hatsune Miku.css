@@ -1,6 +1,24 @@
-/* removed defunct cover import: https://malcat-gen.appspot.com/series?preset=more */
+/*
+Hatsune Miku by SylakentH
+Modified by Valerio Lyndon
+Last update: 2024-Jan-15
+*/
+@\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
+@\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
 @\import "https://fonts.googleapis.com/css?family=Patrick+Hand+SC";
 /* begin https://dl.dropbox.com/s/nf9dc7ifauzlqha/Blue%20TopBar.css */
+#mal_control_strip {
+	--user-btn: url(https://i.ibb.co/3sMT8pj/user.png) /* user.png */;
+	--user-btn-hover: url(https://i.ibb.co/Yhf4N0w/user-hover.png) /* user_hover.png */;
+	--home-btn: url(https://i.ibb.co/xhqgJPd/home.png) /* home.png */;
+	--home-btn-hover: url(https://i.ibb.co/dKxvT8B/home-hover.png) /* home_hover.png */;
+	--stats-btn: url(https://i.ibb.co/nCNjLpx/stats.png) /* stats.png */;
+	--stats-btn-hover: url(https://i.ibb.co/F5psvrf/stats-hover.png) /* stats_hover.png */;
+	--search-btn: url(https://i.ibb.co/MN2VbsP/search.png) /* search.png */;
+	--search-btn-hover: url(https://i.ibb.co/255PjyY/search-hover.png) /* search_hover.png */;
+	--logo: url(https://i.ibb.co/pPWQv6B/myanimelist.png) /* myanimelist.png */;
+	--search-icon: url(https://i.ibb.co/SxV4gzB/search-icon.png) /* search_bar.png */;
+}
 #mal_cs_listinfo, #mal_cs_links, #mal_cs_otherlinks, #mal_cs_powered {
 box-sizing: border-box;
 -moz-box-sizing: border-box;
@@ -108,7 +126,7 @@ opacity: 1;
 -webkit-transition: all 0.25s ease-in-out 0s;
 -o-transition: all 0.25s ease-in-out 0s;
 transition: all 0.25s ease-in-out 0s;
-background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0poweredaimg.png") no-repeat scroll 50% 6px rgba(0,191,255, 0.6);
+background: var(--logo) no-repeat scroll 50% 6px rgba(0,191,255, 0.6);
 border-radius: 3px 3px 3px 3px;
 display: block;
 height: 0;
@@ -151,7 +169,7 @@ box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
 }
 
 #searchListButton {
-background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0searchbutton.png") no-repeat scroll 0 0 transparent !important;
+background: var(--search-icon) no-repeat scroll 0 0 transparent !important;
     border-radius: 3px 3px 3px 3px;
     height: 0;
     margin: 0;
@@ -163,43 +181,43 @@ background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon
 }
 
 #mal_cs_listinfo {
-background-image: url("http://i47.tinypic.com/bj8yt0.png");
+background-image: var(--user-btn);
 right: 106px;
 }
 
 #mal_cs_listinfo:hover {
-background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon1over.png");
+background-image: var(--user-btn-hover);
 }
 
 #mal_cs_links {
-background-image: url("http://i50.tinypic.com/15n16as.png");
+background-image: var(--home-btn);
 right: 72px !important;
 z-index: 9;
 }
 
 #mal_cs_links:hover {
-background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon2over.png");
+background-image: var(--home-btn-hover);
 }
 
 #mal_cs_otherlinks {
-background-image: url("http://i50.tinypic.com/2uxwk2d.png");
+background-image: var(--stats-btn);
 right: 38px !important;
 z-index: 8;
 }
 
 #mal_cs_otherlinks:hover {
-background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon3over.png");
+background-image: var(--stats-btn-hover);
 }
 
 #mal_cs_powered {
-background-image: url("http://i50.tinypic.com/2e3zfpj.png");
+background-image: var(--search-btn);
 right: 4px !important;
 z-index: 7;
 position: fixed !important;
 }
 
 #mal_cs_powered:hover {
-background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon4over.png");
+background-image: var(--search-btn-hover);
 }
 
 #mal\_control\_strip {
@@ -256,7 +274,7 @@ body {
     background-attachment: fixed;
     background-clip: border-box;
     background-color: transparent;
-    background-image: url("http://i41.tinypic.com/2r6my5z.jpg");
+    background-image: url(https://i.ibb.co/hyBbnXz/background.jpg) /* background.jpg */;
     background-position: 23% 0;
     background-repeat: no-repeat no-repeat;
     background-size: cover;
@@ -485,7 +503,7 @@ small {
 }
 .header_cw {
     background-color: rgba(94, 211, 229, 0.9);
-    background-image: url("http://i43.tinypic.com/ilm39k.png");
+    background-image: url(https://i.ibb.co/T0z2VpX/header-watching.png) /* header_watching.png */;
     background-position: 97% 0;
     background-repeat: no-repeat no-repeat;
     border-radius: 20px 20px 0 0;
@@ -494,7 +512,7 @@ small {
 }
 .header_completed {
     background-color: rgba(94, 211, 229, 0.9);
-    background-image: url("http://i40.tinypic.com/97qqo4.png");
+    background-image: url(https://i.ibb.co/WNXKFfb/header-completed.png) /* header_completed.png */;
     background-position: 50% 0;
     background-repeat: no-repeat no-repeat;
     border-radius: 20px 20px 0 0;
@@ -503,7 +521,7 @@ small {
 }
 .header_onhold {
     background-color: rgba(94, 211, 229, 0.9);
-    background-image: url("http://i42.tinypic.com/2804901.png");
+    background-image: url(https://i.ibb.co/k9MpWzx/header-onhold.png) /* header_onhold.png */;
     background-position: 100% 0;
     background-repeat: no-repeat no-repeat;
     border-radius: 20px 20px 0 0;
@@ -511,7 +529,7 @@ small {
 }
 .header_dropped {
     background-color: rgba(94, 211, 229, 0.9);
-    background-image: url("http://i44.tinypic.com/fcohop.png");
+    background-image: url(https://i.ibb.co/ZHGnYPb/header-dropped.png) /* header_dropped.png */;
     background-position: 50% 0;
     background-repeat: no-repeat no-repeat;
     border-radius: 20px 20px 0 0;
@@ -519,7 +537,7 @@ small {
 }
 .header_ptw {
     background-color: rgba(94, 211, 229, 0.9);
-    background-image: url("http://i44.tinypic.com/2u8v01x.png");
+    background-image: url(https://i.ibb.co/p1G71zX/header-planning.png) /* header_planning.png */;
     background-position: 50% 0;
     background-repeat: no-repeat no-repeat;
     border-radius: 20px 20px 0 0;
@@ -594,14 +612,24 @@ tr:hover span[id*="tagRow"] {
     padding-right: 10px;
     padding-top: 10px !important;
 }
+/* favorites */
 a[href=""], [href=""] {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("http://i39.tinypic.com/2lm0wv8.png");
+    background-image: url(https://i.ibb.co/4PMwKSx/favorite.png) /* favorite.png */;
     background-position: left top;
     background-repeat: no-repeat;
     color: gold !important;
     padding-bottom: 10px;
     padding-left: 35px;
     text-shadow: 0 1px 2px #FFFFFF;
+}
+/* preload images */
+#mal_control_strip tbody {
+	background-image:
+		var(--user-btn-hover),
+		var(--home-btn-hover),
+		var(--stats-btn-hover),
+		var(--search-btn-hover);
+	background-size: 0;
 }
