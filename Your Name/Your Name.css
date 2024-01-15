@@ -1,5 +1,7 @@
 /*
 Your Name by SylakentH
+Modified by Valerio Lyndon
+Last update: 2024-Jan-14
 */
 
 @\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
@@ -24,6 +26,9 @@ Your Name by SylakentH
 #mal_cs_listinfo:hover, #mal_cs_links:hover, #mal_cs_otherlinks:hover, #mal_cs_powered:hover {
     height: 200px !important;
     padding-top: 32px !important;
+}
+#mal_cs_listinfo i {
+    font-family: FontAwesome !important;
 }
 #mal_cs_listinfo div, #mal_cs_links div, #mal_cs_otherlinks div, #mal_cs_powered div, #mal_cs_powered dd {
     background-color: rgba(12, 125, 196, 0.6);
@@ -95,7 +100,7 @@ Your Name by SylakentH
     opacity: 1;
 }
 #mal_cs_powered a img {
-    background: url(https://i.imgur.com/fGTjBC3.png) /* myanimelist.png */ no-repeat scroll 50% 6px rgba(12, 46, 196, 0.6);
+    background: url(https://i.ibb.co/pPWQv6B/myanimelist.png) /* myanimelist.png */ no-repeat scroll 50% 6px rgba(12, 46, 196, 0.6);
     border-radius: 3px 3px 3px 3px;
     display: block;
     height: 0;
@@ -133,7 +138,7 @@ Your Name by SylakentH
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
 }
 #searchListButton {
-    background: url(https://i.imgur.com/XqsilHp.png) /* search_bar.png */ no-repeat scroll 0 0 transparent !important;
+    background: url(https://i.ibb.co/SxV4gzB/search-icon.png) /* search_bar.png */ no-repeat scroll 0 0 transparent !important;
     border-radius: 3px 3px 3px 3px;
     height: 0;
     margin: 0;
@@ -148,7 +153,7 @@ Your Name by SylakentH
     right: 106px;
 }
 #mal_cs_listinfo:hover {
-    background-image: url(https://i.imgur.com/VcVVnod.png) /* user_hover.png */;
+    background-image: url(https://i.ibb.co/Yhf4N0w/user-hover.png) /* user_hover.png */;
 }
 #mal_cs_links {
     background-image: url(https://i.imgur.com/zU7dYPW.png) /* home.png */;
@@ -156,7 +161,7 @@ Your Name by SylakentH
     z-index: 9;
 }
 #mal_cs_links:hover {
-    background-image: url(https://i.imgur.com/oPfKrOl.png) /* home_hover.png */;
+    background-image: url(https://i.ibb.co/dKxvT8B/home-hover.png) /* home_hover.png */;
 }
 #mal_cs_otherlinks {
     background-image: url(https://i.imgur.com/0u6jyJr.png) /* stats.png */;
@@ -164,7 +169,7 @@ Your Name by SylakentH
     z-index: 8;
 }
 #mal_cs_otherlinks:hover {
-    background-image: url(https://i.imgur.com/EEGHkbF.png) /* stats_hover.png */;
+    background-image: url(https://i.ibb.co/F5psvrf/stats-hover.png) /* stats_hover.png */;
 }
 #mal_cs_powered {
     background-image: url(https://i.imgur.com/QePufxM.png) /* search */;
@@ -173,7 +178,7 @@ Your Name by SylakentH
     z-index: 7;
 }
 #mal_cs_powered:hover {
-    background-image: url(https://i.imgur.com/TUUWtaj.png) /* search_hover.png */;
+    background-image: url(https://i.ibb.co/255PjyY/search-hover.png) /* search_hover.png */;
 }
 #mal_control_strip {
     background: none repeat scroll 0 0 transparent !important;
@@ -187,10 +192,10 @@ Your Name by SylakentH
 /* preload images */
 #mal_control_strip tbody {
 	background-image:
-		url(https://i.imgur.com/oPfKrOl.png),
-		url(https://i.imgur.com/VcVVnod.png),
-		url(https://i.imgur.com/EEGHkbF.png),
-		url(https://i.imgur.com/TUUWtaj.png);
+		url(https://i.ibb.co/Yhf4N0w/user-hover.png),
+		url(https://i.ibb.co/dKxvT8B/home-hover.png),
+		url(https://i.ibb.co/F5psvrf/stats-hover.png),
+		url(https://i.ibb.co/255PjyY/search-hover.png);
 	background-size: 0;
 }
 /* end Blue Icon Topbar */
