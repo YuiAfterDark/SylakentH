@@ -7,138 +7,162 @@ Last update: 2024-Jan-14
 @\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
 @\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
 @\import "https://fonts.googleapis.com/css?family=Patrick+Hand+SC";
-/* start Blue Icon Topbar */
+
+/* start Bright Blue Icon Topbar, taken from Nisekoi Tsugumi layout */
 #mal_cs_listinfo, #mal_cs_links, #mal_cs_otherlinks, #mal_cs_powered {
-    -moz-box-sizing: border-box;
-    background: none no-repeat scroll 100% 0 transparent;
-    border: none;
-    height: 0 !important;
-    overflow: hidden;
-    padding: 32px 0 0 !important;
-    position: fixed;
-    right: 4px;
-    text-align: center;
-    top: 4px;
-    transition: all 0.4s ease 0s;
-    width: 150px !important;
-    z-index: 10;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-moz-transition: all 0.4s ease 0s;
+-webkit-transition: all 0.4s ease 0s;
+-o-transition: all 0.4s ease 0s;
+transition: all 0.4s ease 0s;
+background: none no-repeat scroll 100% 0 transparent;
+border: 0 none;
+height: 0 !important;
+overflow: hidden;
+padding: 32px 0 0 !important;
+position: fixed;
+right: 4px;
+text-align: center;
+top: 4px;
+z-index: 10;
+width: 150px !important;
 }
+
 #mal_cs_listinfo:hover, #mal_cs_links:hover, #mal_cs_otherlinks:hover, #mal_cs_powered:hover {
-    height: 200px !important;
-    padding-top: 32px !important;
+height: 200px !important;
+padding-top: 32px !important;
+}
+
+#mal_cs_listinfo div, #mal_cs_links div, #mal_cs_otherlinks div, #mal_cs_powered div, #mal_cs_powered dd {
+-moz-transition: opacity 0.4s ease-in-out 0s;
+-webkit-transition: opacity 0.4s ease-in-out 0s;
+-o-transition: opacity 0.4s ease-in-out 0s;
+transition: opacity 0.4s ease-in-out 0s;
+background-color: rgba(255,255,255,0.6);
+border-radius: 3px 0 0 0;
+font-size: 0 !important;
+line-height: 0;
+margin: 0 !important;
+opacity: 0;
+padding: 8px 0 0 !important;
 }
 #mal_cs_listinfo i {
     font-family: FontAwesome !important;
 }
-#mal_cs_listinfo div, #mal_cs_links div, #mal_cs_otherlinks div, #mal_cs_powered div, #mal_cs_powered dd {
-    background-color: rgba(12, 125, 196, 0.6);
-    border-radius: 3px 0 0 0;
-    font-size: 0 !important;
-    line-height: 0;
-    margin: 0 !important;
-    opacity: 0;
-    padding: 8px 0 0 !important;
-    transition: opacity 0.4s ease-in-out 0s;
-}
+
 #mal_cs_listinfo:hover div, #mal_cs_links:hover div, #mal_cs_otherlinks:hover div, #mal_cs_powered:hover div, #mal_cs_powered:hover dd {
-    opacity: 1;
+opacity: 1;
 }
+
 #mal_cs_listinfo div:nth-of-type(2), #mal_cs_links div:nth-of-type(2), #mal_cs_otherlinks div:nth-of-type(2), #mal_cs_powered div:nth-of-type(2) {
-    border-radius: 0 0 3px 3px;
-    padding: 4px 0 8px !important;
+border-radius: 0 0 3px 3px;
+padding: 4px 0 8px !important;
 }
+
 #mal_cs_listinfo a, #mal_cs_links a, #mal_cs_otherlinks a, #mal_cs_powered a {
-    background-color: rgba(12, 46, 196, 0.6) !important;
-    border-radius: 3px 3px 3px 3px !important;
-    border-style: solid !important;
-    border-width: 1px !important;
-    display: block;
-    font: 13px/17px 'Arial',sans-serif !important;
-    margin: 4px 12px 0;
-    padding: 3px 0 !important;
-    text-decoration: none;
+background-color: rgba(26,198,255,0.8) !important;
+border-radius: 3px 3px 3px 3px;
+display: block;
+font: 13px/17px 'Arial', sans-serif !important;
+margin: 4px 12px 0;
+padding: 3px 0 !important;
+text-decoration: none;
 }
+
 #mal_cs_listinfo a:nth-of-type(1), #mal_cs_links a:nth-of-type(1), #mal_cs_otherlinks a:nth-of-type(1), #mal_cs_powered a:nth-of-type(1) {
-    margin-top: 0;
+margin-top: 0;
 }
+
 #mal_cs_listinfo a:hover, #mal_cs_links a:hover, #mal_cs_otherlinks a:hover {
-    background-color: rgba(38, 135, 252, 0.6) !important;
-    color: white !important;
-    text-shadow: 0 0 0 black !important;
-    border-color: white !important;
+background-color: #00ACE6 !important;
 }
+
 #mal_cs_listinfo strong a strong {
-    font-weight: normal;
+font-weight: normal;
 }
+
 #mal_cs_otherlinks strong {
-    color: #333333;
-    display: block;
-    font: bold 13px/17px 'Arial',sans-serif !important;
-    padding: 0 4px 4px;
-    text-shadow: 0 1px 1px #FFFFFF;
+color: #333333;
+display: block;
+font: bold 13px/17px 'Arial',sans-serif !important;
+padding: 0 4px 4px;
+text-shadow: 0 1px 1px #FFFFFF;
 }
+
 #mal_cs_otherlinks strong a {
-    background: none repeat scroll 0 0 transparent !important;
-    border-radius: 0 0 0 0;
-    color: #333333;
-    display: inline;
-    font: bold 13px/17px 'Arial',sans-serif !important;
-    margin: 0;
-    padding: 0;
-    text-shadow: 0 1px 1px #FFFFFF;
+background: none transparent !important;
+border-radius: 0 0 0 0;
+color: #333333;
+display: inline;
+font: bold 13px/17px 'Arial',sans-serif !important;
+margin: 0;
+padding: 0;
+text-shadow: 0 1px 1px #FFFFFF;
 }
+
 #mal_cs_powered a {
-    background-color: rgba(12, 125, 196, 0.6) !important;
-    border: medium none;
-    border-radius: 3px 0 0 0 !important;
-    display: block !important;
-    margin: 0 !important;
-    opacity: 0;
-    padding: 8px 0 !important;
+background-color: rgba(255,255,255, 0.6) !important;
+border-radius: 3px 0 0 0 !important;
+display: block !important;
+margin: 0 !important;
+opacity: 0;
+padding: 8px 0 0 !important;
 }
+
 #mal_cs_powered:hover a {
-    opacity: 1;
+opacity: 1;
 }
+
 #mal_cs_powered a img {
-    background: url(https://i.ibb.co/pPWQv6B/myanimelist.png) /* myanimelist.png */ no-repeat scroll 50% 6px rgba(12, 46, 196, 0.6);
-    border-radius: 3px 3px 3px 3px;
-    display: block;
-    height: 0;
-    margin: 0 12px;
-    padding: 23px 0 0 126px;
-    transition: all 0.25s ease-in-out 0s;
-    width: 0;
+-moz-transition: all 0.25s ease-in-out 0s;
+-webkit-transition: all 0.25s ease-in-out 0s;
+-o-transition: all 0.25s ease-in-out 0s;
+transition: all 0.25s ease-in-out 0s;
+background: url(https://i.ibb.co/pPWQv6B/myanimelist.png) /* myanimelist.png */ no-repeat scroll 50% 6px rgba(0,191,255, 0.6);
+border-radius: 3px 3px 3px 3px;
+display: block;
+height: 0;
+margin: 0 12px;
+padding: 23px 0 0 126px;
+width: 0;
 }
+
 #mal_cs_powered a img:hover {
-    background-color: rgba(12, 46, 196, 0.3);
+background-color: #00BFFF;
 }
+
 #mal_cs_powered #search {
-    border-radius: 0 0 3px 3px;
-    padding: 8px !important;
-    position: relative;
+border-radius: 0 0 3px 3px;
+padding: 8px !important;
+position: relative;
 }
+
 #searchBox {
-    -moz-box-sizing: border-box;
-    border-color: #BCBCBC #D6D6D6 #D6D6D6;
-    border-radius: 2px 2px 2px 2px;
-    border-style: solid;
-    border-width: 1px;
-    color: #333333;
-    display: inline-block;
-    font-family: arial,sans-serif;
-    font-size: 13px;
-    height: 28px;
-    padding-left: 6px !important;
-    padding-right: 24px !important;
-    vertical-align: top;
-    width: 100px;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+border-color: #BCBCBC #D6D6D6 #D6D6D6;
+border-radius: 2px 2px 2px 2px;
+border-style: solid;
+border-width: 1px;
+color: #333333;
+display: inline-block;
+font-family: arial,sans-serif;
+font-size: 13px;
+height: 28px;
+padding-left: 6px !important;
+padding-right: 24px !important;
+vertical-align: top;
+width: 100px;
 }
+
 #searchBox:hover, #searchBox:focus {
-    border-color: #ACACAC #C6C6C6 #C6C6C6;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+border-color: #00BFFF #1AC6FF #1AC6FF;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
 }
+
 #searchListButton {
-    background: url(https://i.ibb.co/SxV4gzB/search-icon.png) /* search_bar.png */ no-repeat scroll 0 0 transparent !important;
+background: url(https://i.ibb.co/SxV4gzB/search-icon.png) /* search_bar.png */ no-repeat scroll 0 0 transparent !important;
     border-radius: 3px 3px 3px 3px;
     height: 0;
     margin: 0;
@@ -148,57 +172,70 @@ Last update: 2024-Jan-14
     top: 14px !important;
     width: 0;
 }
+
 #mal_cs_listinfo {
-    background-image: url(https://i.imgur.com/GEZ10dP.png) /* user.png */;
-    right: 106px;
+background-image: url(https://i.ibb.co/3sMT8pj/user.png) /* user.png */;
+right: 106px;
 }
+
 #mal_cs_listinfo:hover {
-    background-image: url(https://i.ibb.co/Yhf4N0w/user-hover.png) /* user_hover.png */;
+background-image: url(https://i.ibb.co/Yhf4N0w/user-hover.png) /* user_hover.png */;
 }
+
 #mal_cs_links {
-    background-image: url(https://i.imgur.com/zU7dYPW.png) /* home.png */;
-    right: 72px !important;
-    z-index: 9;
+background-image: url(https://i.ibb.co/xhqgJPd/home.png) /* home.png */;
+right: 72px !important;
+z-index: 9;
 }
+
 #mal_cs_links:hover {
-    background-image: url(https://i.ibb.co/dKxvT8B/home-hover.png) /* home_hover.png */;
+background-image: url(https://i.ibb.co/dKxvT8B/home-hover.png) /* home_hover.png */;
 }
+
 #mal_cs_otherlinks {
-    background-image: url(https://i.imgur.com/0u6jyJr.png) /* stats.png */;
-    right: 38px !important;
-    z-index: 8;
+background-image: url(https://i.ibb.co/nCNjLpx/stats.png) /* stats.png */;
+right: 38px !important;
+z-index: 8;
 }
+
 #mal_cs_otherlinks:hover {
-    background-image: url(https://i.ibb.co/F5psvrf/stats-hover.png) /* stats_hover.png */;
+background-image: url(https://i.ibb.co/F5psvrf/stats-hover.png) /* stats_hover.png */;
 }
+
 #mal_cs_powered {
-    background-image: url(https://i.imgur.com/QePufxM.png) /* search */;
-    position: fixed !important;
-    right: 4px !important;
-    z-index: 7;
+background-image: url(https://i.ibb.co/MN2VbsP/search.png) /* search.png */;
+right: 4px !important;
+z-index: 7;
+position: fixed !important;
 }
+
 #mal_cs_powered:hover {
-    background-image: url(https://i.ibb.co/255PjyY/search-hover.png) /* search_hover.png */;
+background-image: url(https://i.ibb.co/255PjyY/search-hover.png) /* search_hover.png */;
 }
-#mal_control_strip {
-    background: none repeat scroll 0 0 transparent !important;
+
+#mal\_control\_strip {
+background: transparent !important;
 }
+
 #mal_cs_pic img {
-    display: none;
+display: none;
 }
+
 #mal_cs_pic, #mal_cs_listinfo, #mal_cs_links {
-    border-right: 0 none !important;
+border-right: 0 none !important;
 }
+
 /* preload images */
 #mal_control_strip tbody {
 	background-image:
-		url(https://i.ibb.co/Yhf4N0w/user-hover.png),
-		url(https://i.ibb.co/dKxvT8B/home-hover.png),
-		url(https://i.ibb.co/F5psvrf/stats-hover.png),
-		url(https://i.ibb.co/255PjyY/search-hover.png);
+		url(https://i.ibb.co/Yhf4N0w/user-hover.png) /* user_hover.png */,
+		url(https://i.ibb.co/dKxvT8B/home-hover.png) /* home_hover.png */,
+		url(https://i.ibb.co/F5psvrf/stats-hover.png) /* stats_hover.png */,
+		url(https://i.ibb.co/255PjyY/search-hover.png) /* search_hover.png */;
 	background-size: 0;
 }
-/* end Blue Icon Topbar */
+/* end Topbar */
+
 * {
     font-family: 'Patrick Hand SC' !important;
     text-decoration: none;
