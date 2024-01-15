@@ -2,6 +2,8 @@
 
 ## Info
 
+Animelist only.
+
 **Links:**
 - [Forum](https://myanimelist.net/forum/?topicid=618961)
 - [Collection](https://myanimelist.net/forum/?topicid=318587)
