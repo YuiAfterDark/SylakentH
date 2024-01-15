@@ -1,4 +1,10 @@
+/*
+Made by SylakentH, thanks to Hahaido!
+Modified by Valerio Lyndon
+Last update: 2024-Jan-14
+*/
 @\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
+@\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
 @\import "https://fonts.googleapis.com/css?family=Patrick+Hand+SC";
 /* begin https://dl.dropboxusercontent.com/s/r0bg0vrv52ah4u6/HoroTopBar.css */
 /* TOP MENU BAR */
@@ -406,9 +412,12 @@ HEADERS
     margin-bottom: -45px;
     z-index: 10 !important;
 }
+[data-work="manga"] .header_cw {
+	background-image: url(http://i.imgur.com/nE5bajH.png);
+}
 .header_completed {
     background-color: transparent;
-    background-image: url(https://image.myanimelist.net/ui/OK6W_koKDTOqqqLDbIoPAvSZBNXV4tDG_x5oP9h3sic);
+    background-image: url(http://i.imgur.com/QYMlGGk.png);
     background-position: 30% 60%;
     background-repeat: no-repeat no-repeat;
     margin-bottom: -44px;
@@ -416,7 +425,7 @@ HEADERS
 }
 .header_onhold {
     background-color: transparent;
-    background-image: url(https://image.myanimelist.net/ui/OK6W_koKDTOqqqLDbIoPAl63K9p-mBWyx5f6GSAtYk8);
+    background-image: url(http://i.imgur.com/MXo4E83.png);
     background-position: 30% 60%;
     background-repeat: no-repeat no-repeat;
     height: 200px;
@@ -424,7 +433,7 @@ HEADERS
 }
 .header_dropped {
     background-color: transparent;
-    background-image: url(https://image.myanimelist.net/ui/OK6W_koKDTOqqqLDbIoPAh5prFgGmLQsG8_nYW6hQPo);
+    background-image: url(http://i.imgur.com/iZuPfgP.png);
    background-position: 30% 60%;
     background-repeat: no-repeat no-repeat;
     height: 200px;
@@ -432,7 +441,7 @@ HEADERS
 }
 .header_ptw {
     background-color: transparent;
-    background-image: url(https://image.myanimelist.net/ui/OK6W_koKDTOqqqLDbIoPAvlnngTqgeZJgYAx3edJYeA);
+    background-image: url(http://i.imgur.com/uNjXRE2.png);
     background-position: 30% 60%;
     background-repeat: no-repeat no-repeat;
     height: 200px;
