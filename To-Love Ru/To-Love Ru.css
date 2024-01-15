@@ -1,3 +1,11 @@
+/*
+To-love Ru by SylakentH
+Modified by Valerio Lyndon
+Last update: 2024-Jan-15
+*/
+
+@\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
+
 /* begin https://dl.dropbox.com/s/4u9v39e5go65aoq/PinkTopBar.css */
 #mal_cs_listinfo, #mal_cs_links, #mal_cs_otherlinks, #mal_cs_powered {
 box-sizing: border-box;
@@ -106,7 +114,7 @@ opacity: 1;
 -webkit-transition: all 0.25s ease-in-out 0s;
 -o-transition: all 0.25s ease-in-out 0s;
 transition: all 0.25s ease-in-out 0s;
-background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0poweredaimg.png") no-repeat scroll 50% 6px rgba(255,51,204, 0.6);
+background: url(https://i.ibb.co/pPWQv6B/myanimelist.png) /* myanimelist.png */ no-repeat scroll 50% 6px rgba(255,51,204, 0.6);
 border-radius: 3px 3px 3px 3px;
 display: block;
 height: 0;
@@ -149,7 +157,7 @@ box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
 }
 
 #searchListButton {
-background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0searchbutton.png") no-repeat scroll 0 0 transparent !important;
+background: url(https://i.ibb.co/SxV4gzB/search-icon.png) /* search_bar.png */ no-repeat scroll 0 0 transparent !important;
     border-radius: 3px 3px 3px 3px;
     height: 0;
     margin: 0;
@@ -161,43 +169,43 @@ background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon
 }
 
 #mal_cs_listinfo {
-background-image: url("http://i45.tinypic.com/24pmc5v.png");
+background-image:  url(https://i.ibb.co/LN0VwGK/user.png) /* user.png */;
 right: 106px;
 }
 
 #mal_cs_listinfo:hover {
-background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon1over.png");
+background-image: url(https://i.ibb.co/Yhf4N0w/user-hover.png) /* user_hover.png */;
 }
 
 #mal_cs_links {
-background-image: url("http://i45.tinypic.com/14mqoh5.png");
+background-image: url(https://i.ibb.co/12DzHjr/home.png) /* home.png */;
 right: 72px !important;
 z-index: 9;
 }
 
 #mal_cs_links:hover {
-background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon2over.png");
+background-image: url(https://i.ibb.co/dKxvT8B/home-hover.png) /* home_hover.png */;
 }
 
 #mal_cs_otherlinks {
-background-image: url("http://i49.tinypic.com/vep36a.png");
+background-image: url(https://i.ibb.co/r7X2nD5/stats.png) /* stats.png */;
 right: 38px !important;
 z-index: 8;
 }
 
 #mal_cs_otherlinks:hover {
-background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon3over.png");
+background-image: url(https://i.ibb.co/F5psvrf/stats-hover.png) /* stats_hover.png */;
 }
 
 #mal_cs_powered {
-background-image: url("http://i46.tinypic.com/s63yvr.png");
+background-image: url(https://i.ibb.co/1ff0KYZ/search.png) /* search.png */;
 right: 4px !important;
 z-index: 7;
 position: fixed !important;
 }
 
 #mal_cs_powered:hover {
-background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon4over.png");
+background-image: url(https://i.ibb.co/255PjyY/search-hover.png) /* search_hover.png */;
 }
 
 #mal\_control\_strip {
@@ -211,11 +219,21 @@ display: none;
 #mal_cs_pic, #mal_cs_listinfo, #mal_cs_links {
 border-right: 0 none !important;
 }
+
+/* preload images */
+#mal_control_strip tbody {
+	background-image:
+		url(https://i.ibb.co/Yhf4N0w/user-hover.png) /* user_hover.png */,
+		url(https://i.ibb.co/dKxvT8B/home-hover.png) /* home_hover.png */,
+		url(https://i.ibb.co/F5psvrf/stats-hover.png) /* stats_hover.png */,
+		url(https://i.ibb.co/255PjyY/search-hover.png) /* search_hover.png */;
+	background-size: 0;
+}
 /* end https://dl.dropbox.com/s/4u9v39e5go65aoq/PinkTopBar.css */
 
 body {
     background-attachment: fixed !important;
-    background-image: url("http://i44.tinypic.com/54g1dt.jpg");
+    background-image: url(https://i.ibb.co/fSFjBhy/bg.jpg) /* background.jpg */;
     background-size: cover;
 }
 * {
@@ -227,11 +245,11 @@ body {
     text-decoration: none;
 }
 #inlineContent {
-    background-attachment: scroll !important;
-    background-color: transparent !important;
-    background-image: url("http://i39.tinypic.com/353d36f.png") !important;
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url(https://i.ibb.co/VxtmmYQ/render.png) /* render.png */;
     background-position: 80% 98%;
-    background-repeat: no-repeat no-repeat !important;
+    background-repeat: no-repeat no-repeat;
     background-size: 70% auto;
     display: inline-block !important;
     height: 425px !important;
@@ -245,7 +263,7 @@ body {
 #list_surround .status_selected, #list_surround .status_not_selected {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("http://i40.tinypic.com/1e2wip.png");
+    background-image: url(https://i.ibb.co/8PK122j/category-watching.png) /* category_watching.png */;
     background-position: 0 0;
     background-repeat: repeat repeat;
     border-radius: 10px 10px 10px 10px;
@@ -260,7 +278,7 @@ body {
 #list_surround .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("http://i40.tinypic.com/3348aj5.png");
+    background-image: url(https://i.ibb.co/LhB1r3T/category-completed.png) /* category_completed.png */;
     background-position: 0 0;
     background-repeat: repeat repeat;
     top: 110px;
@@ -268,7 +286,7 @@ body {
 #list_surround .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("http://i44.tinypic.com/5zo0t2.png");
+    background-image: url(https://i.ibb.co/Dzd0gW8/category-onhold.png) /* category_onhold.png */;
     background-position: 0 0;
     background-repeat: repeat repeat;
     top: 220px;
@@ -276,7 +294,7 @@ body {
 #list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("http://i42.tinypic.com/6gkc21.png");
+    background-image: url(https://i.ibb.co/mFsMT9Z/category-dropped.png) /* category_dropped.png */;
     background-position: 0 0;
     background-repeat: repeat repeat;
     top: 330px;
@@ -284,7 +302,7 @@ body {
 #list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("http://i43.tinypic.com/35bazp1.png");
+    background-image: url(https://i.ibb.co/xLV0X7X/category-plantowatch.png) /* category_plantowatch.png */;
     background-position: 0 0;
     background-repeat: repeat repeat;
     display: inline;
@@ -293,7 +311,7 @@ body {
 #list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("http://i39.tinypic.com/j604nm.png");
+    background-image: url(https://i.ibb.co/bQ5Cz8j/category-all.png) /* category_all.png */;
     background-position: 0 0;
     background-repeat: no-repeat no-repeat;
     display: inline;
