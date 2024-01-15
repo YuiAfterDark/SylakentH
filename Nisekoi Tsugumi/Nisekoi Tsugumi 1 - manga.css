@@ -1,0 +1,666 @@
+/* LAYOUT DESIGN MADE BY SYLAKENTH
+/
+/
+/I ABSTAINED FROM IMPORTING LINKS FROM DROPBOX SINCE THE CRASH
+/SO MOSTLY ADDED EVERYTHING TO THIS CODE
+/
+/
+/									*/
+@\import "https://malscraper.azurewebsites.net/covers/all/manga/presets/more";
+@\import "https://fonts.googleapis.com/css?family=Viga";
+
+/* Begin import from: http://storage.live.com/items/4A07C1EEED420167%21159 */
+/* begin https://dl.dropboxusercontent.com/s/uaeavnoe2z2ox4w/halloween2016.css */
+{}
+/* end https://dl.dropboxusercontent.com/s/uaeavnoe2z2ox4w/halloween2016.css */
+
+
+#mal_cs_listinfo, #mal_cs_links, #mal_cs_otherlinks, #mal_cs_powered {
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-moz-transition: all 0.4s ease 0s;
+-webkit-transition: all 0.4s ease 0s;
+-o-transition: all 0.4s ease 0s;
+transition: all 0.4s ease 0s;
+background: none no-repeat scroll 100% 0 transparent;
+border: 0 none;
+height: 0 !important;
+overflow: hidden;
+padding: 32px 0 0 !important;
+position: fixed;
+right: 4px;
+text-align: center;
+top: 4px;
+z-index: 10;
+width: 150px !important;
+}
+
+#mal_cs_listinfo:hover, #mal_cs_links:hover, #mal_cs_otherlinks:hover, #mal_cs_powered:hover {
+height: 200px !important;
+padding-top: 32px !important;
+}
+
+#mal_cs_listinfo div, #mal_cs_links div, #mal_cs_otherlinks div, #mal_cs_powered div, #mal_cs_powered dd {
+-moz-transition: opacity 0.4s ease-in-out 0s;
+-webkit-transition: opacity 0.4s ease-in-out 0s;
+-o-transition: opacity 0.4s ease-in-out 0s;
+transition: opacity 0.4s ease-in-out 0s;
+background-color: rgba(255,255,255,0.6);
+border-radius: 3px 0 0 0;
+font-size: 0 !important;
+line-height: 0;
+margin: 0 !important;
+opacity: 0;
+padding: 8px 0 0 !important;
+}
+
+#mal_cs_listinfo:hover div, #mal_cs_links:hover div, #mal_cs_otherlinks:hover div, #mal_cs_powered:hover div, #mal_cs_powered:hover dd {
+opacity: 1;
+}
+
+#mal_cs_listinfo div:nth-of-type(2), #mal_cs_links div:nth-of-type(2), #mal_cs_otherlinks div:nth-of-type(2), #mal_cs_powered div:nth-of-type(2) {
+border-radius: 0 0 3px 3px;
+padding: 4px 0 8px !important;
+}
+
+#mal_cs_listinfo a, #mal_cs_links a, #mal_cs_otherlinks a, #mal_cs_powered a {
+background-color: rgba(26,198,255,0.8) !important;
+border-radius: 3px 3px 3px 3px;
+display: block;
+font: 13px/17px 'Arial', sans-serif !important;
+margin: 4px 12px 0;
+padding: 3px 0 !important;
+text-decoration: none;
+}
+
+#mal_cs_listinfo a:nth-of-type(1), #mal_cs_links a:nth-of-type(1), #mal_cs_otherlinks a:nth-of-type(1), #mal_cs_powered a:nth-of-type(1) {
+margin-top: 0;
+}
+
+#mal_cs_listinfo a:hover, #mal_cs_links a:hover, #mal_cs_otherlinks a:hover {
+background-color: #00ACE6 !important;
+}
+
+#mal_cs_listinfo strong a strong {
+font-weight: normal;
+}
+
+#mal_cs_otherlinks strong {
+color: #333333;
+display: block;
+font: bold 13px/17px 'Arial',sans-serif !important;
+padding: 0 4px 4px;
+text-shadow: 0 1px 1px #FFFFFF;
+}
+
+#mal_cs_otherlinks strong a {
+background: none transparent !important;
+border-radius: 0 0 0 0;
+color: #333333;
+display: inline;
+font: bold 13px/17px 'Arial',sans-serif !important;
+margin: 0;
+padding: 0;
+text-shadow: 0 1px 1px #FFFFFF;
+}
+
+#mal_cs_powered a {
+background-color: rgba(255,255,255, 0.6) !important;
+border-radius: 3px 0 0 0 !important;
+display: block !important;
+margin: 0 !important;
+opacity: 0;
+padding: 8px 0 0 !important;
+}
+
+#mal_cs_powered:hover a {
+opacity: 1;
+}
+
+#mal_cs_powered a img {
+-moz-transition: all 0.25s ease-in-out 0s;
+-webkit-transition: all 0.25s ease-in-out 0s;
+-o-transition: all 0.25s ease-in-out 0s;
+transition: all 0.25s ease-in-out 0s;
+background: url("http://i.imgur.com/fGTjBC3.png") no-repeat scroll 50% 6px rgba(0,191,255, 0.6);
+border-radius: 3px 3px 3px 3px;
+display: block;
+height: 0;
+margin: 0 12px;
+padding: 23px 0 0 126px;
+width: 0;
+}
+
+#mal_cs_powered a img:hover {
+background-color: #00BFFF;
+}
+
+#mal_cs_powered #search {
+border-radius: 0 0 3px 3px;
+padding: 8px !important;
+position: relative;
+}
+
+#searchBox {
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+border-color: #BCBCBC #D6D6D6 #D6D6D6;
+border-radius: 2px 2px 2px 2px;
+border-style: solid;
+border-width: 1px;
+color: #333333;
+display: inline-block;
+font-family: arial,sans-serif;
+font-size: 13px;
+height: 28px;
+padding-left: 6px !important;
+padding-right: 24px !important;
+vertical-align: top;
+width: 100px;
+}
+
+#searchBox:hover, #searchBox:focus {
+border-color: #00BFFF #1AC6FF #1AC6FF;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+}
+
+#searchListButton {
+background: url("http://i.imgur.com/XqsilHp.png") no-repeat scroll 0 0 transparent !important;
+    border-radius: 3px 3px 3px 3px;
+    height: 0;
+    margin: 0;
+    padding: 16px 0 0 19px !important;
+    position: absolute;
+    right: 12px !important;
+    top: 14px !important;
+    width: 0;
+}
+
+#mal_cs_listinfo {
+background-image: url("https://i.imgur.com/Y8gskPA.png");
+right: 106px;
+}
+
+#mal_cs_listinfo:hover {
+background-image: url("http://i.imgur.com/VcVVnod.png");
+}
+
+#mal_cs_links {
+background-image: url("https://i.imgur.com/v018ESv.png");
+right: 72px !important;
+z-index: 9;
+}
+
+#mal_cs_links:hover {
+background-image: url("http://i.imgur.com/oPfKrOl.png");
+}
+
+#mal_cs_otherlinks {
+background-image: url("https://i.imgur.com/bzp9amh.png");
+right: 38px !important;
+z-index: 8;
+}
+
+#mal_cs_otherlinks:hover {
+background-image: url("http://i.imgur.com/EEGHkbF.png");
+}
+
+#mal_cs_powered {
+background-image: url("https://i.imgur.com/Ho7EMMg.png");
+right: 4px !important;
+z-index: 7;
+position: fixed !important;
+}
+
+#mal_cs_powered:hover {
+background-image: url("http://i.imgur.com/TUUWtaj.png");
+}
+
+#mal\_control\_strip {
+background: transparent !important;
+}
+
+#mal_cs_pic img {
+display: none;
+}
+
+#mal_cs_pic, #mal_cs_listinfo, #mal_cs_links {
+border-right: 0 none !important;
+}
+
+/* End import */
+
+* {
+    text-decoration: none;
+}
+body {
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("https://i.imgur.com/xfSAKPx.png");
+    background-position: 0% 0%;
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    font-family: Viga !important;
+  
+}
+a {
+    color: rgba(255,255,255,0.7);
+  text-shadow: 0px 0px 0px white;
+}
+
+a :hover {
+  color: yellow !important;
+  letter-spacing: 1px;
+  transition: all 0.4s ease 0s;
+}
+body {
+    background-color: rgba(0, 0, 0, 0);
+    color: #7F7E7E;
+}
+#list_surround {
+    font-size: 14px;
+    height: 200px;
+    right: 5%;
+    line-height: 1;
+    /*margin-left: 550px !important;*/
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    position: absolute;
+    top: 0;
+    width: 650px;
+}
+.table_header {
+    padding-bottom: 4px;
+}
+.table_header span {
+    display: none;
+}
+.table_header:nth-child(2) {
+    text-align: left;
+}
+[cellspacing="0"] {
+    line-height: 17px;
+}
+.td1, .td2 {
+    padding: 4px 0;
+    transition: background-color 1s linear 0s;
+}
+.animetitle + small {
+    color: #FFD700 !important;
+    font-weight: bold;
+    text-shadow: 0 0 2px #000000, 0 0 1px #000000, 0 1px 7px #FFFFFF, 0 0 0 #000000;
+    visibility: visible !important;
+}
+#list_surround small {
+    visibility: hidden;
+}
+#list_surround small a:last-of-type {
+    display: none !important;
+}
+td[class^="td"]:nth-child(2) {
+    text-align: left;
+}
+
+#list_surround a[href*="http://myanimelist.net/panel.php?go=edit"], #list_surround a[href*="http://myanimelist.net/editlist.php?type="], #list_surround a[href*="http://myanimelist.net/panel.php?go=add"] {
+    margin-right: 10px;
+    visibility: visible !important;
+}
+.table_header, .td1, .td2 {
+    background-color: rgba(35, 176, 232, 0.7);
+    text-align: center;
+    vertical-align: top;
+}
+tr:hover td[class^="td"] {
+    background-color: #cc4854;
+}
+tr:hover td.td1 a, tr:hover td.td1, tr:hover td.td2 a, tr:hover td.td2 {
+    color: #FFFFFF;
+    text-shadow: 0 0 1px #FFFFFF;
+  /*transition: all 0.4s ease 0s;*/
+}
+
+.table_headerLink {
+    color: #FFFFFF ;
+    line-height: 20px;
+}
+td[class^="td"]:nth-child(3), td[class^="td"]:nth-child(3) a {
+    color: #FFFFFF ;
+}
+td[class^="td"]:nth-child(5), td[class^="td"]:nth-child(5) a {
+    color: #FFFFFF ; 
+}
+td[class^="td"]:first-child {
+    border-left: 0px solid #FFFFFF !important;
+}
+td[class^="td"]:last-child {
+    border-right: 0px solid #FFFFFF !important;
+}
+.table_header {
+    background-color: #23b0e8;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-width: 0px 0 0;
+  letter-spacing: 1px;
+  border-bottom: 2px solid white;
+  padding:2px;
+}
+.table_header:first-child {
+    border-left: 0px solid #FFFFFF !important;
+  border-radius: 16px 0 0 0;
+  border-right: 0px;
+  border-bottom: 2px solid white !important;
+  border-top: 0px solid #FFFFFF !important;
+}
+.table_header:nth-child(5) {
+    border-radius: 0 16px 0 0;
+    border-right: 0px solid #FFFFFF !important;
+}
+/* 
+
+EDIT BUTTON
+
+
+*/
+
+#list_surround table:nth-of-type(n+4) tbody div small {
+    letter-spacing: -25px;
+    visibility: visible;
+  color: transparent !important;
+  
+}
+#list_surround table:nth-of-type(n+4) tbody small a:first-of-type {
+    display: inline-block !important;
+  opacity: 0;
+}
+#list_surround table:nth-of-type(n+4) tbody small a:last-of-type {
+    display: none !important;
+}
+#list_surround table:nth-of-type(n+4) tbody:hover small a:first-of-type {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none
+    color: white ;
+    display: inline-block !important;
+    position: relative !important;
+    text-align: left;
+    visibility: visible; 
+    opacity: 1 !important;
+    transition: all 0.8s ease 0s;
+  letter-spacing: 1px;
+  float: right;
+  padding-left: 5px;
+}
+.td1 div, .td2 div {
+    color: transparent !important;
+    padding-left: 4px;
+}
+.td1 div:hover small a, .td2 div:hover small a {
+    color:white;
+    transition: all 0.8s ease 0s;
+}
+
+/*
+
+*/
+.category_totals {
+    background-color: #313569;
+    border-top: 2px solid #FFFFFF;
+    border-radius: 0 0 16px 16px;
+    color: #FFFFFF;
+    padding: 4px 5px 9px;
+    text-align: center;
+}
+
+#grand_totals {
+    background-color: #313569;
+    border-color: #FFFFFF;
+    border-radius: 0 0 12px 12px;
+    border-style: solid;
+    border-width: 2px;
+    color: #FFFFFF;
+    display: block;
+    margin-top: 35px;
+    padding: 0 10px 10px;
+    position: absolute;
+    text-align: center;
+    width: calc(100% - 24px);
+  padding-top:10px;
+}
+
+td[class^="td"]:nth-of-type(2) {
+    width: 454px !important;
+}
+/* 
+
+
+COVER NECESSITIES
+
+
+*/
+.table_header:nth-of-type(6), span[id*="tagLinks"], div[id*="tagChangeRow"] {
+    display: none !important;
+}
+td[class^="td"]:nth-of-type(6) {
+    width: 0;
+}
+span[id*="tagRow"] {
+    background-color: rgba( 0, 0, 0, 0.7) !important;
+    /*border: 2px solid #FFFFFF;*/
+    border-radius: 0px 0px 20px 20px;
+    display: block !important;
+    line-height:15px !important;
+    padding: 8px 8px 8px ;
+    position: fixed;
+    right: 870px;
+    text-shadow: 0 0 0 #000000 !important;
+    visibility: hidden;
+    width: 199px;
+  top: 495px !important;
+  transition: all 0s ease 0s;
+}
+tr:hover span[id*="tagRow"] {
+    color: white !important;
+    visibility: visible;
+}
+:hover + .hide {
+    background-color: #23b0e8;
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: auto auto !important;
+    border-color: #FFFFFF;
+    border-radius: 16px 16px 0 0;
+    border-style: solid;
+    border-width: 0px;
+    box-shadow: 0 2px 2px #000000;
+    display: block !important;
+    height: 250px;
+    padding: 39px 22px 9px 10px;
+    position: fixed;
+    top: 200px;
+    right: 870px;
+    width: 183px;
+}
+/*  
+
+
+HEADERS 
+
+
+
+*/
+[class^="header_"] * {
+    background-repeat: no-repeat no-repeat;
+    font-size: 0;
+    height: 345px;
+    line-height: 24px;
+    padding-bottom: 50px;
+    text-align: right;
+    vertical-align: bottom;
+}
+.header_title {
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-style: italic;
+    height: auto;
+    padding: 0 8px 0 0;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+.header_cw {
+    background-color: transparent;
+    background-image: url("http://i.imgur.com/5Muorn2.png");
+    background-position: 50% 2px;
+    background-repeat: no-repeat no-repeat;
+    height: 350px;
+    margin-bottom: -45px;
+}
+.header_completed {
+    background-color: transparent;
+    background-image: url("http://i.imgur.com/ibpGRDj.png");
+    background-position: 50% 2px;
+    background-repeat: no-repeat no-repeat;
+    margin-bottom: -44px;
+    z-index: 0;
+}
+.header_onhold {
+    background-color: transparent;
+    background-image: url("http://i.imgur.com/fqWAwTp.png");
+    background-position: 50% 2px;
+    background-repeat: no-repeat no-repeat;
+    height: 200px;
+    margin-bottom: -44px;
+}
+.header_dropped {
+    background-color: transparent;
+    background-image: url("http://i.imgur.com/0cp5yUw.png");
+    background-position: 50% 2px;
+    background-repeat: no-repeat no-repeat;
+    height: 200px;
+    margin-bottom: -44px;
+}
+.header_ptw {
+    background-color: transparent;
+    background-image: url("http://i.imgur.com/oTtyuIP.png");
+    background-position: 50% 2px;
+    background-repeat: no-repeat no-repeat;
+    height: 200px;
+    margin-bottom: -44px;
+}
+/*
+
+
+CATEGORY LINKS
+
+
+*/
+.status_not_selected {
+    opacity: 1;
+    left: px !important;
+    transition: all 0.4s ease 0s;
+    width: 115px !important;
+}
+.status_not_selected:hover {
+    color: transparent;
+    opacity: 1;
+    left: 0px !important;
+    transition: all 0.4s ease 0s;
+  width:380px !important;
+}
+.status_selected a, .status_not_selected a, .status_selected:hover a, .status_not_selected:hover a {
+    color: transparent;
+    display: block;
+    height: 100px;
+    opacity: 0;
+    width: 300px;
+}
+.status_selected {
+    display: block;
+}
+.status_not_selected {
+    display: block;
+}
+#list_surround .status_selected, #list_surround .status_not_selected {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url("http://i.imgur.com/54YRqxC.png");
+    background-position: 0 0;
+    background-repeat: no-repeat no-repeat;
+    border: 0px solid white !important;
+    border-radius: 5px 0 0 0;
+    display: block;
+    height: 100px;
+    padding: 0;
+    position: fixed;
+    left: -0px;
+    top: 140px;
+    width: 380px;
+}
+#list_surround .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected {
+    background-attachment: scroll;
+    background-color: transparent;
+   background-position: 0% 20%;
+    background-repeat: no-repeat no-repeat;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    top: 225px;
+}
+#list_surround .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-position: 0% 40%;
+    top: 315px;
+}
+#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-position: 0% 60%;
+    background-repeat: repeat repeat;
+    top: 405px;
+}
+#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-position: 0% 80%;
+    top: 495px;
+}
+#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+    background-attachment: scroll;
+    background-color: transparent;
+    
+    background-position: 0 100%;
+    background-repeat: no-repeat no-repeat;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    top: 585px;
+    width: 380px;
+}
+/*
+
+COPYRIGHT
+
+*/
+
+#copyright:before {
+    content: "Design by SylakentH";
+    font-size: 12px;
+}
+#copyright {
+    background-color: #A0373C;
+    border: 4px solid #DA6358;
+    border-radius: 12px;
+    color: #FFFFFF;
+    display: block;
+    margin-top: -10px !important;
+    padding: 2px 14px 4px;
+    position: relative;
+}
+#copyright a {
+    color: #FFFFFF;
+    font-size: 14px;
+    padding-right: 2px;
+    text-shadow: 1px 1px #F11C26;
+}
