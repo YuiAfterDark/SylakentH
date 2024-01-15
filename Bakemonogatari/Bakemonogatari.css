@@ -131,7 +131,8 @@ td[class^="td"]:last-child {
   border-bottom: 0px;
   border-top: 2px solid #FFFFFF !important;
 }
-.table_header:nth-child(5) {
+.table_header:last-child,
+tr:has([width="125"]:last-child) .table_header:nth-last-child(2) {
     border-radius: 0 16px 0 0;
     border-right: 2px solid #FFFFFF !important;
 }
@@ -248,11 +249,11 @@ MINI REVIEWS (HOVER TAG)
 */
 
 
-.table_header:nth-of-type(6), span[id*="tagLinks"], div[id*="tagChangeRow"] {
+.table_header[width="125"]:not([width="125"]~[width="125"]), span[id*="tagLinks"], div[id*="tagChangeRow"] {
     display: none !important;
 }
-td[class^="td"]:nth-of-type(6) {
-    width: 0;
+td[class^="td"]:has([id^="tag"]) {
+    display: none !important;
 }
 span[id*="tagRow"] {
     background-color: rgba( 0, 0, 0, 0.7) !important;
