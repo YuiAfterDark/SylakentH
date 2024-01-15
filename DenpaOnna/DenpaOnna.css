@@ -28,10 +28,14 @@ background-blend-mode: color-dodge;
 OTHER CODES
 */
 #mal\_control\_strip {
+    position: relative;
+    z-index: 1;
 background-position: bottom !important; 
 top: -16px;
 height: 1px !important;}
-#mal\_control\_strip di\v {display:inline}
+#mal\_control\_strip td div {
+    display: inline;
+}
 #mal\_cs\_pic img {height: 24px !important; width: auto !important}
 #mal\_cs\_listinfo {
   width: 26% !important;
@@ -79,6 +83,9 @@ margin-top: 19px;}
 #searchBox {margin-top: 15px !important; width: 135px !important}
 #mal\_control\_strip img {
 margin-top: 15px !important;
+}
+#mal_cs_listinfo form {
+    display: inline;
 }
 /* end Top Bar Redux */
 * {
