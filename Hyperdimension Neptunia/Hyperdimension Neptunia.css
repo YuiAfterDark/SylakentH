@@ -1,4 +1,10 @@
+/*
+Hyperdimension Neptunia by SylakentH
+Last update: 2024-Jan-14
+*/
+
 @\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
+@\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
 
 /* begin http://dl.dropbox.com/u/78340470/CSSforFoxgirls.css */
 #list_surround table:nth-of-type(n+4):hover td:nth-of-type(3),
@@ -568,7 +574,7 @@ padding: 8px 0 0 !important;
 opacity: 1;
 }
  #mal\_cs\_powered a img {
-background: url("http://i.imgur.com/fGTjBC3.png") no-repeat scroll 50% 6px rgba(64, 60, 90, 0.6);
+background: url(https://i.ibb.co/pPWQv6B/myanimelist.png) /* myanimelist.png */ no-repeat scroll 50% 6px rgba(64, 60, 90, 0.6);
 border-radius: 3px 3px 3px 3px;
 display: block;
 height: 0;
@@ -605,7 +611,7 @@ border-color: #ACACAC #C6C6C6 #C6C6C6;
 box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
 }
  #mal\_cs\_powered #search #searchListButton {
-background: url("http://i.imgur.com/XqsilHp.png") no-repeat scroll 0 0 transparent;
+background: url(https://i.ibb.co/SxV4gzB/search-icon.png) /* search_bar.png */ no-repeat scroll 0 0 transparent;
 border-radius: 3px 3px 3px 3px;
 height: 0;
 margin: 0;
@@ -616,35 +622,35 @@ top: 14px;
 width: 0;
 }
  #mal\_cs\_listinfo {
-background-image: url("http://i.imgur.com/UXZxrWI.png");
+background-image: url(https://i.ibb.co/4V3Nqgj/user.png) /* user.png */;
 right: 106px;
 }
  #mal\_cs\_listinfo:hover {
-background-image: url("http://i.imgur.com/VcVVnod.png");
+background-image: url(https://i.ibb.co/Yhf4N0w/user-hover.png) /* user_hover.png */;
 }
  #mal\_cs\_links {
-background-image: url("http://i.imgur.com/LpXWTzt.png");
+background-image: url(https://i.ibb.co/6w4fDWb/home.png) /* home.png */;
 right: 72px;
 z-index: 9;
 }
  #mal\_cs\_links:hover {
-background-image: url("http://i.imgur.com/oPfKrOl.png");
+background-image: url(https://i.ibb.co/dKxvT8B/home-hover.png) /* home_hover.png */;
 }
  #mal\_cs\_otherlinks {
-background-image: url("http://i.imgur.com/ogmX9qC.png");
+background-image: url(https://i.ibb.co/1RVzkWK/stats.png) /* stats.png */;
 right: 38px;
 z-index: 8;
 }
  #mal\_cs\_otherlinks:hover {
-background-image: url("http://i.imgur.com/EEGHkbF.png");
+background-image: url(https://i.ibb.co/F5psvrf/stats-hover.png) /* stats_hover.png */;
 }
  #mal\_cs\_powered {
-background-image: url("http://i.imgur.com/ct4BVP5.png");
+background-image: url(https://i.ibb.co/fpS8C0J/search.png) /* search.png */;
 right: 4px !important;
 z-index: 7;
 }
  #mal\_cs\_powered:hover {
-background-image: url("http://i.imgur.com/TUUWtaj.png");
+background-image: url(https://i.ibb.co/255PjyY/search-hover.png) /* search_hover.png */;
 }
 td#mal\_cs\_pic a img {
 display: none;
@@ -657,45 +663,15 @@ border-right: 0 none !important;
 padding: 32px 0 0 !important;
 }
 
- #mal\_cs\_listinfo:before, 
- #mal\_cs\_links:before, 
- #mal\_cs\_otherlinks:before, 
- #mal\_cs\_powered:before {
-  z-index: 10 !important;
-  content: "";
-  right: 0 !important;
-  top: 0 !important;
-  width: 32px !important;
-  position: absolute !important;
-  border-radius: 3px;
-}               
-
- #mal\_cs\_listinfo:after{
-background-image: url(http://i.imgur.com/LI8njl6.png);
+/* preload images */
+#mal_control_strip tbody {
+	background-image:
+		url(https://i.ibb.co/dKxvT8B/home-hover.png) /* home_hover.png */,
+		url(https://i.ibb.co/Yhf4N0w/user-hover.png) /* user_hover.png */,
+		url(https://i.ibb.co/F5psvrf/stats-hover.png) /* stats_hover.png */,
+		url(https://i.ibb.co/255PjyY/search-hover.png) /* search_hover.png */;
+	background-size: 0;
 }
- #mal\_cs\_links:after{
-background-image: url(http://i.imgur.com/zlRrAkp.png);
-}
- #mal\_cs\_otherlinks:after{
-background-image: url(http://i.imgur.com/RvHKrN6.png);
-} 
- #mal\_cs\_powered:after{
-background-image: url(http://i.imgur.com/7TP2r3e.png);
-}
-
- #mal\_cs\_listinfo:after, 
- #mal\_cs\_links:after, 
- #mal\_cs\_otherlinks:after, 
- #mal\_cs\_powered:after {
-  z-index: 10 !important;
-  content: "";
-  right: 0 !important;
-  top: 0 !important;
-  width: 32px !important;
-  height: 32px !important;
-  position: absolute !important;
-}
-
 
 
 #searchBox {
