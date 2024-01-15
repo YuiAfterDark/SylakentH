@@ -1,0 +1,452 @@
+/* begin https://dl.dropbox.com/s/4u9v39e5go65aoq/PinkTopBar.css */
+#mal_cs_listinfo, #mal_cs_links, #mal_cs_otherlinks, #mal_cs_powered {
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-moz-transition: all 0.4s ease 0s;
+-webkit-transition: all 0.4s ease 0s;
+-o-transition: all 0.4s ease 0s;
+transition: all 0.4s ease 0s;
+background: none no-repeat scroll 100% 0 transparent;
+border: 0 none;
+height: 0 !important;
+overflow: hidden;
+padding: 32px 0 0 !important;
+position: fixed;
+right: 4px;
+text-align: center;
+top: 4px;
+z-index: 10;
+width: 150px !important;
+}
+
+#mal_cs_listinfo:hover, #mal_cs_links:hover, #mal_cs_otherlinks:hover, #mal_cs_powered:hover {
+height: 200px !important;
+padding-top: 32px !important;
+}
+
+#mal_cs_listinfo div, #mal_cs_links div, #mal_cs_otherlinks div, #mal_cs_powered div, #mal_cs_powered dd {
+-moz-transition: opacity 0.4s ease-in-out 0s;
+-webkit-transition: opacity 0.4s ease-in-out 0s;
+-o-transition: opacity 0.4s ease-in-out 0s;
+transition: opacity 0.4s ease-in-out 0s;
+background-color: rgba(255,255,255,0.6);
+border-radius: 3px 0 0 0;
+font-size: 0 !important;
+line-height: 0;
+margin: 0 !important;
+opacity: 0;
+padding: 8px 0 0 !important;
+}
+
+#mal_cs_listinfo:hover div, #mal_cs_links:hover div, #mal_cs_otherlinks:hover div, #mal_cs_powered:hover div, #mal_cs_powered:hover dd {
+opacity: 1;
+}
+
+#mal_cs_listinfo div:nth-of-type(2), #mal_cs_links div:nth-of-type(2), #mal_cs_otherlinks div:nth-of-type(2), #mal_cs_powered div:nth-of-type(2) {
+border-radius: 0 0 3px 3px;
+padding: 4px 0 8px !important;
+}
+
+#mal_cs_listinfo a, #mal_cs_links a, #mal_cs_otherlinks a, #mal_cs_powered a {
+background-color: rgba(255,77,210,0.8) !important;
+border-radius: 3px 3px 3px 3px;
+display: block;
+font: 13px/17px 'Arial', sans-serif !important;
+margin: 4px 12px 0;
+padding: 3px 0 !important;
+text-decoration: none;
+}
+
+#mal_cs_listinfo a:nth-of-type(1), #mal_cs_links a:nth-of-type(1), #mal_cs_otherlinks a:nth-of-type(1), #mal_cs_powered a:nth-of-type(1) {
+margin-top: 0;
+}
+
+#mal_cs_listinfo a:hover, #mal_cs_links a:hover, #mal_cs_otherlinks a:hover {
+background-color: #FF00BF !important;
+}
+
+#mal_cs_listinfo strong a strong {
+font-weight: normal;
+}
+
+#mal_cs_otherlinks strong {
+color: #FF00BF;
+display: block;
+font: bold 13px/17px 'Arial',sans-serif !important;
+padding: 0 4px 4px;
+text-shadow: 0 1px 1px #FFFFFF;
+}
+
+#mal_cs_otherlinks strong a {
+background: none transparent !important;
+border-radius: 0 0 0 0;
+color: #FF00BF;
+display: inline;
+font: bold 13px/17px 'Arial',sans-serif !important;
+margin: 0;
+padding: 0;
+text-shadow: 0 1px 1px #FFFFFF;
+}
+
+#mal_cs_powered a {
+background-color: rgba(255,255,255, 0.6) !important;
+border-radius: 3px 0 0 0 !important;
+display: block !important;
+margin: 0 !important;
+opacity: 0;
+padding: 8px 0 0 !important;
+}
+
+#mal_cs_powered:hover a {
+opacity: 1;
+}
+
+#mal_cs_powered a img {
+-moz-transition: all 0.25s ease-in-out 0s;
+-webkit-transition: all 0.25s ease-in-out 0s;
+-o-transition: all 0.25s ease-in-out 0s;
+transition: all 0.25s ease-in-out 0s;
+background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0poweredaimg.png") no-repeat scroll 50% 6px rgba(255,51,204, 0.6);
+border-radius: 3px 3px 3px 3px;
+display: block;
+height: 0;
+margin: 0 12px;
+padding: 23px 0 0 126px;
+width: 0;
+}
+
+#mal_cs_powered a img:hover {
+background-color: #FF00BF;
+}
+
+#mal_cs_powered #search {
+border-radius: 0 0 3px 3px;
+padding: 8px !important;
+position: relative;
+}
+
+#searchBox {
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+border-color: #FF00BF #FF00BF #FF00BF #FF00BF;
+border-radius: 2px 2px 2px 2px;
+border-style: solid;
+border-width: 1px;
+color: #FF00BF;
+display: inline-block;
+font-family: arial,sans-serif;
+font-size: 13px;
+height: 28px;
+padding-left: 6px !important;
+padding-right: 24px !important;
+vertical-align: top;
+width: 100px;
+}
+
+#searchBox:hover, #searchBox:focus {
+border-color: #FF00BF #FF00BF #FF00BF #FF00BF;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+}
+
+#searchListButton {
+background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0searchbutton.png") no-repeat scroll 0 0 transparent !important;
+    border-radius: 3px 3px 3px 3px;
+    height: 0;
+    margin: 0;
+    padding: 16px 0 0 19px !important;
+    position: absolute;
+    right: 12px !important;
+    top: 14px !important;
+    width: 0;
+}
+
+#mal_cs_listinfo {
+background-image: url("http://i45.tinypic.com/24pmc5v.png");
+right: 106px;
+}
+
+#mal_cs_listinfo:hover {
+background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon1over.png");
+}
+
+#mal_cs_links {
+background-image: url("http://i45.tinypic.com/14mqoh5.png");
+right: 72px !important;
+z-index: 9;
+}
+
+#mal_cs_links:hover {
+background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon2over.png");
+}
+
+#mal_cs_otherlinks {
+background-image: url("http://i49.tinypic.com/vep36a.png");
+right: 38px !important;
+z-index: 8;
+}
+
+#mal_cs_otherlinks:hover {
+background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon3over.png");
+}
+
+#mal_cs_powered {
+background-image: url("http://i46.tinypic.com/s63yvr.png");
+right: 4px !important;
+z-index: 7;
+position: fixed !important;
+}
+
+#mal_cs_powered:hover {
+background-image: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon4over.png");
+}
+
+#mal\_control\_strip {
+background: transparent !important;
+}
+
+#mal_cs_pic img {
+display: none;
+}
+
+#mal_cs_pic, #mal_cs_listinfo, #mal_cs_links {
+border-right: 0 none !important;
+}
+/* end https://dl.dropbox.com/s/4u9v39e5go65aoq/PinkTopBar.css */
+
+body {
+    background-attachment: fixed !important;
+    background-image: url("http://i44.tinypic.com/54g1dt.jpg");
+    background-size: cover;
+}
+* {
+    border: 0 none;
+    color: #FFFFFF;
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: normal;
+    text-decoration: none;
+}
+#inlineContent {
+    background-attachment: scroll !important;
+    background-color: transparent !important;
+    background-image: url("http://i39.tinypic.com/353d36f.png") !important;
+    background-position: 80% 98%;
+    background-repeat: no-repeat no-repeat !important;
+    background-size: 70% auto;
+    display: inline-block !important;
+    height: 425px !important;
+    margin: auto !important;
+    position: absolute;
+    right: 0 !important;
+    top: -425px !important;
+    width: 900px !important;
+    z-index: -1 !important;
+}
+#list_surround .status_selected, #list_surround .status_not_selected {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url("http://i40.tinypic.com/1e2wip.png");
+    background-position: 0 0;
+    background-repeat: repeat repeat;
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+    height: 100px;
+    left: -283px;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 270px;
+}
+#list_surround .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url("http://i40.tinypic.com/3348aj5.png");
+    background-position: 0 0;
+    background-repeat: repeat repeat;
+    top: 110px;
+}
+#list_surround .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url("http://i44.tinypic.com/5zo0t2.png");
+    background-position: 0 0;
+    background-repeat: repeat repeat;
+    top: 220px;
+}
+#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url("http://i42.tinypic.com/6gkc21.png");
+    background-position: 0 0;
+    background-repeat: repeat repeat;
+    top: 330px;
+}
+#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url("http://i43.tinypic.com/35bazp1.png");
+    background-position: 0 0;
+    background-repeat: repeat repeat;
+    display: inline;
+    top: 440px;
+}
+#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url("http://i39.tinypic.com/j604nm.png");
+    background-position: 0 0;
+    background-repeat: no-repeat no-repeat;
+    display: inline;
+    top: 550px;
+}
+#list_surround .header_cw {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url("http://i.imgur.com/djaJO.png");
+    background-position: 0 0;
+    background-repeat: no-repeat no-repeat;
+}
+#list_surround .header_completed {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url("http://i.imgur.com/3jcgG.png");
+    background-position: 0 0;
+    background-repeat: no-repeat no-repeat;
+}
+#list_surround .header_onhold {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url("http://i.imgur.com/L4bVw.png");
+    background-position: 0 0;
+    background-repeat: no-repeat no-repeat;
+}
+#list_surround .header_ptw {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url("http://i.imgur.com/cJTI9.png");
+    background-position: 0 0;
+    background-repeat: no-repeat no-repeat;
+}
+#list_surround .header_dropped {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url("http://i.imgur.com/gWhVk.png");
+    background-position: 0 0;
+    background-repeat: no-repeat no-repeat;
+}
+a:hover {
+    text-decoration: underline;
+}
+#list_surround {
+    background-attachment: scroll;
+    background-color: rgba(233, 77, 158, 0.8);
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat repeat;
+    border-bottom: 0 solid #292929;
+    border-left: 0 solid #292929;
+    border-right: 0 solid #292929;
+    height: 100%;
+    left: 141px;
+    margin: 239px auto 30px;
+    position: relative;
+    top: 180px;
+    width: 700px;
+}
+#list_surround .status_selected a {
+    color: transparent;
+    display: block;
+    font-size: 1px;
+    height: 2px;
+    padding: 100px 0 0 240px;
+    width: 30px;
+}
+#list_surround .status_not_selected a {
+    color: transparent;
+    display: block;
+    font-size: 1px;
+    height: 2px;
+    padding: 100px 0 0 240px;
+    width: 30px;
+}
+#list_surround br {
+    display: none;
+}
+#list_surround .header_title span {
+    color: #000000;
+    font-size: 1px;
+}
+#list_surround .header_title .thickbox {
+    display: none;
+}
+#list_surround .header_cw, #list_surround .header_completed, #list_surround .header_onhold, #list_surround .header_ptw, #list_surround .header_dropped {
+    margin-left: 0;
+    padding: 28px 5px 5px;
+    width: 586px;
+}
+#list_surround .animetitle + small {
+    color: #531AFF;
+}
+#list_surround .category_totals {
+    padding: 5px;
+    text-align: center;
+}
+#list_surround #grand_totals {
+    display: none;
+}
+#mal_cs_listinfo a strong {
+    color: #FFFFFF;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: underline;
+    text-transform: none;
+}
+#mal_cs_otherlinks strong {
+    color: #FFFFFF;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-variant: normal;
+}
+.borderRBL {
+    color: #00FFFF !important;
+}
+#list_surround .header_title span {
+    display: none;
+}
+#list_surround .status_not_selected a {
+    opacity: 0;
+}
+#list_surround .status_selected a {
+    opacity: 0;
+}
+#copyright {
+    color: #3A4358;
+    font-family: sans-serif;
+    font-size: 10px;
+    height: 15px;
+    position: absolute;
+    text-align: center !important;
+    width: 600px;
+}
+#copyright a {
+    color: #3A4358;
+}
+#copyright {
+}
+tr:hover [class^="td"] {
+    background-color: #AC00E6;
+}
+.td1:nth-of-type(2), .td2:nth-of-type(2) {
+    text-align: left;
+}
+.status_not_selected {
+    opacity: 0.8;
+}
+.status_not_selected:hover {
+    opacity: 1;
+}
+* {
+    transition: all 0.25s ease-in-out 0s;
+}
