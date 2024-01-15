@@ -1,4 +1,86 @@
-@\import "https://dl.dropboxusercontent.com/u/78340470/Club%20layouts/Special/topbarreduxdarkblue.css";
+/*
+DenpaOnna by SylakentH
+Modified by Valerio Lyndon
+Last update: 2024-Jan-15
+*/
+
+@\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
+
+/* begin Top Bar Redux */
+/* TOP BAR SETTINGS
+the numbers in parenthesis change the color and opacity of the bar. Get a color number easily from this page:
+http://www.css3maker.com/css-3-rgba.html
+
+Change position to absolute to make the bar not scroll with the page.
+Change the background image out with the url in parenthesis. 
+*/
+
+#mal\_control\_strip {
+background-color: rgba(1, 42, 106, 0.5) !important;
+background-image: url(https://i.ibb.co/xqZfVY5/top-gradient.png) /* top_gradient.png */ !important;
+position:fixed;
+background-blend-mode: color-dodge;
+}
+
+
+
+/* 
+OTHER CODES
+*/
+#mal\_control\_strip {
+background-position: bottom !important; 
+top: -16px;
+height: 1px !important;}
+#mal\_control\_strip di\v {display:inline}
+#mal\_cs\_pic img {height: 24px !important; width: auto !important}
+#mal\_cs\_listinfo {
+  width: 26% !important;
+  height: 0 !important;
+  padding-bottom: 18px !important;
+  padding-top: 27px !important;
+background: ;
+position: absolute;
+top:-5px;
+border-right-color: rgba(0,0,0,0.8) !important;}
+#mal\_cs\_listinfo div:first-of-type:before {content:'Logged in as '}
+#mal\_cs\_listinfo div:last-of-type a {text-decoration: none}
+#mal\_cs\_listinfo div:last-of-type a:hover {text-decoration: underline}
+#mal\_cs\_listinfo div:last-of-type:before {font-weight:normal;content:'('}
+#mal\_cs\_listinfo div:last-of-type:after {font-weight:normal;content:')'}
+#mal\_cs\_links {
+  width: 92px !important;
+  height: 0 !important;
+  padding-bottom: 20px !important;
+  padding-top: 27px !important;
+left: 28%;
+top: -7px;
+position: absolute;
+border-right-color: rgba(0,0,0,0.8) !important;}
+#mal\_cs\_links a {background-image: url(https://i.ibb.co/q5gBj1x/top-buttons.png) /* top_buttons.png */ !important;width:16px;height:16px;content:none; display: inline-block !important;color: transparent !important; letter-spacing: -1ex;font-size:xx-small}
+#mal\_cs\_links div:first-of-type:after {content: '\a0'}
+#mal\_cs\_links div:first-of-type a:first-of-type {background-position: 0px 0px}
+#mal\_cs\_links div:first-of-type a:last-of-type {background-position: -16px 0px}
+#mal\_cs\_links div:last-of-type a:first-of-type {background-position:-32px 0px}
+#mal\_cs\_links div:last-of-type a:last-of-type {background-position:-48px 0px}
+#mal\_cs\_otherlinks strong{
+  width: 25% !important;
+  height: 0 !important;
+  padding-bottom: 20px !important;
+  padding-top: 27px !important;
+left:28%;
+margin-left: 130px;
+top: -5px;
+position: absolute;
+border-right-color: rgba(0,0,0,0.8) !important;}
+#mal\_cs\_otherlinks div:last-of-type {float:right;padding-right:150px;
+margin-top: 19px;}
+#mal\_cs\_otherlinks div:first-of-type {float:left}
+#mal\_cs\_powered img {display:none}
+#searchBox {margin-top: 15px !important; width: 135px !important}
+#mal\_control\_strip img {
+margin-top: 15px !important;
+}
+/* end Top Bar Redux */
 * {
     text-decoration: none;
 }
@@ -6,7 +88,7 @@ body {
     background-attachment: fixed;
     background-clip: border-box;
     background-color: transparent;
-    background-image: url("http://i39.tinypic.com/scf7zk.jpg");
+    background-image: url(https://i.ibb.co/Hrjrzsn/background-optimised.jpg) /* background.jpg */;
     background-position: 33% 0%;
     background-repeat: no-repeat no-repeat;
     background-size: cover;
@@ -58,14 +140,14 @@ a:hover {
     text-align: left;
 }
 tr:hover [class^="td"] {
-    background-image: url("https://dl.dropbox.com/s/mh1xxfqpkpebxm8/hl2.png");
+    background-image: url("https://dl.dropbox.com/s/mh1xxfqpkpebxm8/hl2.png") /* row_center.png */;
     background-size: 100% 100%;
 }
 tr:hover [class^="td"]:first-of-type {
-    background-image: url("https://dl.dropbox.com/s/1brcvy03yoln0eu/hl3.png");
+    background-image: url("https://dl.dropbox.com/s/1brcvy03yoln0eu/hl3.png") /* row_left.png */;
 }
 tr:hover [class^="td"]:last-of-type {
-    background-image: url("https://dl.dropbox.com/s/p58vjxqufjitetw/hl4.png");
+    background-image: url("https://dl.dropbox.com/s/p58vjxqufjitetw/hl4.png") /* row_right.png */;
 }
 .table_header, .td1, .td2, .category_totals {
     background-color: rgba(1, 42, 106, 0.9);
