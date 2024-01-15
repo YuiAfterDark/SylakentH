@@ -234,7 +234,8 @@ body {
     background-attachment: fixed;
     background-clip: border-box;
     background-color: rgba(0, 0, 0, 0);
-    background-image: url("https://i.imgur.com/xfSAKPx.png");
+    background-image: url("https://i.imgur.com/xfSAKPx.png") /* background1.jpg or background2.jpg */;
+	/* use https://i.imgur.com/gH1JJWL.jpg for background2.jpg */
     background-position: 0% 0%;
     background-repeat: no-repeat no-repeat;
     background-size: cover;
@@ -515,7 +516,7 @@ HEADERS
     margin-bottom: -45px;
 }
 [data-work="manga"] .header_cw {
-    background-image: url("https://i.imgur.com/5Muorn2.png");
+	background-image: url("https://i.imgur.com/5Muorn2.png");
 }
 .header_completed {
     background-color: transparent;
@@ -585,7 +586,7 @@ CATEGORY LINKS
 #list_surround .status_selected, #list_surround .status_not_selected {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("https://i.imgur.com/RlgDyhj.png");;
+    background-image: url("https://i.imgur.com/RlgDyhj.png");
     background-position: 0 0;
     background-repeat: no-repeat no-repeat;
     border: 0px solid white !important;
