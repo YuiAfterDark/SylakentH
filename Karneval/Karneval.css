@@ -1,4 +1,22 @@
+/*
+Karneval by SylakentH
+Modified by Valerio Lyndon
+Last update: 2024-Jan-15
+*/
+@\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
 /* begin https://dl.dropbox.com/s/4u9v39e5go65aoq/PinkTopBar.css */
+#mal_control_strip {
+	--user-btn: url(https://i.ibb.co/LN0VwGK/user.png) /* user.png */;
+	--user-btn-hover: url(https://i.ibb.co/Yhf4N0w/user-hover.png) /* user_hover.png */;
+	--home-btn: url(https://i.ibb.co/12DzHjr/home.png) /* home.png */;
+	--home-btn-hover: url(https://i.ibb.co/dKxvT8B/home-hover.png) /* home_hover.png */;
+	--stats-btn: url(https://i.ibb.co/r7X2nD5/stats.png) /* stats.png */;
+	--stats-btn-hover: url(https://i.ibb.co/F5psvrf/stats-hover.png) /* stats_hover.png */;
+	--search-btn: url(https://i.ibb.co/1ff0KYZ/search.png) /* search.png */;
+	--search-btn-hover: url(https://i.ibb.co/255PjyY/search-hover.png) /* search_hover.png */;
+	--logo: url(https://i.ibb.co/pPWQv6B/myanimelist.png) /* myanimelist.png */;
+	--search-icon: url(https://i.ibb.co/SxV4gzB/search-icon.png) /* search_bar.png */;
+}
 #mal_cs_listinfo, #mal_cs_links, #mal_cs_otherlinks, #mal_cs_powered {
 box-sizing: border-box;
 -moz-box-sizing: border-box;
@@ -215,7 +233,7 @@ border-right: 0 none !important;
 
 body {
     background-attachment: fixed !important;
-    background-image: url("http://i42.tinypic.com/r2t3k7.jpg");
+    background-image: url(https://i.ibb.co/j51w0VY/background.jpg) /* background.jpg */;
     background-size: cover;
 }
 * {
@@ -229,7 +247,7 @@ body {
 #inlineContent {
     background-attachment: scroll !important;
     background-color: transparent !important;
-    background-image: url("http://i43.tinypic.com/2vkj5dw.png") !important;
+    background-image: url(https://i.ibb.co/1dpFy9J/render-anime.png) /* render_anime.png */ !important;
     background-position: 65% 100%;
     background-repeat: no-repeat no-repeat !important;
     background-size: 53% auto;
@@ -242,10 +260,13 @@ body {
     width: 900px !important;
     z-index: -1 !important;
 }
+[data-work="manga"] #inlineContent {
+    background-image: url(https://i.ibb.co/5jFMkYt/render-manga.png) /* render_manga.png */;
+}
 #list_surround .status_selected, #list_surround .status_not_selected {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("http://i44.tinypic.com/1se26g.png");
+    background-image: url(https://i.ibb.co/W6n83gH/category-watching.png) /* category_watching.png */;
     background-position: 0 0;
     background-repeat: repeat repeat;
     border-radius: 10px 10px 10px 10px;
@@ -257,10 +278,13 @@ body {
     top: 0;
     width: 270px;
 }
+[data-work="manga"] #list_surround .status_selected, [data-work="manga"] #list_surround .status_not_selected {
+    background-image: url(https://i.ibb.co/BsNhzq1/category-reading.png) /* category_reading.png */;
+}
 #list_surround .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("http://i44.tinypic.com/6zvrjo.png");
+    background-image: url(https://i.ibb.co/TgXgyLM/category-completed.png) /* category_completed.png */;
     background-position: 0 0;
     background-repeat: repeat repeat;
     top: 110px;
@@ -268,7 +292,7 @@ body {
 #list_surround .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("http://i41.tinypic.com/2z6gpj6.png");
+    background-image: url(https://i.ibb.co/P5k42ws/category-onhold.png) /* category_onhold.png */;
     background-position: 0 0;
     background-repeat: repeat repeat;
     top: 220px;
@@ -276,7 +300,7 @@ body {
 #list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("http://i43.tinypic.com/mic8k3.png");
+    background-image: url(https://i.ibb.co/qj7ZZk9/category-dropped.png) /* category_dropped.png */;
     background-position: 0 0;
     background-repeat: repeat repeat;
     top: 330px;
@@ -284,7 +308,7 @@ body {
 #list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("http://i39.tinypic.com/4jn5ux.png");
+    background-image: url(https://i.ibb.co/bWY5Ncf/category-planning.png) /* category_planning.png */;
     background-position: 0 0;
     background-repeat: repeat repeat;
     display: inline;
@@ -293,44 +317,53 @@ body {
 #list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("http://i43.tinypic.com/5duu05.png");
+    background-image: url(https://i.ibb.co/7yPYPnM/category-allanime.png) /* category_allanime.png */;
     background-position: 0 0;
     background-repeat: no-repeat no-repeat;
     display: inline;
     top: 550px;
 }
+[data-work="manga"] #list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected,
+[data-work="manga"] #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected,
+[data-work="manga"] #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected,
+[data-work="manga"] #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected,
+[data-work="manga"] #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected,
+[data-work="manga"] #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected,
+[data-work="manga"] #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+    background-image: url(https://i.ibb.co/LdG8FWy/category-allmanga.png) /* category_allmanga.png */;
+}
 #list_surround .header_cw {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url(http://i40.tinypic.com/2z8apae.png);
+    background-image: url(https://i.ibb.co/PTNkQmd/header-watching.png) /* header_watching.png */;
     background-position: 0 0;
     background-repeat: no-repeat no-repeat;
 }
 #list_surround .header_completed {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("http://i42.tinypic.com/30m3hvn.png");
+    background-image: url(https://i.ibb.co/bJmqq3N/header-completed.png) /* header_completed.png */;
     background-position: 0 0;
     background-repeat: no-repeat no-repeat;
 }
 #list_surround .header_onhold {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("http://i43.tinypic.com/30tm6q8.png");
+    background-image: url(https://i.ibb.co/1rLcYFK/header-onhold.png) /* header_onhold.png */;
     background-position: 0 0;
     background-repeat: no-repeat no-repeat;
 }
 #list_surround .header_ptw {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url(http://i43.tinypic.com/ra1e90.jpg);
+    background-image: url(https://i.ibb.co/WxnMsMd/header-plantowatch.png) /* header_plantowatch.png */;
     background-position: 0 0;
     background-repeat: no-repeat no-repeat;
 }
 #list_surround .header_dropped {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("http://i40.tinypic.com/dncxn4.png");
+    background-image: url(https://i.ibb.co/F55sH4x/header-dropped.png) /* header_dropped.png */;
     background-position: 0 0;
     background-repeat: no-repeat no-repeat;
 }
