@@ -1,13 +1,11 @@
-/* LAYOUT DESIGN MADE BY SYLAKENTH, THANKS TO HAHAIDO!
-/
-/
-/I ABSTAINED FROM IMPORTING LINKS FROM DROPBOX SINCE THE CRASH
-/SO MOSTLY ADDED EVERYTHING TO THIS CODE
-/
-/
-/									*/
+/*
+Made by SylakentH, thanks to Hahaido!
+Modified by Valerio Lyndon
+Last update: 2024-Jan-14
+*/
 @\import "https://malscraper.azurewebsites.net/covers/auto/presets/more";
-@\import "https://fonts.googleapis.com/css?family=Oswald";
+@\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
+@\import "https://fonts.googleapis.com/css2?family=Oswald&family=Viga&display=swap";
 
 * {
     text-decoration: none;
@@ -20,9 +18,11 @@ background-image: url("https://i.imgur.com/OY6BSMD.jpg");
     background-position: 0% 30%;
     background-repeat: no-repeat no-repeat;
     background-size: cover;
-    font-family: Oswald !important;
+    font-family: Oswald;
   font-variant: small-caps; 
-  
+}
+body[data-work="manga"] {
+	font-family: Viga;
 }
 a {
     color: rgba(255,255,255,0.7);
@@ -213,11 +213,41 @@ td[class^="td"]:nth-of-type(2) {
 }
 /* 
 
-
 COVER NECESSITIES
 
+The surrounding area containing each cover pic which appears when you point to a row (requires #more CSS).
+Left and top adjust the position it appears on screen.
+Control the height and width of the pic with height and width.
+Remove only the border-radius: 25px 25px 25px 25px; lines to take the rounded corners away.
+Increase height and width to make the pics bigger.
+Delete border-style: solid; to remove the border.
 
 */
+:hover + .hide {
+    background-color: #304242;
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: auto auto !important;
+    border-color: #FFFFFF;
+    border-radius: 16px 16px 0 0;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 0 2px 2px #000000;
+    display: block !important;
+    height: 250px;
+    padding: 39px 22px 9px 10px;
+    position: fixed;
+    top: 200px;
+    left: 1070px;
+    width: 183px;
+}
+/*
+
+MINI REVIEWS (HOVER TAG)
+
+*/
+
+
 .table_header:nth-of-type(6), span[id*="tagLinks"], div[id*="tagChangeRow"] {
     display: none !important;
 }
@@ -243,24 +273,8 @@ tr:hover span[id*="tagRow"] {
     color: white !important;
     visibility: visible;
 }
-:hover + .hide {
-    background-color: #304242;
-    background-position: 50% 50% !important;
-    background-repeat: no-repeat !important;
-    background-size: auto auto !important;
-    border-color: #FFFFFF;
-    border-radius: 16px 16px 0 0;
-    border-style: solid;
-    border-width: 2px;
-    box-shadow: 0 2px 2px #000000;
-    display: block !important;
-    height: 250px;
-    padding: 39px 22px 9px 10px;
-    position: fixed;
-    top: 200px;
-    left: 1070px;
-    width: 183px;
-}
+
+
 /*  
 
 
@@ -294,6 +308,9 @@ HEADERS
     background-repeat: no-repeat no-repeat;
     height: 350px;
     margin-bottom: -45px;
+}
+[data-work="manga"] .header_cw {
+	background-image: url("http://i.imgur.com/wZ9ZcP1.png");;
 }
 .header_completed {
     background-color: transparent;
@@ -373,6 +390,9 @@ CATEGORY LINKS
     left: -3px;
     top: 160px;
     width: 300px;
+}
+[data-work="manga"] #list_surround .status_selected, [data-work="manga"] #list_surround .status_not_selected {
+	background-image: url("http://i.imgur.com/KCVVbEB.png");
 }
 #list_surround .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected {
     background-attachment: scroll;

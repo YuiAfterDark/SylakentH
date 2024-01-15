@@ -1,10 +1,20 @@
 # Bakemonogatari theme
 
-**Supported columns:**
+![](gallery/demo.png)
+
+**Anime Columns:**
 
 - Numbers
 - Score
-- Episodes or Chapters
+- Type
+- Episodes
+- Tags
+
+**Manga Columns:**
+
+- Numbers
+- Score
+- Chapters
 - Volumes
 - Tags
 
