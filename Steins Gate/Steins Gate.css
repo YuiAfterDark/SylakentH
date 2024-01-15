@@ -1,5 +1,11 @@
+/*
+Steins;Gate by SylakentH
+Modified by Valerio Lyndon
+Last update: 2024-Jan-14
+*/
 
-@\import "https://malscraper.azurewebsites.net/covers/auto/presets/more";
+@\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
+@\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
 @\import "https://fonts.googleapis.com/css?family=Advent+Pro";
 
 * {
@@ -193,10 +199,13 @@ small {
 
 .header_cw {
     background-color: transparent;
-    background-image: url(https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwEah4Z6B88TvUvRruXJiHcs);
+	background-image: url(https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwPvAaTHnaLFUddbp1yuxhds);
     background-position: 50% 0;
     background-repeat: no-repeat no-repeat;
     height: 200px;
+}
+[data-work="manga"] .header_cw {
+    background-image: url(https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwEah4Z6B88TvUvRruXJiHcs);
 }
 
 .header_completed {
@@ -625,7 +634,7 @@ If you want to change out the icon images themselves, you can scroll down throug
 }
 
 #mal\_cs\_powered a img {
-    background: url(https://image.myanimelist.net/ui/OK6W_koKDTOqqqLDbIoPAt3JcBqvQltA05aI1KzReag) no-repeat scroll 50% 6px rgba(64, 60, 90, 0.6);
+    background: url(https://i.ibb.co/pPWQv6B/myanimelist.png) /* myanimelist.png */ no-repeat scroll 50% 6px rgba(64, 60, 90, 0.6);
     border-radius: 3px 3px 3px 3px;
     display: block;
     height: 0;
@@ -667,7 +676,7 @@ If you want to change out the icon images themselves, you can scroll down throug
 }
 
 #mal\_cs\_powered #search #searchListButton {
-    background: url(https://image.myanimelist.net/ui/OK6W_koKDTOqqqLDbIoPAohQp8z5wri96eN4opUjHJE) no-repeat scroll 0 0 transparent;
+    background:  url(https://i.ibb.co/SxV4gzB/search-icon.png) /* search_bar.png */ no-repeat scroll 0 0 transparent;
     border-radius: 3px 3px 3px 3px;
     height: 0;
     margin: 0;
@@ -679,42 +688,42 @@ If you want to change out the icon images themselves, you can scroll down throug
 }
 
 #mal\_cs\_listinfo {
-    background-image: url(https://image.myanimelist.net/ui/OK6W_koKDTOqqqLDbIoPAgAy9GEXkkvD3cdjJLfSVGQ);
+    background-image: url(https://i.ibb.co/NNccKH7/user.png);
     right: 106px;
 }
 
 #mal\_cs\_listinfo:hover {
-    background-image: url(https://image.myanimelist.net/ui/OK6W_koKDTOqqqLDbIoPAo1BLE0cUckQyU8EWJh4d9o);
+    background-image: url(https://i.ibb.co/Yhf4N0w/user-hover.png);
 }
 
 #mal\_cs\_links {
-    background-image: url(https://image.myanimelist.net/ui/OK6W_koKDTOqqqLDbIoPAssYPGhnnbj3VC8LTDSSNDM);
+    background-image: url(https://i.ibb.co/hFT8gkS/home.png);
     right: 72px;
     z-index: 9;
 }
 
 #mal\_cs\_links:hover {
-    background-image: url(https://image.myanimelist.net/ui/OK6W_koKDTOqqqLDbIoPArbwWO8Kea0_4Ciulu66_lw);
+    background-image: url(https://i.ibb.co/dKxvT8B/home-hover.png);
 }
 
 #mal\_cs\_otherlinks {
-    background-image: url(https://image.myanimelist.net/ui/OK6W_koKDTOqqqLDbIoPAokWkF2iSIXUYadLjN09jtI);
+    background-image: url(https://i.ibb.co/Bf6gHFZ/stats.png);
     right: 38px;
     z-index: 8;
 }
 
 #mal\_cs\_otherlinks:hover {
-    background-image: url(https://image.myanimelist.net/ui/OK6W_koKDTOqqqLDbIoPAsjhQ_Vxv7FuhVPPLRrC1aw);
+    background-image: url(https://i.ibb.co/F5psvrf/stats-hover.png);
 }
 
 #mal\_cs\_powered {
-    background-image: url(https://image.myanimelist.net/ui/OK6W_koKDTOqqqLDbIoPAl-lrr2XY5HdZZfMhacIFAw);
+    background-image: url(https://i.ibb.co/Jt01K4S/search.png);
     right: 4px !important;
     z-index: 7;
 }
 
 #mal\_cs\_powered:hover {
-    background-image: url(https://image.myanimelist.net/ui/OK6W_koKDTOqqqLDbIoPAkBNDbRbptLJbz4pj_ZyrMg);
+    background-image: url(https://i.ibb.co/255PjyY/search-hover.png);
 }
 
 td#mal\_cs\_pic a img {
@@ -729,40 +738,14 @@ td#mal\_cs\_pic a img {
     padding: 32px 0 0 !important;
 }
 
-#mal\_cs\_listinfo:before, #mal\_cs\_links:before, #mal\_cs\_otherlinks:before, #mal\_cs\_powered:before {
-    z-index: 10 !important;
-    content: "";
-    right: 0 !important;
-    top: 0 !important;
-    width: 32px !important;
-    position: absolute !important;
-    border-radius: 4px;
-}               
-
-#mal\_cs\_listinfo:after{
-    background-image: url(https://image.myanimelist.net/ui/OK6W_koKDTOqqqLDbIoPAmwhS5hsEJbkU9HULOVqw0k);
-}
-
-#mal\_cs\_links:after{
-    background-image: url(https://image.myanimelist.net/ui/OK6W_koKDTOqqqLDbIoPAvxofPrsHsJcE3TXysRT-GY);
-}
-
-#mal\_cs\_otherlinks:after{
-    background-image: url(https://image.myanimelist.net/ui/OK6W_koKDTOqqqLDbIoPAnMLnPGq5ccgO3WDmHUlcUg);
-}
-
-#mal\_cs\_powered:after{
-    background-image: url(https://image.myanimelist.net/ui/OK6W_koKDTOqqqLDbIoPAg7RxNU5ziABBkzp8COCPhs);
-}
-
-#mal\_cs\_listinfo:after, #mal\_cs\_links:after, #mal\_cs\_otherlinks:after, #mal\_cs\_powered:after {
-    z-index: 10 !important;
-    content: "";
-    right: 0 !important;
-    top: 0 !important;
-    width: 32px !important;
-    height: 32px !important;
-    position: absolute !important;
+/* preload images */
+#mal_control_strip tbody {
+	background-image:
+		url(https://i.ibb.co/Yhf4N0w/user-hover.png),
+		url(https://i.ibb.co/dKxvT8B/home-hover.png),
+		url(https://i.ibb.co/F5psvrf/stats-hover.png),
+		url(https://i.ibb.co/255PjyY/search-hover.png);
+	background-size: 0;
 }
 
 #searchBox {
