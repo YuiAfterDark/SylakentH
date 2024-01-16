@@ -2,6 +2,8 @@
 
 ## Info
 
+A reskin of Hatsune Miku.
+
 For classic anime lists only.
 
 **Links:**

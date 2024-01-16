@@ -2,6 +2,8 @@
 
 ## Info
 
+A reskin of Luka.
+
 Animelist only (mangalist version is unrecoverable).
 
 **Links:**
