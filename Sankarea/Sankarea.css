@@ -1,8 +1,14 @@
-/* removed defunct cover import: https://malcat-gen.appspot.com/series?preset=more */
+/*
+Sankarea by SylakentH
+Modified by Valerio Lyndon
+Last update: 2024-Jan-15
+*/
+@\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
+@\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
 @\import "https://fonts.googleapis.com/css?family=Autour+One";
 /* begin https://dl.dropboxusercontent.com/s/sb0f3i0iiami78c/BlueMenu.css */
 div > table:first-of-type {
-    background: url("http://i44.tinypic.com/2casuw.png") no-repeat scroll 100% 0 transparent;
+    background: url(https://i.ibb.co/bPDv2Wj/menu.png) no-repeat scroll 100% 0 transparent;
     display: block;
     height: 32px !important;
     overflow: hidden;
@@ -20,7 +26,7 @@ div > table:first-of-type {
 transition: all 0.4s ease 0s;
 }
 div > table:first-of-type:hover {
-    background: url("http://i40.tinypic.com/153y493.png") no-repeat scroll 100% 0 transparent !important;
+    background: url(https://i.ibb.co/rF3SBjW/menu-hover.png) no-repeat scroll 100% 0 transparent !important;
     height: auto !important;
     width: auto !important;
 }
@@ -146,7 +152,7 @@ transition: all 0.4s ease 0s;
 -webkit-transition: all 0.4s ease 0s;
 -o-transition: all 0.4s ease 0s;
 transition: all 0.4s ease 0s;
-    background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0poweredaimg.png") no-repeat scroll 50% 6px rgba(15, 131, 255, 0.6);
+    background: url(https://i.ibb.co/pPWQv6B/myanimelist.png) /* myanimelist.png */ no-repeat scroll 50% 6px rgba(15, 131, 255, 0.6);
     border-radius: 3px 3px 3px 3px;
     display: block;
     height: 0;
@@ -183,7 +189,7 @@ transition: all 0.4s ease 0s;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
 }
 #searchListButton {
-    background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0searchbutton.png") no-repeat scroll 0 0 transparent !important;
+    background: url(https://i.ibb.co/SxV4gzB/search-icon.png) /* search_bar.png */ no-repeat scroll 0 0 transparent !important;
     border-radius: 3px 3px 3px 3px;
     height: 0;
     margin: 0;
@@ -194,36 +200,36 @@ transition: all 0.4s ease 0s;
     width: 0;
 }
 #mal_cs_listinfo {
-    background-image: url("http://i40.tinypic.com/5freq0.png");
+    background-image: url(https://i.ibb.co/vZkK8Rp/user.png);
     right: 172px;
 }
 #mal_cs_listinfo:hover {
-    background-image: url("http://i41.tinypic.com/1i0w91.png");
+    background-image: url(https://i.ibb.co/71TTkTF/user-hover.png);
 }
 #mal_cs_links {
-    background-image: url("http://i43.tinypic.com/2ijgab4.png");
+    background-image: url(https://i.ibb.co/ypBJP95/home.png);
     right: 138px !important;
     z-index: 9;
 }
 #mal_cs_links:hover {
-    background-image: url("http://i42.tinypic.com/2z9d275.png");
+    background-image: url(https://i.ibb.co/TTWrh6m/home-hover.png);
 }
 #mal_cs_otherlinks {
-    background-image: url("http://i40.tinypic.com/fp5c87.png");
+    background-image: url(https://i.ibb.co/jVB7x1y/stats.png);
     right: 104px !important;
     z-index: 8;
 }
 #mal_cs_otherlinks:hover {
-    background-image: url("http://i41.tinypic.com/3339539.png");
+    background-image: url(https://i.ibb.co/8Pcqxwr/stats-hover.png);
 }
 #mal_cs_powered {
-    background-image: url("http://i42.tinypic.com/685tfo.png");
+    background-image: url(https://i.ibb.co/n728Q5H/search.png);
     position: fixed !important;
     right: 70px !important;
     z-index: 7;
 }
 #mal_cs_powered:hover {
-    background-image: url("http://i40.tinypic.com/2uh5ume.png");
+    background-image: url(https://i.ibb.co/7vrQg1H/search-hover.png);
 }
 #mal\_control\_strip {
     background: none repeat scroll 0 0 transparent !important;
@@ -305,7 +311,7 @@ body {
     background-attachment: fixed;
     background-clip: border-box;
     background-color: transparent;
-    background-image: url("http://i39.tinypic.com/2mhd5ee.jpg");
+    background-image: url(https://i.ibb.co/tQH2DNm/background.jpg);
     background-position: 50% 67%;
     background-repeat: no-repeat no-repeat;
     background-size: cover;
@@ -462,32 +468,32 @@ small {
     vertical-align: middle;
 }
 .header_cw {
-    background-image: url("http://i42.tinypic.com/jrzp06.png");
+    background-image: url(https://i.ibb.co/x2WNC9s/header-watching.png);
     background-position: 40% 85%;
     background-repeat: no-repeat no-repeat;
     background-size: 70% auto;
 }
 .header_completed {
-    background-image: url("http://i39.tinypic.com/2mch7gx.png");
+    background-image: url(https://i.ibb.co/vQVKjjX/header-completd.png);
     background-position: 40% 85%;
     background-repeat: no-repeat no-repeat;
     background-size: 70% auto;
     z-index: 0;
 }
 .header_onhold {
-    background-image: url("http://i43.tinypic.com/2pydkyh.png");
+    background-image: url(https://i.ibb.co/6YghMS7/header-onhold.png);
     background-position: 40% 85%;
     background-repeat: no-repeat no-repeat;
     background-size: 70% auto;
 }
 .header_dropped {
-    background-image: url("http://i40.tinypic.com/9bhfts.png");
+    background-image: url(https://i.ibb.co/Cn6svb0/header-dropped.png);
     background-position: 40% 86%;
     background-repeat: no-repeat no-repeat;
     background-size: 70% auto;
 }
 .header_ptw {
-    background-image: url("http://i41.tinypic.com/2uqf53l.png");
+    background-image: url(https://i.ibb.co/Jrnznrr/header-planning.png);
     background-position: 40% 85%;
     background-repeat: no-repeat no-repeat;
     background-size: 70% auto;
@@ -563,4 +569,13 @@ small {
     color: #FFD700;
     content: " ";
     padding-left: 20px;
+}
+/* preload images */
+#mal_control_strip tbody {
+	background-image:
+		url(https://i.ibb.co/8Pcqxwr/stats-hover.png),
+        url(https://i.ibb.co/TTWrh6m/home-hover.png),
+        url(https://i.ibb.co/7vrQg1H/search-hover.png),
+        url(https://i.ibb.co/71TTkTF/user-hover.png);
+	background-size: 0;
 }
