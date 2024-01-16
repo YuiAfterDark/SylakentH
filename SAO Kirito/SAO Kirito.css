@@ -1,0 +1,119 @@
+@\import "https://fonts.googleapis.com/css?family=Varela+Round";
+@\import "https://fonts.googleapis.com/css?family=Margarine";
+@\import "http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/IconStyleCSSFixedwithCategory.css";
+body {
+background-attachment: fixed;
+background-image: url("http://i44.tinypic.com/2zgyknt.jpg");
+background-size: cover;
+}
+body {
+background-position: 0px 49%;
+}
+.header_title {
+background-color: transparent;
+background-image: url("https://dl.dropbox.com/u/57348187/MAL/PROZ.png");
+color: white;
+font-family: 'Margarine',cursive;
+font-size: 26px;
+text-align: left;
+text-shadow: 3px 3px 3px #000000;
+}
+.table_header {
+background-image: url("https://dl.dropbox.com/u/57348187/MAL/PROZ.png");
+}
+.animetitle, .animetitle:visited {
+color: white;
+font-family: 'Varela Round',sans-serif;
+font-size: 13px;
+text-shadow: 0 2px 1px #000000;
+}
+.td1, .td2, a, a:visited, .category_totals, .table_header, #grand_totals, #copyright {
+color: white;
+font-family: 'Varela Round',sans-serif;
+font-size: 12px;
+text-shadow: 0 2px 1px #000000;
+}
+#list_surround {
+width: 900px;
+}
+#list_surround {
+left: 0 !important;
+margin: auto !important;
+position: absolute !important;
+right: 0 !important;
+}
+body {
+background-color: #FBFDE8;
+background-repeat: no-repeat;
+}
+#list_surround {
+background-image: url("");
+left: 2px;
+position: absolute;
+}
+a {
+text-decoration: none;
+}
+a:visited {
+text-decoration: none;
+}
+a:hover, a:visited:hover {
+color: #D3D3D3;
+text-decoration: underline;
+}
+.category_totals, .td1, .td2, #grand_totals, #copyright {
+background-image: url("https://dl.dropbox.com/u/57348187/MAL/PROZ.png");
+border-width: 0;
+padding: 2px;
+}
+.category_totals:hover, .td1:hover, .td2:hover, #grand_totals:hover, #copyright:hover {
+background-image: url("https://dl.dropbox.com/u/57348187/MAL/PROZ2.png");
+border-width: 0;
+padding: 2px;
+}
+#copyright:after {
+content: " Custom CSS by Shishio-kun. Google 'Shishio's Custom Lists' for more designs and info.";
+}
+.status_selected {
+background-color: black;
+color: white;
+display: none;
+padding: 2px;
+text-decoration: blink;
+}
+.status_not_selected {
+background-color: black;
+color: white;
+display: none;
+padding: 2px;
+}
+.status_selected a {
+color: blue;
+display: none;
+}
+.status_not_selected a {
+color: white;
+display: none;
+}
+.thickbox {
+color: cyan;
+font-family: 'Happy Monkey',cursive;
+font-size: 12px;
+text-shadow: 2px 2px 2px #000000;
+}
+.header_title {
+height: 32px;
+padding: 2px;
+}
+.table_header {
+border-width: 0;
+font-weight: bold;
+padding: 2px;
+}
+.category_totals {
+height: 30px;
+}
+#copyright, #grand_totals {
+margin: 0 auto;
+text-align: center;
+}
