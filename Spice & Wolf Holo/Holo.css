@@ -1,7 +1,7 @@
 /*
 Made by SylakentH, thanks to Hahaido!
 Modified by Valerio Lyndon
-Last update: 2024-Jan-14
+Last update: 2024-Jan-26
 */
 @\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
 @\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
@@ -475,7 +475,7 @@ CATEGORY LINKS
 .status_not_selected {
     display: block;
 }
-#list_surround .status_selected, #list_surround .status_not_selected {
+#list_surround [class^="status_"] {
     background-color: rgba(185, 88, 69, 0.8);
     border-color: white !important;
     border-style: solid !important;
@@ -490,20 +490,20 @@ CATEGORY LINKS
     transition: all 0.8s ease 0s;
     box-shadow: 3px 2px 20px  inset;
 }
-#list_surround .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected {
+#list_surround [class^="status_"]:nth-of-type(2) {
     top: 301px;
    border-radius: 0px !important;
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected {
+#list_surround [class^="status_"]:nth-of-type(3) {
     top: 348px;
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+#list_surround [class^="status_"]:nth-of-type(4) {
     top: 395px;
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+#list_surround [class^="status_"]:nth-of-type(5) {
     top: 442px;
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+#list_surround [class^="status_"]:nth-of-type(6) {
     top: 489px;
   border-radius:0 0 30px 30px !important;
 }

@@ -1,7 +1,7 @@
 /*
 To-love Ru by SylakentH
 Modified by Valerio Lyndon
-Last update: 2024-Jan-15
+Last update: 2024-Jan-26
 */
 
 @\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
@@ -260,7 +260,7 @@ body {
     width: 900px !important;
     z-index: -1 !important;
 }
-#list_surround .status_selected, #list_surround .status_not_selected {
+#list_surround [class^="status_"] {
     background-attachment: scroll;
     background-color: transparent;
     background-image: url(https://i.ibb.co/8PK122j/category-watching.png) /* category_watching.png */;
@@ -275,46 +275,24 @@ body {
     top: 0;
     width: 270px;
 }
-#list_surround .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected {
-    background-attachment: scroll;
-    background-color: transparent;
+#list_surround [class^="status_"]:nth-of-type(2) {
     background-image: url(https://i.ibb.co/LhB1r3T/category-completed.png) /* category_completed.png */;
-    background-position: 0 0;
-    background-repeat: repeat repeat;
     top: 110px;
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected {
-    background-attachment: scroll;
-    background-color: transparent;
+#list_surround [class^="status_"]:nth-of-type(3) {
     background-image: url(https://i.ibb.co/Dzd0gW8/category-onhold.png) /* category_onhold.png */;
-    background-position: 0 0;
-    background-repeat: repeat repeat;
     top: 220px;
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
-    background-attachment: scroll;
-    background-color: transparent;
+#list_surround [class^="status_"]:nth-of-type(4) {
     background-image: url(https://i.ibb.co/mFsMT9Z/category-dropped.png) /* category_dropped.png */;
-    background-position: 0 0;
-    background-repeat: repeat repeat;
     top: 330px;
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
-    background-attachment: scroll;
-    background-color: transparent;
+#list_surround [class^="status_"]:nth-of-type(5) {
     background-image: url(https://i.ibb.co/xLV0X7X/category-plantowatch.png) /* category_plantowatch.png */;
-    background-position: 0 0;
-    background-repeat: repeat repeat;
-    display: inline;
     top: 440px;
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
-    background-attachment: scroll;
-    background-color: transparent;
+#list_surround [class^="status_"]:nth-of-type(6) {
     background-image: url(https://i.ibb.co/bQ5Cz8j/category-all.png) /* category_all.png */;
-    background-position: 0 0;
-    background-repeat: no-repeat no-repeat;
-    display: inline;
     top: 550px;
 }
 #list_surround .header_cw {
@@ -450,8 +428,6 @@ a:hover {
 }
 #copyright a {
     color: #3A4358;
-}
-#copyright {
 }
 tr:hover [class^="td"] {
     background-color: #AC00E6;

@@ -1,7 +1,7 @@
 /*
 Steins;Gate by SylakentH
 Modified by Valerio Lyndon
-Last update: 2024-Jan-14
+Last update: 2024-Jan-26
 */
 
 @\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
@@ -181,20 +181,12 @@ small {
     transition: all 0.4s ease 0s;
 }
 
-.status_selected a, .status_not_selected a, .status_selected:hover a, .status_not_selected:hover a {
+[class^="status_"] a {
     color: transparent;
     display: block;
     height: 100px;
     opacity: 0;
     width: 271px;
-}
-
-.status_selected {
-    display: block;
-}
-
-.status_not_selected {
-    display: block;
 }
 
 .header_cw {
@@ -241,7 +233,7 @@ small {
     height: 200px;
 }
 
-#list_surround .status_selected, #list_surround .status_not_selected {
+#list_surround [class^="status_"] {
     background-attachment: scroll;
     background-color: transparent;
     background-image: url(https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwDdybjMYhKpwfM9URtD4470);
@@ -258,53 +250,31 @@ small {
     width: 271px;
 }
 
-#list_surround .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected {
-    background-attachment: scroll;
-    background-color: transparent;
+#list_surround [class^="status_"]:nth-of-type(2) {
     background-image: url(https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwGlzYn9LNlQ4UaN_DkvqbCA);
-    background-position: 0 0;
-    background-repeat: no-repeat no-repeat;
     border-top-left-radius: 0;
-    border-top-right-radius: 0;
     top: 360px;
 }
 
-#list_surround .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected {
-    background-attachment: scroll;
-    background-color: transparent;
+#list_surround [class^="status_"]:nth-of-type(3) {
     background-image: url(https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwFZ8tqA612XaCXi6uIb-ksk);
-    background-position: 0 0;
-    background-repeat: repeat repeat;
     top: 446px;
 }
 
-#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
-    background-attachment: scroll;
-    background-color: transparent;
+#list_surround [class^="status_"]:nth-of-type(4) {
     background-image: url(https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwKVSA2c_ixpMo1-AA2TDr4A);
-    background-position: 0 0;
-    background-repeat: no-repeat no-repeat;
     top: 531px;
 }
 
-#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
-    background-attachment: scroll;
-    background-color: transparent;
+#list_surround [class^="status_"]:nth-of-type(5) {
     background-image: url(https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwCEwRbwqXncKD7qdZAmraQc);
-    background-position: 0 0;
-    background-repeat: repeat repeat;
     top: 617px;
 }
 
-#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
-    background-attachment: scroll;
-    background-color: transparent;
+#list_surround [class^="status_"]:nth-of-type(6) {
     background-image: url(https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwJq3H24yUtwh9v678SZ9CC4);
-    background-position: 0 0;
-    background-repeat: no-repeat no-repeat;
-    border-bottom-left-radius: 20px !important;
+    border-bottom-left-radius: 20px;
     top: 702px;
-    width: 271px;
 }
 
 /* COVER AREA

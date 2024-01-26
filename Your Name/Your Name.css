@@ -1,7 +1,7 @@
 /*
 Your Name by SylakentH
 Modified by Valerio Lyndon
-Last update: 2024-Jan-14
+Last update: 2024-Jan-26
 */
 
 @\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
@@ -425,7 +425,7 @@ small {
     height: 200px;
     margin-bottom: -44px;
 }
-#list_surround .status_selected, #list_surround .status_not_selected {
+#list_surround [class^="status_"] {
     background-attachment: scroll;
     background-color: transparent;
     background-image: url(https://i.imgur.com/OHZVWcd.png);
@@ -441,45 +441,28 @@ small {
     top: 220px;
     width: 300px;
 }
-#list_surround .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected {
-    background-attachment: scroll;
-    background-color: transparent;
+#list_surround [class^="status_"]:nth-of-type(2) {
     background-image: url(https://i.imgur.com/D26tKi3.png);
-    background-repeat: no-repeat no-repeat;
-    border-bottom-right-radius: 0;
     border-top-left-radius: 0;
-    border-top-right-radius: 0;
     top: 322px;
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected {
-    background-attachment: scroll;
-    background-color: transparent;
+#list_surround [class^="status_"]:nth-of-type(3) {
     background-image: url(https://i.imgur.com/m3hNhNn.png);
     top: 424px;
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
-    background-attachment: scroll;
-    background-color: transparent;
+#list_surround [class^="status_"]:nth-of-type(4) {
     background-image: url(https://i.imgur.com/koAAON9.png);
-    background-repeat: repeat repeat;
     top: 526px;
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
-    background-attachment: scroll;
-    background-color: transparent;
+#list_surround [class^="status_"]:nth-of-type(5) {
     background-image: url(https://i.imgur.com/NwsiCih.png);
     top: 628px;
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
-    background-attachment: scroll;
-    background-color: transparent;
+#list_surround [class^="status_"]:nth-of-type(6) {
     background-image: url(https://i.imgur.com/YaiWNNz.png);
-    background-position: 0 0;
-    background-repeat: no-repeat no-repeat;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     top: 730px;
-    width: 300px;
 }
 td[class^="td"]:nth-of-type(2) {
     width: 454px !important;

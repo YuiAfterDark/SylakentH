@@ -6,6 +6,10 @@
 /
 /
 /									*/
+/*
+Modified by Valerio Lyndon
+Last update: 2024-Jan-26
+*/
 @\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
 @\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
 @\import "https://fonts.googleapis.com/css?family=Viga";
@@ -408,7 +412,7 @@ CATEGORY LINKS
     opacity: 1;
     transition: all 0.4s ease 0s;
 }
-#list_surround .status_selected, #list_surround .status_not_selected {
+#list_surround [class^="status_"] {
     background-attachment: scroll;
     background-color: transparent;
     background-image: url(https://i.imgur.com/jCrQkkr.png);
@@ -422,42 +426,25 @@ CATEGORY LINKS
     width: 150px;
   z-index:500;
 }
-#list_surround .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected {
-    background-attachment: scroll;
-    background-color: transparent;
+#list_surround [class^="status_"]:nth-of-type(2) {
     background-position: 0% 20% !important;
     top: 110px; 
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected {
-    background-attachment: scroll;
-    background-color: transparent;
+#list_surround [class^="status_"]:nth-of-type(3) {
     background-position: 0px 40% !important;
-	top:220px;
+	top: 220px;
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
-    background-attachment: scroll;
-    background-color: transparent;
+#list_surround [class^="status_"]:nth-of-type(4) {
     background-position: 0 60% !important;
-  top:330px
-
+	top: 330px
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
-    background-attachment: scroll;
-    background-color: transparent;
+#list_surround [class^="status_"]:nth-of-type(5) {
     background-position: 0 80% !important;
-    background-repeat: repeat repeat;
-    display: inline;
-  top:440px;
-
+	top: 440px;
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
-    background-attachment: scroll;
-    background-color: transparent;
+#list_surround [class^="status_"]:nth-of-type(6) {
     background-position: 0 100% !important;
-    background-repeat: no-repeat no-repeat;
-    display: inline;
-		top:550px;
-    width: 150px;
+	top: 550px;
 }
 /*
 

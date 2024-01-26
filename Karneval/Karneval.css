@@ -1,7 +1,7 @@
 /*
 Karneval by SylakentH
 Modified by Valerio Lyndon
-Last update: 2024-Jan-15
+Last update: 2024-Jan-26
 */
 @\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
 /* begin https://dl.dropbox.com/s/4u9v39e5go65aoq/PinkTopBar.css */
@@ -263,7 +263,7 @@ body {
 [data-work="manga"] #inlineContent {
     background-image: url(https://i.ibb.co/5jFMkYt/render-manga.png) /* render_manga.png */;
 }
-#list_surround .status_selected, #list_surround .status_not_selected {
+#list_surround [class^="status_"] {
     background-attachment: scroll;
     background-color: transparent;
     background-image: url(https://i.ibb.co/W6n83gH/category-watching.png) /* category_watching.png */;
@@ -281,46 +281,24 @@ body {
 [data-work="manga"] #list_surround .status_selected, [data-work="manga"] #list_surround .status_not_selected {
     background-image: url(https://i.ibb.co/BsNhzq1/category-reading.png) /* category_reading.png */;
 }
-#list_surround .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected {
-    background-attachment: scroll;
-    background-color: transparent;
+#list_surround [class^="status_"]:nth-of-type(2) {
     background-image: url(https://i.ibb.co/TgXgyLM/category-completed.png) /* category_completed.png */;
-    background-position: 0 0;
-    background-repeat: repeat repeat;
     top: 110px;
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected {
-    background-attachment: scroll;
-    background-color: transparent;
+#list_surround [class^="status_"]:nth-of-type(3) {
     background-image: url(https://i.ibb.co/P5k42ws/category-onhold.png) /* category_onhold.png */;
-    background-position: 0 0;
-    background-repeat: repeat repeat;
     top: 220px;
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
-    background-attachment: scroll;
-    background-color: transparent;
+#list_surround [class^="status_"]:nth-of-type(4) {
     background-image: url(https://i.ibb.co/qj7ZZk9/category-dropped.png) /* category_dropped.png */;
-    background-position: 0 0;
-    background-repeat: repeat repeat;
     top: 330px;
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
-    background-attachment: scroll;
-    background-color: transparent;
+#list_surround [class^="status_"]:nth-of-type(5) {
     background-image: url(https://i.ibb.co/bWY5Ncf/category-planning.png) /* category_planning.png */;
-    background-position: 0 0;
-    background-repeat: repeat repeat;
-    display: inline;
     top: 440px;
 }
-#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
-    background-attachment: scroll;
-    background-color: transparent;
+#list_surround [class^="status_"]:nth-of-type(6) {
     background-image: url(https://i.ibb.co/7yPYPnM/category-allanime.png) /* category_allanime.png */;
-    background-position: 0 0;
-    background-repeat: no-repeat no-repeat;
-    display: inline;
     top: 550px;
 }
 [data-work="manga"] #list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected,
