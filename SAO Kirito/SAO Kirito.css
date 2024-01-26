@@ -1,7 +1,7 @@
 /*
 SAO Kirito by SylakentH
 Modified by Valerio Lyndon
-Last update: 2024-Jan-15
+Last update: 2024-Jan-26
 */
 @\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
 @\import "https://fonts.googleapis.com/css2?family=Varela+Round&family=Margarine&display=swap";
@@ -98,6 +98,7 @@ Change to absolute if you want it to not scroll with the page.
 */
 #mal_control_strip {
 	position: fixed !important;
+	z-index: 1;
 	background-color: transparent !important;
 	background-image: url() /* none */ !important;
 }
