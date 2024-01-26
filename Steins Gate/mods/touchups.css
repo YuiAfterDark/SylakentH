@@ -1,0 +1,21 @@
+/*
+Touchups by Valerio Lyndon
+Last update: 2024-Jan-26
+*/
+
+.status_not_selected:hover {
+    right: -3px !important;
+}
+#list_surround [class^="status_"] {
+	border-radius: 0;
+}
+#list_surround [class^="status_"]:nth-of-type(1) {
+	border-top-left-radius: 20px;
+}
+#list_surround [class^="status_"]:nth-of-type(6) {
+	border-bottom-left-radius: 20px;
+}
+#list_surround .status_selected,
+#list_surround [class^="status_"]:hover {
+	border-radius: 20px 0 0 20px;
+}
