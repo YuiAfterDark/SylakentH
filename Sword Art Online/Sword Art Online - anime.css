@@ -1,4 +1,14 @@
-/* removed defunct cover generator: https://malcat-gen.appspot.com/series?preset=more */
+/*
+Sword Art Online by SylakentH
+a variation of Lineage by Hahaido
+Modified by Valerio Lyndon
+Last update: 2024-Jan-26
+*/
+
+@\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
+@\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
+@\import "https://files.catbox.moe/a3iay5.css"; /* SAO font */
+
 /* begin https://dl.dropboxusercontent.com/s/5wz4oy85u610ulb/SaoTopMenuHahaido.css */
 #mal_control_strip {
 	position: fixed;
@@ -188,6 +198,17 @@
 	z-index: -1;
 }
 
+/* Preload Images */
+
+
+#mal_control_strip tbody {
+	background-image:
+		url(http://i.imgur.com/KmpplKK.png),
+		url(http://i.imgur.com/yIwrG1o.png),
+		url(http://i.imgur.com/Jv4A2PQ.png),
+		url(http://i.imgur.com/iCaumtV.png);
+}
+
 #search {
 	position: relative;
 	margin-top: 8px !important;
@@ -249,6 +270,9 @@
     position: absolute;
     width: 650px;
     z-index: 1 !important;
+}
+[data-work="manga"] :is(.header_cw, .header_completed, .header_onhold, .header_dropped, .header_ptw) span {
+	background-image: url(https://cdn.imgchest.com/files/myd5cerdre4.png);
 }
 .header_cw {
     background-image: url("http://i.imgur.com/n2fHVx5.png");
@@ -324,16 +348,12 @@ body {
     background-color: rgba(0, 0, 0, 0);
 /*    background-image: url("http://i57.tinypic.com/2rgp5qd.png");
 background-position: 44% 0;*/
-background-image: url("https://i.imgur.com/lX4j1bu.jpg");
+background-image: url(https://i.ibb.co/9N5sRFX/background.jpg) /* background.jpg */;
     background-position: 0% 60%;
     background-repeat: no-repeat no-repeat;
     background-size: cover;
     cursor: url("http://i.imgur.com/hCNOLWu.png") 1 1, auto;
     font-family: candara;
-}
-@font-face {
-    font-family: "SAO";
-    src: url("http://dl.dropboxusercontent.com/u/78192465/MyAnimeList/Fonts/SAO.woff") format("woff");
 }
 a, #searchListButton {
     cursor: url("http://i.imgur.com/6IcIxwf.png") 1 1, auto !important;
@@ -387,6 +407,7 @@ body {
     top: 50%;
     width: 73px;
 }
+[data-work="manga"] :is(.status_selected,.status_not_selected) a { background-image: url(https://cdn.imgchest.com/files/b49zc2b8d2y.png); }
 .status_not_selected a {
     opacity: 0.7;
     transition: opacity 0.4s ease 0s;
@@ -402,6 +423,7 @@ body {
     left: -227px;
     position: absolute;
 }
+.status_selected a[href*="/mangalist/"]:before, .status_not_selected a[href*="/mangalist/"]:before { background-image: url(https://cdn.imgchest.com/files/3yrgcnzezr4.png); }
 .status_not_selected a:before {
     opacity: 0;
     transition: opacity 0.4s ease 0s, width 0.4s ease 0s;
