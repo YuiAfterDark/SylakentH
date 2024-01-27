@@ -1,5 +1,7 @@
 /*
 Haruhi by SylakentH
+Modified by Valerio Lyndon
+Last update: 2024-Jan-27
 */
 
 @\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
@@ -154,7 +156,7 @@ transition: all 0.4s ease 0s;
 -webkit-transition: all 0.4s ease 0s;
 -o-transition: all 0.4s ease 0s;
 transition: all 0.4s ease 0s;
-    background: url("https://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0poweredaimg.png") no-repeat scroll 50% 6px rgba(15, 131, 255, 0.6);
+    background: url("https://i.ibb.co/pPWQv6B/myanimelist.png") no-repeat scroll 50% 6px rgba(15, 131, 255, 0.6);
     border-radius: 3px 3px 3px 3px;
     display: block;
     height: 0;
@@ -191,7 +193,7 @@ transition: all 0.4s ease 0s;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
 }
 #searchListButton {
-    background: url("https://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0searchbutton.png") no-repeat scroll 0 0 transparent !important;
+    background: url("https://i.ibb.co/SxV4gzB/search-icon.png") no-repeat scroll 0 0 transparent !important;
     border-radius: 3px 3px 3px 3px;
     height: 0;
     margin: 0;
@@ -272,6 +274,16 @@ right: 68px \0/;
 margin-left: 60px \0/;
 }
 
+/* preload images */
+#mal_control_strip tbody {
+	background-image:
+		url("https://i.imgur.com/lW8QOL3.png"),
+		url("https://i.imgur.com/Gm7buPJ.png"),
+		url("https://i.imgur.com/xlnJ5ls.png"),
+		url("https://i.imgur.com/P3HfP6G.png"),
+		url("https://i.imgur.com/aPgoTR3.png");
+	background-size: 0;
+}
 /* End import */
 
 /* Begin import from: https://dl.dropboxusercontent.com/s/rkoh6puaqoegvyr/TMOHSEditButton.css */
