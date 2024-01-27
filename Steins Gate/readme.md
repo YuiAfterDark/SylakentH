@@ -4,7 +4,7 @@
 
 ## Info
 
-Animelist only.
+For classic anime lists. Manga list is missing images.
 
 **Links:**
 - [Forum](https://myanimelist.net/forum/?topicid=618961)

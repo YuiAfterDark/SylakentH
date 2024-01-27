@@ -4,6 +4,8 @@
 
 ## Info
 
+For classic anime lists.
+
 **Anime Columns:**
 √ Numbers
 √ Score
