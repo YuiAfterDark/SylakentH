@@ -301,7 +301,7 @@ td[class^="td"]:nth-child(4) {
 [cellspacing="0"] {
     line-height: 17px;
 }
-#list_surround a[href*="http://myanimelist.net/panel.php?go=edit"], #list_surround a[href*="http://myanimelist.net/editlist.php?type="], #list_surround a[href*="http://myanimelist.net/panel.php?go=add"] {
+#list_surround a[href*="https://myanimelist.net/panel.php?go=edit"], #list_surround a[href*="https://myanimelist.net/editlist.php?type="], #list_surround a[href*="https://myanimelist.net/panel.php?go=add"] {
     margin-right: 10px;
     visibility: visible !important;
 }
@@ -553,7 +553,7 @@ tr:hover span[id*="tagRow"] {
     position: fixed;
 }
 .status_selected a, .status_not_selected a {
-    background-image: url(https://i.imgur.com/kO9fok6.png) /* category_icons.png / alternate URL: http://i.imgur.com/ATAVnsX.png */;
+    background-image: url(https://i.imgur.com/kO9fok6.png) /* category_icons.png / alternate URL: https://i.imgur.com/ATAVnsX.png */;
     display: inline-block;
     font-size: 0;
     height: 58px;

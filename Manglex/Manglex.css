@@ -6,7 +6,7 @@ Last update: 2024-Jan-15
 @\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
 @\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
 @\import "https://fonts.googleapis.com/css2?family=Autour+One&family=Patrick+Hand+SC";
-/* begin http://dl.dropbox.com/s/rogesc5nd2o920m/topbarAnohana.css */
+/* begin https://dl.dropbox.com/s/rogesc5nd2o920m/topbarAnohana.css */
 #mal_control_strip {
 	--user-btn: url(https://i.ibb.co/4V3Nqgj/user.png) /* user.png */;
 	--user-btn-hover: url(https://i.ibb.co/Yhf4N0w/user-hover.png) /* user_hover.png */;
@@ -197,7 +197,7 @@ Last update: 2024-Jan-15
 #mal_cs_pic, #mal_cs_listinfo, #mal_cs_links {
     border-right: 0 none !important;
 }
-/* end http://dl.dropbox.com/s/rogesc5nd2o920m/topbarAnohana.css */
+/* end https://dl.dropbox.com/s/rogesc5nd2o920m/topbarAnohana.css */
 
 * {
     text-decoration: none;
@@ -206,7 +206,7 @@ body {
     background-attachment: fixed;
     background-clip: border-box;
     background-color: transparent;
-    background-image: url("http://i.imgur.com/C75Ffpu.jpg");
+    background-image: url("https://i.imgur.com/C75Ffpu.jpg");
     background-position: 0 83%;
     background-repeat: no-repeat no-repeat;
     background-size: cover;

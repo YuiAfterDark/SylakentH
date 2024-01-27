@@ -6,7 +6,7 @@ Devil Survivor 2 by SylakentH
 @\import "https://yuiafterdark.github.io/shared/fixes/classic.css";
 @\import "https://fonts.googleapis.com/css?family=Autour+One";
 
-/* begin http://dl.dropbox.com/u/78340470/CSSforFoxgirls.css */
+/* begin https://dl.dropbox.com/u/78340470/CSSforFoxgirls.css */
 #list_surround table:nth-of-type(n+4):hover td:nth-of-type(3),
 #list_surround table:nth-of-type(n+4):hover td:nth-of-type(4), 
 #list_surround table:nth-of-type(n+4):hover td:nth-of-type(5), 
@@ -15,7 +15,7 @@ Devil Survivor 2 by SylakentH
 #list_surround table:nth-of-type(n+4):hover td:nth-of-type(8) {
     display: table-cell !important;
 }
-/* end http://dl.dropbox.com/u/78340470/CSSforFoxgirls.css */
+/* end https://dl.dropbox.com/u/78340470/CSSforFoxgirls.css */
 
 * {
     text-decoration: none;
@@ -48,7 +48,7 @@ body {
 #mal\_control\_strip {
     background-color: transparent !important;
     /* Remove broken image URL:
-	background-image: url("http://dl.dropbox.com/u/3159308/mal/mal-control-strip-bg.png") !important;
+	background-image: url("https://dl.dropbox.com/u/3159308/mal/mal-control-strip-bg.png") !important;
 	and replace with gradient based on old preview images: */
 	background-image: linear-gradient(to bottom, #0128, #0128);
     box-shadow: 0 9px 28px 7px #8BBBF7 inset;

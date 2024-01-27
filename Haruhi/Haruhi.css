@@ -5,7 +5,7 @@ Haruhi by SylakentH
 @\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
 @\import "https://fonts.googleapis.com/css?family=Autour+One";
 
-/* Disabled broken import: http://dl.dropbox.com/u/78340470/CSSforFoxgirls.css */
+/* Disabled broken import: https://dl.dropbox.com/u/78340470/CSSforFoxgirls.css */
 
 /* Begin import from: https://dl.dropboxusercontent.com/s/sb0f3i0iiami78c/BlueMenu.css */
 
@@ -154,7 +154,7 @@ transition: all 0.4s ease 0s;
 -webkit-transition: all 0.4s ease 0s;
 -o-transition: all 0.4s ease 0s;
 transition: all 0.4s ease 0s;
-    background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0poweredaimg.png") no-repeat scroll 50% 6px rgba(15, 131, 255, 0.6);
+    background: url("https://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0poweredaimg.png") no-repeat scroll 50% 6px rgba(15, 131, 255, 0.6);
     border-radius: 3px 3px 3px 3px;
     display: block;
     height: 0;
@@ -191,7 +191,7 @@ transition: all 0.4s ease 0s;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
 }
 #searchListButton {
-    background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0searchbutton.png") no-repeat scroll 0 0 transparent !important;
+    background: url("https://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0searchbutton.png") no-repeat scroll 0 0 transparent !important;
     border-radius: 3px 3px 3px 3px;
     height: 0;
     margin: 0;

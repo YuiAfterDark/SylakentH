@@ -7,4 +7,4 @@ SylakentH is a list designer on MyAnimeList. This repository's purpose is to pre
 - https://myanimelist.net/profile/SylakentH
 - https://anilist.co/user/fahcy/
 - https://www.youtube.com/channel/UCIpOqUEJsNtiWQtlxxNC00w?view_as=public
-- http://twitter.com/fahcyx
+- https://twitter.com/fahcyx

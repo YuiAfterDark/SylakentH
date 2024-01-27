@@ -119,11 +119,11 @@ Last update: 2024-Jan-26
 
 #mal_cs_listinfo {
 	left: 178px;
-	background-image: url(http://i.imgur.com/mCAnK7G.png);
+	background-image: url(https://i.imgur.com/mCAnK7G.png);
 }
 
 
-#mal_cs_listinfo:hover { background-image: url(http://i.imgur.com/KmpplKK.png); }
+#mal_cs_listinfo:hover { background-image: url(https://i.imgur.com/KmpplKK.png); }
 
 
 #mal_cs_listinfo:before {
@@ -140,11 +140,11 @@ Last update: 2024-Jan-26
 
 #mal_cs_links {
 	left: 122px !important;
-	background-image: url(http://i.imgur.com/gcVr8OY.png);
+	background-image: url(https://i.imgur.com/gcVr8OY.png);
 	z-index: 9;
 }
 
-#mal_cs_links:hover { background-image: url(http://i.imgur.com/yIwrG1o.png); }
+#mal_cs_links:hover { background-image: url(https://i.imgur.com/yIwrG1o.png); }
 
 #mal_cs_links:before {
 	position: fixed;
@@ -158,11 +158,11 @@ Last update: 2024-Jan-26
 
 #mal_cs_otherlinks {
 	left: 66px !important;
-	background-image: url(http://i.imgur.com/jWHAR96.png);
+	background-image: url(https://i.imgur.com/jWHAR96.png);
 	z-index: 8;
 }
 
-#mal_cs_otherlinks:hover { background-image: url(http://i.imgur.com/Jv4A2PQ.png); }
+#mal_cs_otherlinks:hover { background-image: url(https://i.imgur.com/Jv4A2PQ.png); }
 
 #mal_cs_otherlinks:before {
 	position: fixed;
@@ -177,11 +177,11 @@ Last update: 2024-Jan-26
 #mal_cs_powered {
 	position: fixed !important;
 	left: 10px !important;
-	background-image: url(http://i.imgur.com/QWTQqpV.png);
+	background-image: url(https://i.imgur.com/QWTQqpV.png);
 	z-index: 7;
 }
 
-#mal_cs_powered:hover { background-image: url(http://i.imgur.com/iCaumtV.png); }
+#mal_cs_powered:hover { background-image: url(https://i.imgur.com/iCaumtV.png); }
 
 #mal_cs_powered div { 
 	padding-top: 16px !important; 
@@ -203,10 +203,10 @@ Last update: 2024-Jan-26
 
 #mal_control_strip tbody {
 	background-image:
-		url(http://i.imgur.com/KmpplKK.png),
-		url(http://i.imgur.com/yIwrG1o.png),
-		url(http://i.imgur.com/Jv4A2PQ.png),
-		url(http://i.imgur.com/iCaumtV.png);
+		url(https://i.imgur.com/KmpplKK.png),
+		url(https://i.imgur.com/yIwrG1o.png),
+		url(https://i.imgur.com/Jv4A2PQ.png),
+		url(https://i.imgur.com/iCaumtV.png);
 }
 
 #search {
@@ -248,7 +248,7 @@ Last update: 2024-Jan-26
 	height: 0;
 	padding: 16px 0 0 19px !important;
 	border-radius: 3px;
-	background: url(http://i.imgur.com/iriHeHU.png) no-repeat !important;
+	background: url(https://i.imgur.com/iriHeHU.png) no-repeat !important;
 	background-position: 0 0;
 }
 
@@ -262,7 +262,7 @@ Last update: 2024-Jan-26
     pointer-events: none;
 }
 .header_cw span, .header_completed span, .header_onhold span, .header_dropped span, .header_ptw span {
-    background-image: url("http://i.imgur.com/UNjhfoJ.png");
+    background-image: url("https://i.imgur.com/UNjhfoJ.png");
     background-repeat: no-repeat;
     display: inline-block;
     font-size: 0;
@@ -275,35 +275,35 @@ Last update: 2024-Jan-26
 	background-image: url(https://cdn.imgchest.com/files/myd5cerdre4.png);
 }
 .header_cw {
-    background-image: url("http://i.imgur.com/n2fHVx5.png");
+    background-image: url("https://i.imgur.com/n2fHVx5.png");
     height: 300px;
     background-size: 60%;
     background-repeat: no-repeat no-repeat;
     background-position: 100% 0%;
 }
 .header_completed {
-    background-image: url(http://i.imgur.com/RNkwAn5.png);
+    background-image: url(https://i.imgur.com/RNkwAn5.png);
     height: 300px;
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: 100% 0%;
 }
 .header_onhold {
-    background-image: url(http://i.imgur.com/bA6Y3BD.png);
+    background-image: url(https://i.imgur.com/bA6Y3BD.png);
     height: 300px;
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: 100% 0%;
 }
 .header_dropped {
-    background-image: url(http://i.imgur.com/NEYAYyk.png);
+    background-image: url(https://i.imgur.com/NEYAYyk.png);
     height: 300px;
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: 100% 0%;
 }
 .header_ptw {
-    background-image: url(http://i.imgur.com/fpAvnOm.png);
+    background-image: url(https://i.imgur.com/fpAvnOm.png);
     height: 300px;
     background-size: 60%;
     background-repeat: no-repeat;
@@ -346,17 +346,17 @@ body {
     background-attachment: fixed;
     background-clip: border-box;
     background-color: rgba(0, 0, 0, 0);
-/*    background-image: url("http://i57.tinypic.com/2rgp5qd.png");
+/*    background-image: url("https://i57.tinypic.com/2rgp5qd.png");
 background-position: 44% 0;*/
 background-image: url(https://i.ibb.co/9N5sRFX/background.jpg) /* background.jpg */;
     background-position: 0% 60%;
     background-repeat: no-repeat no-repeat;
     background-size: cover;
-    cursor: url("http://i.imgur.com/hCNOLWu.png") 1 1, auto;
+    cursor: url("https://i.imgur.com/hCNOLWu.png") 1 1, auto;
     font-family: candara;
 }
 a, #searchListButton {
-    cursor: url("http://i.imgur.com/6IcIxwf.png") 1 1, auto !important;
+    cursor: url("https://i.imgur.com/6IcIxwf.png") 1 1, auto !important;
 }
 a {
     text-decoration: none;
@@ -526,14 +526,14 @@ td[class^="td"]:nth-child(2) {
     text-align: left;
 }
 td[class^="td"]:nth-child(3) {
-    background-image: url("http://i.imgur.com/1YRGVls.png");
+    background-image: url("https://i.imgur.com/1YRGVls.png");
     background-position: 49% 3px;
     background-repeat: no-repeat;
 }
 [cellspacing="0"] {
     line-height: 17px;
 }
-#list_surround a[href*="http://myanimelist.net/panel.php?go=edit"], #list_surround a[href*="http://myanimelist.net/editlist.php?type="], #list_surround a[href*="http://myanimelist.net/panel.php?go=add"] {
+#list_surround a[href*="https://myanimelist.net/panel.php?go=edit"], #list_surround a[href*="https://myanimelist.net/editlist.php?type="], #list_surround a[href*="https://myanimelist.net/panel.php?go=add"] {
     margin-right: 10px;
     visibility: visible !important;
 }

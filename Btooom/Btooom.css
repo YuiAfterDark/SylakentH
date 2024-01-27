@@ -209,7 +209,7 @@ Last update: 2024-Jan-26
 }
 /* end top bar */
 
-/* begin http://dl.dropbox.com/u/78340470/CSSforFoxgirls.css */
+/* begin https://dl.dropbox.com/u/78340470/CSSforFoxgirls.css */
 #list_surround table:nth-of-type(n+4):hover td:nth-of-type(3),
 #list_surround table:nth-of-type(n+4):hover td:nth-of-type(4), 
 #list_surround table:nth-of-type(n+4):hover td:nth-of-type(5), 
@@ -218,7 +218,7 @@ Last update: 2024-Jan-26
 #list_surround table:nth-of-type(n+4):hover td:nth-of-type(8) {
     display: table-cell !important;
 }
-/* end http://dl.dropbox.com/u/78340470/CSSforFoxgirls.css */
+/* end https://dl.dropbox.com/u/78340470/CSSforFoxgirls.css */
 
 * {
     text-decoration: none;

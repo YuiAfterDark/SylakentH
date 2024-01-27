@@ -83,7 +83,7 @@ td[class^="td"]:nth-child(2) {
     text-align: left;
 }
 
-#list_surround a[href*="http://myanimelist.net/panel.php?go=edit"], #list_surround a[href*="http://myanimelist.net/editlist.php?type="], #list_surround a[href*="http://myanimelist.net/panel.php?go=add"] {
+#list_surround a[href*="https://myanimelist.net/panel.php?go=edit"], #list_surround a[href*="https://myanimelist.net/editlist.php?type="], #list_surround a[href*="https://myanimelist.net/panel.php?go=add"] {
     margin-right: 10px;
     visibility: visible !important;
 }
@@ -304,18 +304,18 @@ HEADERS
 }
 .header_cw {
     background-color: transparent;
-    background-image: url("http://i.imgur.com/2JNKSRC.png");
+    background-image: url("https://i.imgur.com/2JNKSRC.png");
     background-position: 50% 2px;
     background-repeat: no-repeat no-repeat;
     height: 350px;
     margin-bottom: -45px;
 }
 [data-work="manga"] .header_cw {
-	background-image: url("http://i.imgur.com/wZ9ZcP1.png");;
+	background-image: url("https://i.imgur.com/wZ9ZcP1.png");;
 }
 .header_completed {
     background-color: transparent;
-    background-image: url("http://i.imgur.com/4uF23p0.png");
+    background-image: url("https://i.imgur.com/4uF23p0.png");
     background-position: 50% 2px;
     background-repeat: no-repeat no-repeat;
     margin-bottom: -44px;
@@ -323,7 +323,7 @@ HEADERS
 }
 .header_onhold {
     background-color: transparent;
-    background-image: url("http://i.imgur.com/5FnKVLP.png");
+    background-image: url("https://i.imgur.com/5FnKVLP.png");
     background-position: 50% 2px;
     background-repeat: no-repeat no-repeat;
     height: 200px;
@@ -331,7 +331,7 @@ HEADERS
 }
 .header_dropped {
     background-color: transparent;
-    background-image: url("http://i.imgur.com/gGE7rW2.png");
+    background-image: url("https://i.imgur.com/gGE7rW2.png");
     background-position: 50% 2px;
     background-repeat: no-repeat no-repeat;
     height: 200px;
@@ -339,7 +339,7 @@ HEADERS
 }
 .header_ptw {
     background-color: transparent;
-    background-image: url("http://i.imgur.com/OMSv4xg.png");
+    background-image: url("https://i.imgur.com/OMSv4xg.png");
     background-position: 50% 2px;
     background-repeat: no-repeat no-repeat;
     height: 200px;
@@ -379,7 +379,7 @@ CATEGORY LINKS
 #list_surround [class^="status_"] {
     background-attachment: scroll;
     background-color: transparent;
-    background-image: url("http://i.imgur.com/mM8HGXL.png");
+    background-image: url("https://i.imgur.com/mM8HGXL.png");
     background-position: 0 0;
     background-repeat: no-repeat no-repeat;
     border: 0px solid white !important;
@@ -393,7 +393,7 @@ CATEGORY LINKS
     width: 300px;
 }
 [data-work="manga"] #list_surround [class^="status_"]:nth-of-type(1) {
-	background-image: url("http://i.imgur.com/KCVVbEB.png");
+	background-image: url("https://i.imgur.com/KCVVbEB.png");
 	background-position: 0 -3px;
 }
 #list_surround [class^="status_"]:nth-of-type(2) {
@@ -467,7 +467,7 @@ COPYRIGHT
 	width: 128px !important;
   left: 62px !important;
 	border-top: none;
-	background: url('http://i.imgur.com/9p2gXE5.png') no-repeat center top rgba(130, 189, 205, 1) !important;
+	background: url('https://i.imgur.com/9p2gXE5.png') no-repeat center top rgba(130, 189, 205, 1) !important;
 	border-radius: 0 0 1em 1em;
 	transition: all .5s ease-out;
 	-webkit-transition: all .5s ease-out;

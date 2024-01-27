@@ -32,7 +32,7 @@ Last update: 2024-Jan-26
 	width: 128px !important;
   left: 62px !important;
 	border-top: none;
-	background: url('http://i.imgur.com/9p526Ot.png') no-repeat center -2% #d1694e !important;
+	background: url('https://i.imgur.com/9p526Ot.png') no-repeat center -2% #d1694e !important;
 	border-radius: 0 0 1em 1em;
 	transition: all .5s ease-out;
 	-webkit-transition: all .5s ease-out;
@@ -197,7 +197,7 @@ td[class^="td"]:nth-child(2) {
     text-align: left;
 }
 
-#list_surround a[href*="http://myanimelist.net/panel.php?go=edit"], #list_surround a[href*="http://myanimelist.net/editlist.php?type="], #list_surround a[href*="http://myanimelist.net/panel.php?go=add"] {
+#list_surround a[href*="https://myanimelist.net/panel.php?go=edit"], #list_surround a[href*="https://myanimelist.net/editlist.php?type="], #list_surround a[href*="https://myanimelist.net/panel.php?go=add"] {
     margin-right: 10px;
     visibility: visible !important;
 }
@@ -413,11 +413,11 @@ HEADERS
     z-index: 10 !important;
 }
 [data-work="manga"] .header_cw {
-	background-image: url(http://i.imgur.com/nE5bajH.png);
+	background-image: url(https://i.imgur.com/nE5bajH.png);
 }
 .header_completed {
     background-color: transparent;
-    background-image: url(http://i.imgur.com/QYMlGGk.png);
+    background-image: url(https://i.imgur.com/QYMlGGk.png);
     background-position: 30% 60%;
     background-repeat: no-repeat no-repeat;
     margin-bottom: -44px;
@@ -425,7 +425,7 @@ HEADERS
 }
 .header_onhold {
     background-color: transparent;
-    background-image: url(http://i.imgur.com/MXo4E83.png);
+    background-image: url(https://i.imgur.com/MXo4E83.png);
     background-position: 30% 60%;
     background-repeat: no-repeat no-repeat;
     height: 200px;
@@ -433,7 +433,7 @@ HEADERS
 }
 .header_dropped {
     background-color: transparent;
-    background-image: url(http://i.imgur.com/iZuPfgP.png);
+    background-image: url(https://i.imgur.com/iZuPfgP.png);
    background-position: 30% 60%;
     background-repeat: no-repeat no-repeat;
     height: 200px;
@@ -441,7 +441,7 @@ HEADERS
 }
 .header_ptw {
     background-color: transparent;
-    background-image: url(http://i.imgur.com/uNjXRE2.png);
+    background-image: url(https://i.imgur.com/uNjXRE2.png);
     background-position: 30% 60%;
     background-repeat: no-repeat no-repeat;
     height: 200px;
