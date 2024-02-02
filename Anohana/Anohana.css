@@ -1,7 +1,7 @@
 /*
 Anohana by SylakentH
 Modified by Valerio Lyndon
-Last update: 2024-Jan-26
+Last update: 2024-Feb-01
 */
 
 @\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
@@ -38,45 +38,6 @@ cursor: url("https://cur.cursors-4u.net/nature/nat-8/nat793.cur") 1 2, auto;
 text-shadow: 0 1px rgba(255, 255, 255, 0.15);
 }
 
-
-
-/*
-FAVORITE MARKINGS (flower by default) 
-This part is responsible for the Unique Hana favs dots. By default it marks Death Note, the most popular anime. If you want to add your favorites, heres how:
-
-1. copy this:
-
-, a[href=""]
-
-and paste it under it in front of the first { in the codes below. 
-
-2. Add your favorite anime's urls on MyAnimeList in the quotations in the part you just pasted.
-
-3. Save and you're done! A flower should appear on the anime or manga's line. 
-*/
-
-a[href="https://myanimelist.net/anime/1535/Death_Note"]{
-background-attachment: scroll;
-background-image: url("https://i48.tinypic.com/2ludp8m.png");
-padding-left: 25px !important;
-background-clip: border-box;
-background-color: transparent;
-background-position: left top;
-background-repeat: no-repeat;
-background-size: contain;
-position: relative;
-}
-
-
-/*
-FAVORITE TITLES TEXT COLOR 
-Colors your favorite animes a unique color. By default, Death Note is colored gold to go with the above. The number 1535 is found within Death Note's url on MyAnimeList by looking it up. Each anime and manga title has a unique number. You can copy the code below and add a different number or colors to highlight other series! 
-*/
-
-.animetitle[href*="anime/1535/"]{
-color: gold !important;
-font-size: 15px;
-}
 
 
 /*
