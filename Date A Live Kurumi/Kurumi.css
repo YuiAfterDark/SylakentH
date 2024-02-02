@@ -113,7 +113,7 @@ opacity: 1;
 -webkit-transition: all 0.25s ease-in-out 0s;
 -o-transition: all 0.25s ease-in-out 0s;
 transition: all 0.25s ease-in-out 0s;
-background: url(https://i.imgur.com/fGTjBC3.png) /* myanimelist.png */ no-repeat scroll 50% 6px rgba(255,36,36,0.6);
+background:url(https://i.ibb.co/pPWQv6B/myanimelist.png) /* myanimelist.png */ no-repeat scroll 50% 6px rgba(255,36,36,0.6);
 border-radius: 3px 3px 3px 3px;
 display: block;
 height: 0;
@@ -156,7 +156,7 @@ box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
 }
 
 #searchListButton {
-background: url(https://i.imgur.com/XqsilHp.png) /* search_icon.png */ no-repeat scroll 0 0 transparent !important;
+background: url(https://i.ibb.co/SxV4gzB/search-icon.png) /* search_icon.png */ no-repeat scroll 0 0 transparent !important;
     border-radius: 3px 3px 3px 3px;
     height: 0;
     margin: 0;
