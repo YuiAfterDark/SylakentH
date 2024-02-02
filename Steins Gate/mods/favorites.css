@@ -1,0 +1,11 @@
+/* Favorites */
+
+a[href=""] {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url(https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwNq11Eeqhkfd8TM74OrQ0ls);
+    background-position: left top;
+    background-repeat: no-repeat;
+    padding-bottom: 5px !important;
+    padding-left: 29px;
+}

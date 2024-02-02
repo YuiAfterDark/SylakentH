@@ -1,7 +1,7 @@
 /*
 Steins;Gate by SylakentH
 Modified by Valerio Lyndon
-Last update: 2024-Feb-01
+Last update: 2024-Feb-02
 */
 
 @\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
@@ -408,9 +408,6 @@ width: 470px !important;}
     width: 100%;
 }
 
-#copyright:hover {
-}
-
 #copyright:before {
     color: white;
     content: " Design by SylakentH, got the idea from Stark700s layout. Greets!";
@@ -422,19 +419,6 @@ width: 470px !important;}
     color: gold;
     content: " ";
     padding-left: 20px;
-}
-
-#copyright a {
-}
-
-a[href=""], [href=""] {
-    background-attachment: scroll;
-    background-color: transparent;
-    background-image: url(https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwNq11Eeqhkfd8TM74OrQ0ls);
-    background-position: left top;
-    background-repeat: no-repeat;
-    padding-bottom: 5px !important;
-    padding-left: 29px;
 }
 
 /*
