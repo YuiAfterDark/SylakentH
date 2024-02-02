@@ -249,6 +249,9 @@ small {
     top: 274px;
     width: 271px;
 }
+[data-work="manga"] #list_surround [class^="status_"]:nth-of-type(1) {
+	background-image: url(https://i.ibb.co/DD6kXcC/category-reading.png);
+}
 
 #list_surround [class^="status_"]:nth-of-type(2) {
     background-image: url(https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwGlzYn9LNlQ4UaN_DkvqbCA);
