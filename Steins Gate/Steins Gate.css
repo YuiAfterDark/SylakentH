@@ -1,7 +1,7 @@
 /*
 Steins;Gate by SylakentH
 Modified by Valerio Lyndon
-Last update: 2024-Jan-26
+Last update: 2024-Feb-01
 */
 
 @\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
@@ -506,7 +506,7 @@ Change to absolute if you want it to not scroll with the page.
 {
     position: fixed !important;
     background-color: transparent !important;
-    background-image: url(https://image.myanimelist.net/ui/uqwkn3zl0fMrMuaC28cB8Q) !important;
+    background-image: none !important;
 }
 
 /*
