@@ -1,7 +1,7 @@
 /*
 Sakurasou by SylakentH
 Modified by Valerio Lyndon
-Last update: 2023-Jul-24
+Last update: 2024-Feb-01
 */
 
 @\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/more";
@@ -53,6 +53,19 @@ Last update: 2023-Jul-24
 /* end https://dl.dropboxusercontent.com/s/srxwnlfsufuw8l8/EditButton.css */
 
 /* begin Dark Pink Icon Topbar */
+
+#mal_control_strip {
+	--user-btn: url(https://i.ibb.co/CQMp2fw/user.png) /* user.png */;
+	--user-btn-hover: url(https://i.ibb.co/nw0tCk8/user-hover.png) /* user_hover.png */;
+	--home-btn: url(https://i.ibb.co/bWHhCFq/home.png) /* home.png */;
+	--home-btn-hover: url(https://i.ibb.co/NrNnSrq/home-hover.png) /* home_hover.png */;
+	--stats-btn: url(https://i.ibb.co/h9s0w4D/stats.png) /* stats.png */;
+	--stats-btn-hover: url(https://i.ibb.co/gvf7hf4/stats-hover.png) /* stats_hover.png */;
+	--search-btn: url(https://i.ibb.co/5BqkTDQ/search.png) /* search.png */;
+	--search-btn-hover: url(https://i.ibb.co/hWJFCHs/search-hover.png) /* search_hover.png */;
+	--logo: url(https://i.ibb.co/pPWQv6B/myanimelist.png) /* myanimelist.png */;
+	--search-icon: url(https://i.ibb.co/SxV4gzB/search-icon.png) /* search_bar.png */;
+}
 
 #mal_cs_listinfo, #mal_cs_links, #mal_cs_otherlinks, #mal_cs_powered {
 box-sizing: border-box;
@@ -161,7 +174,7 @@ opacity: 1;
 -webkit-transition: all 0.25s ease-in-out 0s;
 -o-transition: all 0.25s ease-in-out 0s;
 transition: all 0.25s ease-in-out 0s;
-background: url(https://i.imgur.com/Mun06r8.png) /* myanimelist.png */ no-repeat scroll 50% 6px rgba(64, 60, 90, 0.6);
+background: var(--logo) /* myanimelist.png */ no-repeat scroll 50% 6px rgba(64, 60, 90, 0.6);
 border-radius: 3px 3px 3px 3px;
 display: block;
 height: 0;
@@ -204,7 +217,7 @@ box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
 }
 
 #searchListButton {
-background: url(https://i.imgur.com/CeY4o8f.png) /* search_icon.png */ no-repeat scroll 0 0 transparent !important;
+background: var(--search-icon) /* search_icon.png */ no-repeat scroll 0 0 transparent !important;
     border-radius: 3px 3px 3px 3px;
     height: 0;
     margin: 0;
@@ -216,43 +229,43 @@ background: url(https://i.imgur.com/CeY4o8f.png) /* search_icon.png */ no-repeat
 }
 
 #mal_cs_listinfo {
-background-image: url(https://i.imgur.com/yPVIkwn.png) /* user.png */;
+background-image: var(--user-btn) /* user.png */;
 right: 106px;
 }
 
 #mal_cs_listinfo:hover {
-background-image: url(https://i.imgur.com/Bnsfnug.png) /* user_hover.png */;
+background-image: var(--user-btn-hover) /* user_hover.png */;
 }
 
 #mal_cs_links {
-background-image: url(https://i.imgur.com/B6UWGYX.png) /* home.png */;
+background-image: var(--home-btn) /* home.png */;
 right: 72px !important;
 z-index: 9;
 }
 
 #mal_cs_links:hover {
-background-image: url(https://i.imgur.com/wNzOytY.png) /* home_hover.png */;
+background-image: var(--home-btn-hover) /* home_hover.png */;
 }
 
 #mal_cs_otherlinks {
-background-image: url(https://i.imgur.com/BAkadgp.png) /* stats.png */;
+background-image: var(--stats-btn) /* stats.png */;
 right: 38px !important;
 z-index: 8;
 }
 
 #mal_cs_otherlinks:hover {
-background-image: url(https://i.imgur.com/vciZv66.png) /* stats_hover.png */;
+background-image: var(--stats-btn-hover) /* stats_hover.png */;
 }
 
 #mal_cs_powered {
-background-image: url(https://i.imgur.com/nLIAeml.png) /* search.png */;
+background-image: var(--search-btn) /* search.png */;
 right: 4px !important;
 z-index: 7;
 position: fixed !important;
 }
 
 #mal_cs_powered:hover {
-background-image: url(https://i.imgur.com/3SWd7YP.png) /* search_hover.png */;
+background-image: var(--search-btn-hover) /* search_hover.png */;
 }
 
 #mal\_control\_strip {
@@ -269,10 +282,10 @@ border-right: 0 none !important;
 /* preload images */
 #mal_control_strip tbody {
 	background-image:
-		url(https://i.imgur.com/Bnsfnug.png),
-		url(https://i.imgur.com/wNzOytY.png),
-		url(https://i.imgur.com/vciZv66.png),
-		url(https://i.imgur.com/3SWd7YP.png);
+		var(--user-btn-hover),
+		var(--home-btn-hover),
+		var(--stats-btn-hover),
+		var(--search-btn-hover);
 	background-size: 0;
 }
 
